@@ -1,7 +1,9 @@
-Scam is a cryptocurrency forked from Taco forked from Chia and uses the Proof of Space and Time consensus algorithm
+# scam-blockchain
 
-Discord Channel: https://discord.gg/Tr2uxdHTxM
+Full node mainnet will start 08.08.2021
 
-Website: https://www.scamnetwork.net (coming soon)
+**full node:** scamnetwork.net:9777
 
-Introducer: dns-introducer.scamnetwork.net:9777
+**Scam** is a modern community-centric green cryptocurrency based on a proof-of-space-and-time consensus algorithm. It is a community-supported fork of the [Chia Network](https://github.com/Chia-Network/chia-blockchain) codebase.
+
+For more information, see our website and downloads at https://scamnetwork.net.
