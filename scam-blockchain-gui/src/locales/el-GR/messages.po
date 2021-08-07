@@ -23,8 +23,12 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by an open source developer."
-msgstr "*Θέλετε να εξερευνήσετε περαιτέρω τα μπλοκ της Scam? Δοκιμάστε το <0>Scam Explorer</0> που χτίστηκε από έναν προγραμματιστή ανοιχτού κώδικα."
+#~ msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by an open source developer."
+#~ msgstr "*Θέλετε να εξερευνήσετε περαιτέρω τα μπλοκ της Scam? Δοκιμάστε το <0>Scam Explorer</0> που χτίστηκε από έναν προγραμματιστή ανοιχτού κώδικα."
+
+#: src/components/farm/FarmLatestBlockChallenges.tsx:64
+msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by that one smart guy on discord."
+msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -55,9 +59,9 @@ msgstr "Αποδοχή"
 msgid "Accepted at time:"
 msgstr "Αποδεκτή εγκαίρως:"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:114
 #: src/components/plot/PlotsFailed.tsx:19
 #: src/components/plot/PlotsNotFound.tsx:19
-#: src/components/plot/overview/PlotOverviewPlots.tsx:114
 msgid "Action"
 msgstr "Ενέργεια"
 
@@ -85,9 +89,9 @@ msgstr "Προσθήκη plot σε αναμονή"
 #~ msgstr "Add Wallet"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:46
-#: src/components/plot/PlotHeader.tsx:63
 #: src/components/plot/add/PlotAdd.tsx:160
 #: src/components/plot/overview/PlotOverviewHero.tsx:54
+#: src/components/plot/PlotHeader.tsx:63
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:232
 #: src/components/plotNFT/PlotNFTCard.tsx:271
 msgid "Add a Plot"
@@ -123,10 +127,10 @@ msgstr "Διεύθυνση / Puzzle hash"
 #: src/components/core/components/Amount/Amount.tsx:96
 #: src/components/trading/CreateOffer.jsx:196
 #: src/components/trading/TradesTable.tsx:20
-#: src/components/wallet/WalletHistory.tsx:62
 #: src/components/wallet/create/createNewColouredCoin.jsx:119
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:720
 #: src/components/wallet/standard/WalletStandard.tsx:513
+#: src/components/wallet/WalletHistory.tsx:62
 msgid "Amount"
 msgstr "Ποσό"
 
@@ -245,7 +249,7 @@ msgstr "Blocks"
 msgid "Browse"
 msgstr "Εξερεύνηση"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:73
+#: src/components/farm/FarmLastAttemptedProof.tsx:83
 msgid "But you are currently farming <0/>"
 msgstr "Αλλά επί του παρόντος κάνετε farming <0/>"
 
@@ -286,7 +290,7 @@ msgstr "Ακύρωση και Δαπάνη"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "Προσοχή, η διαγραφή αυτών των plot, θα τα διαγράψει για πάντα. Ελέγξτε ότι οι συσκευές αποθήκευσης είναι σωστά συνδεδεμένες."
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:16
+#: src/components/farm/FarmLastAttemptedProof.tsx:18
 msgid "Challenge"
 msgstr "Πρόκληση"
 
@@ -566,7 +570,7 @@ msgstr "ΚΙΝΔΥΝΟΣ: μόνιμη διαγραφή ιδιωτικού κλ�
 #~ msgid "DIDListItems.title"
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:32
+#: src/components/farm/FarmLastAttemptedProof.tsx:42
 #: src/components/trading/TradingOverview.jsx:137
 #: src/components/wallet/WalletHistory.tsx:46
 msgid "Date"
@@ -677,10 +681,10 @@ msgstr "Επεξεργασία"
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Scam wallet."
 msgstr "Εισάγετε το μνημονικό 24ων λέξεων που έχετε αποθηκεύσει για να επαναφέρετε το Scam πορτοφόλι σας."
 
-#: src/components/farm/FarmerStatus.tsx:21
-#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/farm/card/FarmCardStatus.tsx:35
 #: src/components/farm/card/FarmCardStatus.tsx:49
+#: src/components/farm/FarmerStatus.tsx:21
+#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/plot/PlotStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:21
 #: src/components/plot/queue/PlotQueueIndicator.tsx:22
@@ -769,9 +773,9 @@ msgstr ""
 msgid "Farmers earn block rewards and transaction fees by committing spare space to the network to help secure transactions. This is where your farm will be once you add a plot. <0>Learn more</0>"
 msgstr "Οι αγρότες κερδίζουν ανταμοιβές και τέλη συναλλαγών δεσμεύοντας ελεύθερο χώρο στο δίκτυο για να βοηθήσουν στην ασφάλεια των συναλλαγών. Εδώ θα είναι το αγρόκτημά σας μόλις προσθέσετε ένα οικόπεδο. <0>Μάθετε περισσότερα</0>"
 
+#: src/components/farm/card/FarmCardStatus.tsx:62
 #: src/components/farm/Farm.tsx:23
 #: src/components/farm/FarmerStatus.tsx:18
-#: src/components/farm/card/FarmCardStatus.tsx:62
 #: src/components/plot/PlotStatus.tsx:17
 msgid "Farming"
 msgstr "Συγκομιδή"
@@ -788,13 +792,13 @@ msgstr "Κατάσταση Συγκομιδής"
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:154
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:147
 #: src/components/pool/PoolInfo.tsx:17
-#: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:123
 #: src/components/wallet/create/createNewColouredCoin.jsx:132
 #: src/components/wallet/create/createRLAdmin.jsx:244
 #: src/components/wallet/create/createRLAdmin.jsx:272
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:733
 #: src/components/wallet/standard/WalletStandard.tsx:524
+#: src/components/wallet/WalletHistory.tsx:66
 msgid "Fee"
 msgstr "Προμήθεια"
 
@@ -823,9 +827,9 @@ msgstr "Ποσό Τέλων"
 msgid "File"
 msgstr "Αρχείο"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:106
 #: src/components/plot/PlotsFailed.tsx:14
 #: src/components/plot/PlotsNotFound.tsx:14
-#: src/components/plot/overview/PlotOverviewPlots.tsx:106
 msgid "Filename"
 msgstr "Όνομα αρχείου"
 
@@ -1027,7 +1031,7 @@ msgstr "Κλειδιά"
 msgid "KiB Up/Down"
 msgstr "KiB Πάνω/Κάτω"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:47
+#: src/components/farm/FarmLastAttemptedProof.tsx:57
 msgid "Last Attempted Proof"
 msgstr "Τελευταία Προσπάθεια Απόδειξης"
 
@@ -1211,13 +1215,13 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:68
+#: src/components/farm/FarmLastAttemptedProof.tsx:78
 msgid "None of your plots have passed the plot filter yet."
 msgstr "Κανένα από τα οικόπεδά σας δεν έχει περάσει ακόμα το φίλτρο οικόπεδον."
 
-#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:23
+#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:19
 msgid "Not Available"
 msgstr "Δεν είναι διαθέσιμο"
@@ -1431,6 +1435,10 @@ msgstr ""
 msgid "Plot Public Key"
 msgstr "Plot Public Key"
 
+#: src/components/farm/FarmLastAttemptedProof.tsx:36
+msgid "Plot Response Time"
+msgstr ""
+
 #: src/components/plot/overview/PlotOverviewPlots.tsx:49
 #~ msgid "Plot Seed"
 #~ msgstr ""
@@ -1459,7 +1467,7 @@ msgstr ""
 msgid "Plots"
 msgstr "Plots"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:22
+#: src/components/farm/FarmLastAttemptedProof.tsx:25
 msgid "Plots Passed Filter"
 msgstr "Plots Passed Filter"
 
@@ -1620,7 +1628,7 @@ msgstr "Ιδιωτικό κλειδί:"
 msgid "Proof of Space Size"
 msgstr "Αποδεικτικό μεγέθους χώρου"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:26
+#: src/components/farm/FarmLastAttemptedProof.tsx:29
 msgid "Proofs Found"
 msgstr "Βρέθηκαν Αποδεικτικά"
 
@@ -1690,8 +1698,8 @@ msgstr "Διεύθυνση Λήψης"
 msgid "Recover DID wallet"
 msgstr "Ανάκτηση πορτοφολιού DID"
 
-#: src/components/plot/PlotHeader.tsx:78
 #: src/components/plot/overview/PlotOverviewHero.tsx:62
+#: src/components/plot/PlotHeader.tsx:78
 msgid "Refresh Plots"
 msgstr "Ανανέωση Plots"
 
@@ -1736,6 +1744,18 @@ msgstr "Ασφαλής Παράλειψη"
 #: src/components/trading/CreateOffer.jsx:142
 msgid "Save"
 msgstr "Αποθήκευση"
+
+#: src/electron/main.tsx:419
+msgid "Scam"
+msgstr "Scam"
+
+#: src/electron/main.tsx:358
+msgid "Scam Blockchain Wiki"
+msgstr "Scam Blockchain Wiki"
+
+#: src/components/wallet/standard/WalletStandard.tsx:647
+msgid "Scam Wallet"
+msgstr "Πορτοφόλι Scam"
 
 #: src/components/fullNode/FullNode.jsx:338
 #~ msgid "Search"
@@ -1917,8 +1937,8 @@ msgstr "Κατάσταση"
 #: src/components/pool/PoolOverview.tsx:44
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:55
-#: src/components/wallet/WalletStatusCard.tsx:22
 #: src/components/wallet/Wallets.tsx:118
+#: src/components/wallet/WalletStatusCard.tsx:22
 msgid "Status"
 msgstr "Κατάσταση"
 
@@ -1963,8 +1983,8 @@ msgstr "Υποβολή"
 msgid "Synced"
 msgstr "Συγχρονίστηκε"
 
-#: src/components/farm/FarmerStatus.tsx:19
 #: src/components/farm/card/FarmCardStatus.tsx:18
+#: src/components/farm/FarmerStatus.tsx:19
 #: src/components/plot/PlotStatus.tsx:18
 #: src/components/wallet/WalletStatus.tsx:38
 msgid "Syncing"
@@ -1997,18 +2017,6 @@ msgstr ""
 #: src/components/farm/card/FarmCardUserFees.tsx:15
 #~ msgid "TSCM User Transaction Fees"
 #~ msgstr ""
-
-#: src/electron/main.tsx:419
-msgid "Scam"
-msgstr "Scam"
-
-#: src/electron/main.tsx:358
-msgid "Scam Blockchain Wiki"
-msgstr "Scam Blockchain Wiki"
-
-#: src/components/wallet/standard/WalletStandard.tsx:647
-msgid "Scam Wallet"
-msgstr "Πορτοφόλι Scam"
 
 #: src/components/pool/PoolInfo.tsx:37
 msgid "Target Puzzle Hash"
@@ -2160,7 +2168,7 @@ msgstr ""
 #~ msgid "This table shows you the last time your farm attempted to win a block challenge."
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:49
+#: src/components/farm/FarmLastAttemptedProof.tsx:59
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr "Αυτός ο πίνακας σας δείχνει την τελευταία φορά που το farm σας προσπάθησε να κερδίσει ένα block challenge. <0>Μάθετε περισσότερα</0>"
 
@@ -2210,13 +2218,13 @@ msgstr "Συνολικός Χώρος Δικτύου"
 msgid "Total Plot Size:"
 msgstr "Συνολικό Μέγεθος Plot:"
 
-#: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:12
-msgid "Total Size of Plots"
-msgstr "Συνολικό μέγεθος των plots"
-
 #: src/components/farm/card/FarmCardTotalScamFarmed.tsx:15
 #~ msgid "Total Scam Farmed"
 #~ msgstr ""
+
+#: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:12
+msgid "Total Size of Plots"
+msgstr "Συνολικό μέγεθος των plots"
 
 #: src/components/block/Block.jsx:225
 msgid "Total VDF Iterations"
@@ -2439,7 +2447,7 @@ msgstr "Όταν λαμβάνετε το πακέτο πληροφοριών ε�
 msgid "Window"
 msgstr "Παράθυρο"
 
-#: src/components/farm/card/FarmCardBlockRewards.tsx:36
+#: src/components/farm/card/FarmCardBlockRewards.tsx:37
 msgid "Without fees"
 msgstr "Χωρίς Χρεώσεις"
 
@@ -2534,13 +2542,13 @@ msgstr "[Σφάλμα 13] Άρνηση άδειας. Προσπαθείτε να
 msgid "[Error 22] File not found. Most likely one of the plot folders in your config.yaml has an issue."
 msgstr "[Σφάλμα 22] Το αρχείο δεν βρέθηκε. Πιθανότατα ένας από τους φακέλους σχεδίασης στο config.yaml έχει πρόβλημα."
 
-#: src/components/wallet/WalletStatusCard.tsx:41
 #: src/components/wallet/Wallets.tsx:143
+#: src/components/wallet/WalletStatusCard.tsx:41
 msgid "connections:"
 msgstr "συνδέσεις:"
 
-#: src/components/wallet/WalletStatusCard.tsx:33
 #: src/components/wallet/Wallets.tsx:135
+#: src/components/wallet/WalletStatusCard.tsx:33
 msgid "height:"
 msgstr "ύψος:"
 
@@ -2552,18 +2560,18 @@ msgstr "δεν συγχρονίστηκε"
 msgid "p2_singleton_puzzle_hash is not defined"
 msgstr ""
 
-#: src/components/wallet/WalletStatusCard.tsx:27
 #: src/components/wallet/Wallets.tsx:123
+#: src/components/wallet/WalletStatusCard.tsx:27
 msgid "status:"
 msgstr "κατάσταση:"
 
-#: src/components/wallet/WalletStatusCard.tsx:29
 #: src/components/wallet/Wallets.tsx:128
+#: src/components/wallet/WalletStatusCard.tsx:29
 msgid "synced"
 msgstr "συγχρονίστηκε"
 
-#: src/components/wallet/WalletStatusCard.tsx:29
 #: src/components/wallet/Wallets.tsx:127
+#: src/components/wallet/WalletStatusCard.tsx:29
 msgid "syncing"
 msgstr "συγχρονισμός..."
 
@@ -2579,11 +2587,11 @@ msgstr "συγχρονισμός..."
 msgid "{0} points {1} - {2} hours ago"
 msgstr ""
 
-#: src/components/farm/card/FarmCardBlockRewards.tsx:35
+#: src/components/farm/card/FarmCardBlockRewards.tsx:36
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Ανταμοιβές μπλοκ"
 
-#: src/components/farm/card/FarmCardTotalScamFarmed.tsx:29
+#: src/components/farm/card/FarmCardTotalCovidFarmed.tsx:30
 msgid "{currencyCode} Total Scam Farmed"
 msgstr "{currencyCode} Σύνολο Scam που έχουν γίνει Farmed"
 

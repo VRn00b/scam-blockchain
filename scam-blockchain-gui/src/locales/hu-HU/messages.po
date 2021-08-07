@@ -23,8 +23,12 @@ msgid "(Optional)"
 msgstr "(nem kötelező)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by an open source developer."
-msgstr "Fel szeretnéd fedezni a Scam rendszerét bővebben? Nézd meg a <0> Scam Explorert</0> amit egy nyílt forráskóddal foglalkozó fejlesztő készített."
+#~ msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by an open source developer."
+#~ msgstr "Fel szeretnéd fedezni a Scam rendszerét bővebben? Nézd meg a <0> Scam Explorert</0> amit egy nyílt forráskóddal foglalkozó fejlesztő készített."
+
+#: src/components/farm/FarmLatestBlockChallenges.tsx:64
+msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by that one smart guy on discord."
+msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -55,9 +59,9 @@ msgstr "Elfogad"
 msgid "Accepted at time:"
 msgstr "Elfogadás ideje:"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:114
 #: src/components/plot/PlotsFailed.tsx:19
 #: src/components/plot/PlotsNotFound.tsx:19
-#: src/components/plot/overview/PlotOverviewPlots.tsx:114
 msgid "Action"
 msgstr "Művelet"
 
@@ -85,9 +89,9 @@ msgstr "Plot hozzáadása a sorhoz"
 #~ msgstr "Add Wallet"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:46
-#: src/components/plot/PlotHeader.tsx:63
 #: src/components/plot/add/PlotAdd.tsx:160
 #: src/components/plot/overview/PlotOverviewHero.tsx:54
+#: src/components/plot/PlotHeader.tsx:63
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:232
 #: src/components/plotNFT/PlotNFTCard.tsx:271
 msgid "Add a Plot"
@@ -123,10 +127,10 @@ msgstr "Cím / Kirakós hash"
 #: src/components/core/components/Amount/Amount.tsx:96
 #: src/components/trading/CreateOffer.jsx:196
 #: src/components/trading/TradesTable.tsx:20
-#: src/components/wallet/WalletHistory.tsx:62
 #: src/components/wallet/create/createNewColouredCoin.jsx:119
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:720
 #: src/components/wallet/standard/WalletStandard.tsx:513
+#: src/components/wallet/WalletHistory.tsx:62
 msgid "Amount"
 msgstr "Összeg"
 
@@ -245,7 +249,7 @@ msgstr "Blokkok"
 msgid "Browse"
 msgstr "Tallózás"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:73
+#: src/components/farm/FarmLastAttemptedProof.tsx:83
 msgid "But you are currently farming <0/>"
 msgstr "De te jelenleg farmolsz <0/>"
 
@@ -286,7 +290,7 @@ msgstr "Mégse és Fizetés"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "Figyelem, ha törlöd ezeket a parcellákat, akkor örökre törlődnek. Ellenőrizd, hogy a tárolóeszközök megfelelően csatlakoztatva vannak-e."
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:16
+#: src/components/farm/FarmLastAttemptedProof.tsx:18
 msgid "Challenge"
 msgstr "Kihívás"
 
@@ -566,7 +570,7 @@ msgstr "VIGYÁZAT: Privát kulcs végleges törlése"
 #~ msgid "DIDListItems.title"
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:32
+#: src/components/farm/FarmLastAttemptedProof.tsx:42
 #: src/components/trading/TradingOverview.jsx:137
 #: src/components/wallet/WalletHistory.tsx:46
 msgid "Date"
@@ -677,10 +681,10 @@ msgstr "Módosítás"
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Scam wallet."
 msgstr "A Scam pénztárca visszaállításához írja be az elmentett 24 szóból álló mnemonikát."
 
-#: src/components/farm/FarmerStatus.tsx:21
-#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/farm/card/FarmCardStatus.tsx:35
 #: src/components/farm/card/FarmCardStatus.tsx:49
+#: src/components/farm/FarmerStatus.tsx:21
+#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/plot/PlotStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:21
 #: src/components/plot/queue/PlotQueueIndicator.tsx:22
@@ -769,9 +773,9 @@ msgstr "Farmer nyilvános kulcsa:"
 msgid "Farmers earn block rewards and transaction fees by committing spare space to the network to help secure transactions. This is where your farm will be once you add a plot. <0>Learn more</0>"
 msgstr "A  farmerek blokkjutalmakat és tranzakciós díjakat keresnek azzal, hogy tartalék helyet szánnak a hálózatnak a tranzakciók biztosítása érdekében. Itt lesz a farm, ha hozzáadsz egy parcellát. <0> További információ </0>"
 
+#: src/components/farm/card/FarmCardStatus.tsx:62
 #: src/components/farm/Farm.tsx:23
 #: src/components/farm/FarmerStatus.tsx:18
-#: src/components/farm/card/FarmCardStatus.tsx:62
 #: src/components/plot/PlotStatus.tsx:17
 msgid "Farming"
 msgstr "Farmolás"
@@ -788,13 +792,13 @@ msgstr "Farmer státusz"
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:154
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:147
 #: src/components/pool/PoolInfo.tsx:17
-#: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:123
 #: src/components/wallet/create/createNewColouredCoin.jsx:132
 #: src/components/wallet/create/createRLAdmin.jsx:244
 #: src/components/wallet/create/createRLAdmin.jsx:272
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:733
 #: src/components/wallet/standard/WalletStandard.tsx:524
+#: src/components/wallet/WalletHistory.tsx:66
 msgid "Fee"
 msgstr "Díj"
 
@@ -823,9 +827,9 @@ msgstr "Díjak összege"
 msgid "File"
 msgstr "Fájl"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:106
 #: src/components/plot/PlotsFailed.tsx:14
 #: src/components/plot/PlotsNotFound.tsx:14
-#: src/components/plot/overview/PlotOverviewPlots.tsx:106
 msgid "Filename"
 msgstr "Fájlnév"
 
@@ -1027,7 +1031,7 @@ msgstr "Kulcsok"
 msgid "KiB Up/Down"
 msgstr "KiB Feltöltés/Letöltés"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:47
+#: src/components/farm/FarmLastAttemptedProof.tsx:57
 msgid "Last Attempted Proof"
 msgstr "Utoljára megkísérelt bizonyítás"
 
@@ -1211,13 +1215,13 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:68
+#: src/components/farm/FarmLastAttemptedProof.tsx:78
 msgid "None of your plots have passed the plot filter yet."
 msgstr "Még egyik kerted sem ment át a kert szűrőn."
 
-#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:23
+#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:19
 msgid "Not Available"
 msgstr "Nem elérhető"
@@ -1431,6 +1435,10 @@ msgstr ""
 msgid "Plot Public Key"
 msgstr "Parcella nyilvános kulcs"
 
+#: src/components/farm/FarmLastAttemptedProof.tsx:36
+msgid "Plot Response Time"
+msgstr ""
+
 #: src/components/plot/overview/PlotOverviewPlots.tsx:49
 #~ msgid "Plot Seed"
 #~ msgstr ""
@@ -1459,7 +1467,7 @@ msgstr ""
 msgid "Plots"
 msgstr "Parcellák"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:22
+#: src/components/farm/FarmLastAttemptedProof.tsx:25
 msgid "Plots Passed Filter"
 msgstr "Szűrőn átjutott parcellák"
 
@@ -1620,7 +1628,7 @@ msgstr "Privát kulcs:"
 msgid "Proof of Space Size"
 msgstr "Proof of Space méret"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:26
+#: src/components/farm/FarmLastAttemptedProof.tsx:29
 msgid "Proofs Found"
 msgstr "Felfedezett igazolások"
 
@@ -1690,8 +1698,8 @@ msgstr "Fogadó cím"
 msgid "Recover DID wallet"
 msgstr "DID pénztárca visszaállítása"
 
-#: src/components/plot/PlotHeader.tsx:78
 #: src/components/plot/overview/PlotOverviewHero.tsx:62
+#: src/components/plot/PlotHeader.tsx:78
 msgid "Refresh Plots"
 msgstr "Cserepek frissítése"
 
@@ -1736,6 +1744,18 @@ msgstr "Biztonságosan átugorható"
 #: src/components/trading/CreateOffer.jsx:142
 msgid "Save"
 msgstr "Mentés"
+
+#: src/electron/main.tsx:419
+msgid "Scam"
+msgstr "Scam"
+
+#: src/electron/main.tsx:358
+msgid "Scam Blockchain Wiki"
+msgstr "Scam Blokklánc Wiki"
+
+#: src/components/wallet/standard/WalletStandard.tsx:647
+msgid "Scam Wallet"
+msgstr "Scam Pénztárca"
 
 #: src/components/fullNode/FullNode.jsx:338
 #~ msgid "Search"
@@ -1917,8 +1937,8 @@ msgstr "Megye"
 #: src/components/pool/PoolOverview.tsx:44
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:55
-#: src/components/wallet/WalletStatusCard.tsx:22
 #: src/components/wallet/Wallets.tsx:118
+#: src/components/wallet/WalletStatusCard.tsx:22
 msgid "Status"
 msgstr "Állapot"
 
@@ -1963,8 +1983,8 @@ msgstr "Elküldés"
 msgid "Synced"
 msgstr "Szinkronizálva"
 
-#: src/components/farm/FarmerStatus.tsx:19
 #: src/components/farm/card/FarmCardStatus.tsx:18
+#: src/components/farm/FarmerStatus.tsx:19
 #: src/components/plot/PlotStatus.tsx:18
 #: src/components/wallet/WalletStatus.tsx:38
 msgid "Syncing"
@@ -1997,18 +2017,6 @@ msgstr "Szinkronizálás <0/>/<1/>"
 #: src/components/farm/card/FarmCardUserFees.tsx:15
 #~ msgid "TSCM User Transaction Fees"
 #~ msgstr ""
-
-#: src/electron/main.tsx:419
-msgid "Scam"
-msgstr "Scam"
-
-#: src/electron/main.tsx:358
-msgid "Scam Blockchain Wiki"
-msgstr "Scam Blokklánc Wiki"
-
-#: src/components/wallet/standard/WalletStandard.tsx:647
-msgid "Scam Wallet"
-msgstr "Scam Pénztárca"
 
 #: src/components/pool/PoolInfo.tsx:37
 msgid "Target Puzzle Hash"
@@ -2162,7 +2170,7 @@ msgstr "Ez a plot NFT nem kapcsolódik pool-hoz"
 #~ msgid "This table shows you the last time your farm attempted to win a block challenge."
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:49
+#: src/components/farm/FarmLastAttemptedProof.tsx:59
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr "Ez a táblázat megmutatja egy blokk kihívás elnyerésére tett kísérlet utolsó időpontját. <0>Részletek</0>"
 
@@ -2212,13 +2220,13 @@ msgstr "Teljes hálózati tárhely kapacitás"
 msgid "Total Plot Size:"
 msgstr "Teljes parcella adatbázis méret:"
 
-#: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:12
-msgid "Total Size of Plots"
-msgstr "Parcella fájlok összes mérete"
-
 #: src/components/farm/card/FarmCardTotalScamFarmed.tsx:15
 #~ msgid "Total Scam Farmed"
 #~ msgstr ""
+
+#: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:12
+msgid "Total Size of Plots"
+msgstr "Parcella fájlok összes mérete"
 
 #: src/components/block/Block.jsx:225
 msgid "Total VDF Iterations"
@@ -2441,7 +2449,7 @@ msgstr "Amikor az admin-tól megkapod a beállításokhoz szükséges informáci
 msgid "Window"
 msgstr "Ablak"
 
-#: src/components/farm/card/FarmCardBlockRewards.tsx:36
+#: src/components/farm/card/FarmCardBlockRewards.tsx:37
 msgid "Without fees"
 msgstr "Illeték nélkül"
 
@@ -2536,13 +2544,13 @@ msgstr "[Error 13] A hozzáférés megtagadva. Megpróbáltál egy fájlhoz vagy
 msgid "[Error 22] File not found. Most likely one of the plot folders in your config.yaml has an issue."
 msgstr "[Error 22] A fájl nem található. Valószínűleg az egyik parcella könyvtárad beállítása a config.yaml fájlban hibás."
 
-#: src/components/wallet/WalletStatusCard.tsx:41
 #: src/components/wallet/Wallets.tsx:143
+#: src/components/wallet/WalletStatusCard.tsx:41
 msgid "connections:"
 msgstr "kapcsolatok:"
 
-#: src/components/wallet/WalletStatusCard.tsx:33
 #: src/components/wallet/Wallets.tsx:135
+#: src/components/wallet/WalletStatusCard.tsx:33
 msgid "height:"
 msgstr "magasság:"
 
@@ -2554,18 +2562,18 @@ msgstr "nincs szinkronizálva"
 msgid "p2_singleton_puzzle_hash is not defined"
 msgstr ""
 
-#: src/components/wallet/WalletStatusCard.tsx:27
 #: src/components/wallet/Wallets.tsx:123
+#: src/components/wallet/WalletStatusCard.tsx:27
 msgid "status:"
 msgstr "állapot:"
 
-#: src/components/wallet/WalletStatusCard.tsx:29
 #: src/components/wallet/Wallets.tsx:128
+#: src/components/wallet/WalletStatusCard.tsx:29
 msgid "synced"
 msgstr "szinkronizálva"
 
-#: src/components/wallet/WalletStatusCard.tsx:29
 #: src/components/wallet/Wallets.tsx:127
+#: src/components/wallet/WalletStatusCard.tsx:29
 msgid "syncing"
 msgstr "szinkronizálás"
 
@@ -2581,11 +2589,11 @@ msgstr "szinkronizálás"
 msgid "{0} points {1} - {2} hours ago"
 msgstr ""
 
-#: src/components/farm/card/FarmCardBlockRewards.tsx:35
+#: src/components/farm/card/FarmCardBlockRewards.tsx:36
 msgid "{currencyCode} Block Rewards"
 msgstr "Blokk jutalmak {currencyCode}"
 
-#: src/components/farm/card/FarmCardTotalScamFarmed.tsx:29
+#: src/components/farm/card/FarmCardTotalCovidFarmed.tsx:30
 msgid "{currencyCode} Total Scam Farmed"
 msgstr "Teljes farmolt Scam mennyiség {currencyCode}"
 

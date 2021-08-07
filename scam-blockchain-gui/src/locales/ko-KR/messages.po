@@ -23,8 +23,12 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by an open source developer."
-msgstr "Scam의 블록을 더 탐험하고 싶으십니까? 오픈 소스 개발자가 만든 <0>Scam Explorer</0>를 확인하세요."
+#~ msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by an open source developer."
+#~ msgstr "Scam의 블록을 더 탐험하고 싶으십니까? 오픈 소스 개발자가 만든 <0>Scam Explorer</0>를 확인하세요."
+
+#: src/components/farm/FarmLatestBlockChallenges.tsx:64
+msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by that one smart guy on discord."
+msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -55,9 +59,9 @@ msgstr "승인"
 msgid "Accepted at time:"
 msgstr "승인 시각"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:114
 #: src/components/plot/PlotsFailed.tsx:19
 #: src/components/plot/PlotsNotFound.tsx:19
-#: src/components/plot/overview/PlotOverviewPlots.tsx:114
 msgid "Action"
 msgstr "행동"
 
@@ -85,9 +89,9 @@ msgstr "플롯을 대기열에 추가"
 #~ msgstr "Add Wallet"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:46
-#: src/components/plot/PlotHeader.tsx:63
 #: src/components/plot/add/PlotAdd.tsx:160
 #: src/components/plot/overview/PlotOverviewHero.tsx:54
+#: src/components/plot/PlotHeader.tsx:63
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:232
 #: src/components/plotNFT/PlotNFTCard.tsx:271
 msgid "Add a Plot"
@@ -123,10 +127,10 @@ msgstr "주소 / 퍼즐 해시"
 #: src/components/core/components/Amount/Amount.tsx:96
 #: src/components/trading/CreateOffer.jsx:196
 #: src/components/trading/TradesTable.tsx:20
-#: src/components/wallet/WalletHistory.tsx:62
 #: src/components/wallet/create/createNewColouredCoin.jsx:119
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:720
 #: src/components/wallet/standard/WalletStandard.tsx:513
+#: src/components/wallet/WalletHistory.tsx:62
 msgid "Amount"
 msgstr "금액"
 
@@ -245,7 +249,7 @@ msgstr "블록"
 msgid "Browse"
 msgstr "찾아보기"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:73
+#: src/components/farm/FarmLastAttemptedProof.tsx:83
 msgid "But you are currently farming <0/>"
 msgstr "하지만 당신은 현재 <0/>을 파밍하고 있습니다."
 
@@ -286,7 +290,7 @@ msgstr "취소하고 전송"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "경고! 플롯을 삭제하면 되돌릴 수 없습니다. 저장장치가 제대로 연결되었는지 확인하십시오."
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:16
+#: src/components/farm/FarmLastAttemptedProof.tsx:18
 msgid "Challenge"
 msgstr "도전"
 
@@ -566,7 +570,7 @@ msgstr "경고: 영구적으로 개인 키를 삭제합니다."
 #~ msgid "DIDListItems.title"
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:32
+#: src/components/farm/FarmLastAttemptedProof.tsx:42
 #: src/components/trading/TradingOverview.jsx:137
 #: src/components/wallet/WalletHistory.tsx:46
 msgid "Date"
@@ -677,10 +681,10 @@ msgstr "편집"
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Scam wallet."
 msgstr "치아 지갑을 복구하기 위해서 24자로 된 니모닉 단어를 입력하세요."
 
-#: src/components/farm/FarmerStatus.tsx:21
-#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/farm/card/FarmCardStatus.tsx:35
 #: src/components/farm/card/FarmCardStatus.tsx:49
+#: src/components/farm/FarmerStatus.tsx:21
+#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/plot/PlotStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:21
 #: src/components/plot/queue/PlotQueueIndicator.tsx:22
@@ -769,9 +773,9 @@ msgstr ""
 msgid "Farmers earn block rewards and transaction fees by committing spare space to the network to help secure transactions. This is where your farm will be once you add a plot. <0>Learn more</0>"
 msgstr "파머(농부)는 남는 공간을 네트워크에 할당하여, 블록 보상과 거래 수수료를 통해 수익을 창출합니다. 이곳에 플롯을 생성하면 농장이 생성됩니다. <0>더 알아보기</0>"
 
+#: src/components/farm/card/FarmCardStatus.tsx:62
 #: src/components/farm/Farm.tsx:23
 #: src/components/farm/FarmerStatus.tsx:18
-#: src/components/farm/card/FarmCardStatus.tsx:62
 #: src/components/plot/PlotStatus.tsx:17
 msgid "Farming"
 msgstr "재배 중"
@@ -788,13 +792,13 @@ msgstr "수확 상태"
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:154
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:147
 #: src/components/pool/PoolInfo.tsx:17
-#: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:123
 #: src/components/wallet/create/createNewColouredCoin.jsx:132
 #: src/components/wallet/create/createRLAdmin.jsx:244
 #: src/components/wallet/create/createRLAdmin.jsx:272
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:733
 #: src/components/wallet/standard/WalletStandard.tsx:524
+#: src/components/wallet/WalletHistory.tsx:66
 msgid "Fee"
 msgstr "수수료"
 
@@ -823,9 +827,9 @@ msgstr "수수료 금액"
 msgid "File"
 msgstr "파일"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:106
 #: src/components/plot/PlotsFailed.tsx:14
 #: src/components/plot/PlotsNotFound.tsx:14
-#: src/components/plot/overview/PlotOverviewPlots.tsx:106
 msgid "Filename"
 msgstr "파일 이름"
 
@@ -1027,7 +1031,7 @@ msgstr "키"
 msgid "KiB Up/Down"
 msgstr "KiB 업로드/다운로드"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:47
+#: src/components/farm/FarmLastAttemptedProof.tsx:57
 msgid "Last Attempted Proof"
 msgstr "마지막으로 시도한 증명"
 
@@ -1211,13 +1215,13 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:68
+#: src/components/farm/FarmLastAttemptedProof.tsx:78
 msgid "None of your plots have passed the plot filter yet."
 msgstr "아직 플롯 필터를 통과 한 플롯이 없습니다."
 
-#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:23
+#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:19
 msgid "Not Available"
 msgstr "사용할 수 없음"
@@ -1431,6 +1435,10 @@ msgstr ""
 msgid "Plot Public Key"
 msgstr "구성 공개 키"
 
+#: src/components/farm/FarmLastAttemptedProof.tsx:36
+msgid "Plot Response Time"
+msgstr ""
+
 #: src/components/plot/overview/PlotOverviewPlots.tsx:49
 #~ msgid "Plot Seed"
 #~ msgstr ""
@@ -1459,7 +1467,7 @@ msgstr ""
 msgid "Plots"
 msgstr "플롯"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:22
+#: src/components/farm/FarmLastAttemptedProof.tsx:25
 msgid "Plots Passed Filter"
 msgstr "필터 통과된 구성들"
 
@@ -1620,7 +1628,7 @@ msgstr "개인 키:"
 msgid "Proof of Space Size"
 msgstr "공간 크기 증명"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:26
+#: src/components/farm/FarmLastAttemptedProof.tsx:29
 msgid "Proofs Found"
 msgstr "보상 발견됨"
 
@@ -1690,8 +1698,8 @@ msgstr "입금 주소"
 msgid "Recover DID wallet"
 msgstr "DID 지갑 찾기"
 
-#: src/components/plot/PlotHeader.tsx:78
 #: src/components/plot/overview/PlotOverviewHero.tsx:62
+#: src/components/plot/PlotHeader.tsx:78
 msgid "Refresh Plots"
 msgstr "Plots 새로고침"
 
@@ -1736,6 +1744,18 @@ msgstr "안전하게 건너 뛰기"
 #: src/components/trading/CreateOffer.jsx:142
 msgid "Save"
 msgstr "저장"
+
+#: src/electron/main.tsx:419
+msgid "Scam"
+msgstr "치아"
+
+#: src/electron/main.tsx:358
+msgid "Scam Blockchain Wiki"
+msgstr "치아 블록체인 위키"
+
+#: src/components/wallet/standard/WalletStandard.tsx:647
+msgid "Scam Wallet"
+msgstr "치아 지갑"
 
 #: src/components/fullNode/FullNode.jsx:338
 #~ msgid "Search"
@@ -1917,8 +1937,8 @@ msgstr "상태"
 #: src/components/pool/PoolOverview.tsx:44
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:55
-#: src/components/wallet/WalletStatusCard.tsx:22
 #: src/components/wallet/Wallets.tsx:118
+#: src/components/wallet/WalletStatusCard.tsx:22
 msgid "Status"
 msgstr "상태"
 
@@ -1963,8 +1983,8 @@ msgstr "제출"
 msgid "Synced"
 msgstr "동기화됨"
 
-#: src/components/farm/FarmerStatus.tsx:19
 #: src/components/farm/card/FarmCardStatus.tsx:18
+#: src/components/farm/FarmerStatus.tsx:19
 #: src/components/plot/PlotStatus.tsx:18
 #: src/components/wallet/WalletStatus.tsx:38
 msgid "Syncing"
@@ -1997,18 +2017,6 @@ msgstr "동기화 중... <0/> / <1/>"
 #: src/components/farm/card/FarmCardUserFees.tsx:15
 #~ msgid "TSCM User Transaction Fees"
 #~ msgstr ""
-
-#: src/electron/main.tsx:419
-msgid "Scam"
-msgstr "치아"
-
-#: src/electron/main.tsx:358
-msgid "Scam Blockchain Wiki"
-msgstr "치아 블록체인 위키"
-
-#: src/components/wallet/standard/WalletStandard.tsx:647
-msgid "Scam Wallet"
-msgstr "치아 지갑"
 
 #: src/components/pool/PoolInfo.tsx:37
 msgid "Target Puzzle Hash"
@@ -2160,7 +2168,7 @@ msgstr ""
 #~ msgid "This table shows you the last time your farm attempted to win a block challenge."
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:49
+#: src/components/farm/FarmLastAttemptedProof.tsx:59
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr "이 표는 농장에서 마지막으로 블록 챌린지에서 승리를 시도한 시간을 보여줍니다. <0> 자세히 알아보기 </ 0>"
 
@@ -2210,13 +2218,13 @@ msgstr "총 네트워크 공간"
 msgid "Total Plot Size:"
 msgstr "전체 플롯의 용량:"
 
-#: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:12
-msgid "Total Size of Plots"
-msgstr "전체 플롯의 용량"
-
 #: src/components/farm/card/FarmCardTotalScamFarmed.tsx:15
 #~ msgid "Total Scam Farmed"
 #~ msgstr ""
+
+#: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:12
+msgid "Total Size of Plots"
+msgstr "전체 플롯의 용량"
 
 #: src/components/block/Block.jsx:225
 msgid "Total VDF Iterations"
@@ -2439,7 +2447,7 @@ msgstr "관리자로부터 설정 정보 패킷을 받으면 아래에 입력하
 msgid "Window"
 msgstr "창"
 
-#: src/components/farm/card/FarmCardBlockRewards.tsx:36
+#: src/components/farm/card/FarmCardBlockRewards.tsx:37
 msgid "Without fees"
 msgstr "무수수료"
 
@@ -2534,13 +2542,13 @@ msgstr "[오류 13] 권한이 거부 되었습니다. 필요한 권한없이 파
 msgid "[Error 22] File not found. Most likely one of the plot folders in your config.yaml has an issue."
 msgstr "[오류 22] 파일을 찾을 수 없습니다. config.yaml의 플롯 폴더 중 하나에 문제가 있을 가능성이 높습니다."
 
-#: src/components/wallet/WalletStatusCard.tsx:41
 #: src/components/wallet/Wallets.tsx:143
+#: src/components/wallet/WalletStatusCard.tsx:41
 msgid "connections:"
 msgstr "연결:"
 
-#: src/components/wallet/WalletStatusCard.tsx:33
 #: src/components/wallet/Wallets.tsx:135
+#: src/components/wallet/WalletStatusCard.tsx:33
 msgid "height:"
 msgstr "높이:"
 
@@ -2552,18 +2560,18 @@ msgstr "동기화 되지 않음"
 msgid "p2_singleton_puzzle_hash is not defined"
 msgstr ""
 
-#: src/components/wallet/WalletStatusCard.tsx:27
 #: src/components/wallet/Wallets.tsx:123
+#: src/components/wallet/WalletStatusCard.tsx:27
 msgid "status:"
 msgstr "상태:"
 
-#: src/components/wallet/WalletStatusCard.tsx:29
 #: src/components/wallet/Wallets.tsx:128
+#: src/components/wallet/WalletStatusCard.tsx:29
 msgid "synced"
 msgstr "동기화됨"
 
-#: src/components/wallet/WalletStatusCard.tsx:29
 #: src/components/wallet/Wallets.tsx:127
+#: src/components/wallet/WalletStatusCard.tsx:29
 msgid "syncing"
 msgstr "동기화중"
 
@@ -2579,11 +2587,11 @@ msgstr "동기화중"
 msgid "{0} points {1} - {2} hours ago"
 msgstr ""
 
-#: src/components/farm/card/FarmCardBlockRewards.tsx:35
+#: src/components/farm/card/FarmCardBlockRewards.tsx:36
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} 블록 보상"
 
-#: src/components/farm/card/FarmCardTotalScamFarmed.tsx:29
+#: src/components/farm/card/FarmCardTotalCovidFarmed.tsx:30
 msgid "{currencyCode} Total Scam Farmed"
 msgstr "{currencyCode} 채굴된 총 Scam"
 

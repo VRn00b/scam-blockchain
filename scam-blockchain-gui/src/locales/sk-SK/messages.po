@@ -23,8 +23,12 @@ msgid "(Optional)"
 msgstr "(voliteľné)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by an open source developer."
-msgstr "* Chcete viac preskúmať Scam bloky? Vyskúšajte aplikáciu <0>Scam Explorer</0> vytvorenú open source vývojárom."
+#~ msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by an open source developer."
+#~ msgstr "* Chcete viac preskúmať Scam bloky? Vyskúšajte aplikáciu <0>Scam Explorer</0> vytvorenú open source vývojárom."
+
+#: src/components/farm/FarmLatestBlockChallenges.tsx:64
+msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by that one smart guy on discord."
+msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -55,9 +59,9 @@ msgstr "Akceptovať"
 msgid "Accepted at time:"
 msgstr "Akceptované o:"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:114
 #: src/components/plot/PlotsFailed.tsx:19
 #: src/components/plot/PlotsNotFound.tsx:19
-#: src/components/plot/overview/PlotOverviewPlots.tsx:114
 msgid "Action"
 msgstr "Akcia"
 
@@ -85,9 +89,9 @@ msgstr "Pridať pole do fronty"
 #~ msgstr "Add Wallet"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:46
-#: src/components/plot/PlotHeader.tsx:63
 #: src/components/plot/add/PlotAdd.tsx:160
 #: src/components/plot/overview/PlotOverviewHero.tsx:54
+#: src/components/plot/PlotHeader.tsx:63
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:232
 #: src/components/plotNFT/PlotNFTCard.tsx:271
 msgid "Add a Plot"
@@ -123,10 +127,10 @@ msgstr "Adresa"
 #: src/components/core/components/Amount/Amount.tsx:96
 #: src/components/trading/CreateOffer.jsx:196
 #: src/components/trading/TradesTable.tsx:20
-#: src/components/wallet/WalletHistory.tsx:62
 #: src/components/wallet/create/createNewColouredCoin.jsx:119
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:720
 #: src/components/wallet/standard/WalletStandard.tsx:513
+#: src/components/wallet/WalletHistory.tsx:62
 msgid "Amount"
 msgstr "Suma"
 
@@ -245,7 +249,7 @@ msgstr "Bloky"
 msgid "Browse"
 msgstr "Vybrať"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:73
+#: src/components/farm/FarmLastAttemptedProof.tsx:83
 msgid "But you are currently farming <0/>"
 msgstr "Ale aktuálne farmárčite <0/>"
 
@@ -286,7 +290,7 @@ msgstr "Zrušiť a minúť"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "Pozor, tieto polia sa odstránia navždy. Skontrolujte, či sú pamäťové zariadenia správne pripojené."
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:16
+#: src/components/farm/FarmLastAttemptedProof.tsx:18
 msgid "Challenge"
 msgstr "Výzva"
 
@@ -566,7 +570,7 @@ msgstr "POZOR: natrvalo odstrániť súkromný klúč"
 #~ msgid "DIDListItems.title"
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:32
+#: src/components/farm/FarmLastAttemptedProof.tsx:42
 #: src/components/trading/TradingOverview.jsx:137
 #: src/components/wallet/WalletHistory.tsx:46
 msgid "Date"
@@ -677,10 +681,10 @@ msgstr "Upraviť"
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Scam wallet."
 msgstr "Zadajte 24 slov, ktoré ste si uložili pre účely obnovenia vašej peňaženky Scam."
 
-#: src/components/farm/FarmerStatus.tsx:21
-#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/farm/card/FarmCardStatus.tsx:35
 #: src/components/farm/card/FarmCardStatus.tsx:49
+#: src/components/farm/FarmerStatus.tsx:21
+#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/plot/PlotStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:21
 #: src/components/plot/queue/PlotQueueIndicator.tsx:22
@@ -769,9 +773,9 @@ msgstr "Verejný kľúč farmára:"
 msgid "Farmers earn block rewards and transaction fees by committing spare space to the network to help secure transactions. This is where your farm will be once you add a plot. <0>Learn more</0>"
 msgstr "Farmári získavajú odmeny za bloky a transakčné poplatky tým, že vložia voľný priestor do siete, aby pomohli zabezpečit transakcie. Tu bude vaša farma akonáhle pridáte svoje pole. <0>Viac informácií</0>"
 
+#: src/components/farm/card/FarmCardStatus.tsx:62
 #: src/components/farm/Farm.tsx:23
 #: src/components/farm/FarmerStatus.tsx:18
-#: src/components/farm/card/FarmCardStatus.tsx:62
 #: src/components/plot/PlotStatus.tsx:17
 msgid "Farming"
 msgstr "Ťažba"
@@ -788,13 +792,13 @@ msgstr "Stav ťažby"
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:154
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:147
 #: src/components/pool/PoolInfo.tsx:17
-#: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:123
 #: src/components/wallet/create/createNewColouredCoin.jsx:132
 #: src/components/wallet/create/createRLAdmin.jsx:244
 #: src/components/wallet/create/createRLAdmin.jsx:272
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:733
 #: src/components/wallet/standard/WalletStandard.tsx:524
+#: src/components/wallet/WalletHistory.tsx:66
 msgid "Fee"
 msgstr "Poplatok"
 
@@ -823,9 +827,9 @@ msgstr "Výška poplatkov"
 msgid "File"
 msgstr "Súbor"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:106
 #: src/components/plot/PlotsFailed.tsx:14
 #: src/components/plot/PlotsNotFound.tsx:14
-#: src/components/plot/overview/PlotOverviewPlots.tsx:106
 msgid "Filename"
 msgstr "Meno súboru"
 
@@ -1027,7 +1031,7 @@ msgstr "Kľúče"
 msgid "KiB Up/Down"
 msgstr "KiB Odoslané/Stiahnuté"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:47
+#: src/components/farm/FarmLastAttemptedProof.tsx:57
 msgid "Last Attempted Proof"
 msgstr "Posledný pokus o dôkaz"
 
@@ -1211,13 +1215,13 @@ msgstr ""
 msgid "None"
 msgstr "Žiadny"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:68
+#: src/components/farm/FarmLastAttemptedProof.tsx:78
 msgid "None of your plots have passed the plot filter yet."
 msgstr "Žiadne z vašich polí zatiaľ neprešlo filtrom polí."
 
-#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:23
+#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:19
 msgid "Not Available"
 msgstr "Nie je k dispozícií"
@@ -1431,6 +1435,10 @@ msgstr "NFT poľa s p2_singleton_puzzle_hash {plotNFTId} neexistuje"
 msgid "Plot Public Key"
 msgstr "Verejný kľúč poľa"
 
+#: src/components/farm/FarmLastAttemptedProof.tsx:36
+msgid "Plot Response Time"
+msgstr ""
+
 #: src/components/plot/overview/PlotOverviewPlots.tsx:49
 #~ msgid "Plot Seed"
 #~ msgstr ""
@@ -1459,7 +1467,7 @@ msgstr "NFT poľa prechádza do (cieľového stavu). Môže to chvíľu trvať. 
 msgid "Plots"
 msgstr "Polia"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:22
+#: src/components/farm/FarmLastAttemptedProof.tsx:25
 msgid "Plots Passed Filter"
 msgstr "Polia, ktoré prešli filtrom"
 
@@ -1620,7 +1628,7 @@ msgstr "Privátny kľúč:"
 msgid "Proof of Space Size"
 msgstr "Dôkaz o veľkosti priestoru"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:26
+#: src/components/farm/FarmLastAttemptedProof.tsx:29
 msgid "Proofs Found"
 msgstr "Nájdené dôkazy"
 
@@ -1690,8 +1698,8 @@ msgstr "Adresa príjemcu"
 msgid "Recover DID wallet"
 msgstr "Obnoviť Peňaženku DID"
 
-#: src/components/plot/PlotHeader.tsx:78
 #: src/components/plot/overview/PlotOverviewHero.tsx:62
+#: src/components/plot/PlotHeader.tsx:78
 msgid "Refresh Plots"
 msgstr "Obnoviť polia"
 
@@ -1736,6 +1744,18 @@ msgstr "Bezpečné preskočiť"
 #: src/components/trading/CreateOffer.jsx:142
 msgid "Save"
 msgstr "Uložiť"
+
+#: src/electron/main.tsx:419
+msgid "Scam"
+msgstr "Scam"
+
+#: src/electron/main.tsx:358
+msgid "Scam Blockchain Wiki"
+msgstr "Scam Blockchain Wiki"
+
+#: src/components/wallet/standard/WalletStandard.tsx:647
+msgid "Scam Wallet"
+msgstr "Scam peňaženka"
 
 #: src/components/fullNode/FullNode.jsx:338
 #~ msgid "Search"
@@ -1917,8 +1937,8 @@ msgstr "Stav"
 #: src/components/pool/PoolOverview.tsx:44
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:55
-#: src/components/wallet/WalletStatusCard.tsx:22
 #: src/components/wallet/Wallets.tsx:118
+#: src/components/wallet/WalletStatusCard.tsx:22
 msgid "Status"
 msgstr "Stav"
 
@@ -1963,8 +1983,8 @@ msgstr "Odoslať"
 msgid "Synced"
 msgstr "Synchronizované"
 
-#: src/components/farm/FarmerStatus.tsx:19
 #: src/components/farm/card/FarmCardStatus.tsx:18
+#: src/components/farm/FarmerStatus.tsx:19
 #: src/components/plot/PlotStatus.tsx:18
 #: src/components/wallet/WalletStatus.tsx:38
 msgid "Syncing"
@@ -1997,18 +2017,6 @@ msgstr "Synchronizácia <0/>/<1/>"
 #: src/components/farm/card/FarmCardUserFees.tsx:15
 #~ msgid "TSCM User Transaction Fees"
 #~ msgstr ""
-
-#: src/electron/main.tsx:419
-msgid "Scam"
-msgstr "Scam"
-
-#: src/electron/main.tsx:358
-msgid "Scam Blockchain Wiki"
-msgstr "Scam Blockchain Wiki"
-
-#: src/components/wallet/standard/WalletStandard.tsx:647
-msgid "Scam Wallet"
-msgstr "Scam peňaženka"
 
 #: src/components/pool/PoolInfo.tsx:37
 msgid "Target Puzzle Hash"
@@ -2160,7 +2168,7 @@ msgstr "Tento NFT poľa nie je pripojený k združeniu"
 #~ msgid "This table shows you the last time your farm attempted to win a block challenge."
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:49
+#: src/components/farm/FarmLastAttemptedProof.tsx:59
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr "Táto tabuľka zobrazuje, kedy sa vaša farma naposledy pokúsila vyhrať blokovú výzvu. <0> Ďalšie informácie </0>"
 
@@ -2210,13 +2218,13 @@ msgstr "Celková veľkosť siete"
 msgid "Total Plot Size:"
 msgstr "Celková veľkosť polí:"
 
-#: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:12
-msgid "Total Size of Plots"
-msgstr "Celková veľkosť polí"
-
 #: src/components/farm/card/FarmCardTotalScamFarmed.tsx:15
 #~ msgid "Total Scam Farmed"
 #~ msgstr ""
+
+#: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:12
+msgid "Total Size of Plots"
+msgstr "Celková veľkosť polí"
 
 #: src/components/block/Block.jsx:225
 msgid "Total VDF Iterations"
@@ -2439,7 +2447,7 @@ msgstr "Keď obdržíte informačný paket od svojho administrátora, vložte ho
 msgid "Window"
 msgstr "Okno"
 
-#: src/components/farm/card/FarmCardBlockRewards.tsx:36
+#: src/components/farm/card/FarmCardBlockRewards.tsx:37
 msgid "Without fees"
 msgstr "Bez poplatkov"
 
@@ -2534,13 +2542,13 @@ msgstr "[Chyba 13] Povolenie bolo zamietnuté. Pokúšate sa získať prístup k
 msgid "[Error 22] File not found. Most likely one of the plot folders in your config.yaml has an issue."
 msgstr "[Chyba 22] Súbor sa nenašiel. S najväčšou pravdepodobnosťou má problém jeden z priečinkov polí vo vašom súbore config.yaml."
 
-#: src/components/wallet/WalletStatusCard.tsx:41
 #: src/components/wallet/Wallets.tsx:143
+#: src/components/wallet/WalletStatusCard.tsx:41
 msgid "connections:"
 msgstr "pripojenia:"
 
-#: src/components/wallet/WalletStatusCard.tsx:33
 #: src/components/wallet/Wallets.tsx:135
+#: src/components/wallet/WalletStatusCard.tsx:33
 msgid "height:"
 msgstr "pozícia:"
 
@@ -2552,18 +2560,18 @@ msgstr "nesynchronizované"
 msgid "p2_singleton_puzzle_hash is not defined"
 msgstr "p2_singleton_puzzle_hash nie je definovaný"
 
-#: src/components/wallet/WalletStatusCard.tsx:27
 #: src/components/wallet/Wallets.tsx:123
+#: src/components/wallet/WalletStatusCard.tsx:27
 msgid "status:"
 msgstr "stav:"
 
-#: src/components/wallet/WalletStatusCard.tsx:29
 #: src/components/wallet/Wallets.tsx:128
+#: src/components/wallet/WalletStatusCard.tsx:29
 msgid "synced"
 msgstr "synchronizované"
 
-#: src/components/wallet/WalletStatusCard.tsx:29
 #: src/components/wallet/Wallets.tsx:127
+#: src/components/wallet/WalletStatusCard.tsx:29
 msgid "syncing"
 msgstr "synchronizácia"
 
@@ -2579,11 +2587,11 @@ msgstr "synchronizácia"
 msgid "{0} points {1} - {2} hours ago"
 msgstr "{0} bodov pred {1} - {2} hodinami"
 
-#: src/components/farm/card/FarmCardBlockRewards.tsx:35
+#: src/components/farm/card/FarmCardBlockRewards.tsx:36
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Odmena Za Blok"
 
-#: src/components/farm/card/FarmCardTotalScamFarmed.tsx:29
+#: src/components/farm/card/FarmCardTotalCovidFarmed.tsx:30
 msgid "{currencyCode} Total Scam Farmed"
 msgstr "{currencyCode} Celkové množstvo vyfarmárčenej Chii"
 

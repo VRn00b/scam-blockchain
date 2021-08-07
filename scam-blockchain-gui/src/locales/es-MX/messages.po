@@ -23,8 +23,12 @@ msgid "(Optional)"
 msgstr "(Opcional)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by an open source developer."
-msgstr "*¿Quieres explorar más hacerca de los bloques de Scam? Echa un vistazo a <0>Scam Explorer</0>, creado por un desarrollador de código abierto."
+#~ msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by an open source developer."
+#~ msgstr "*¿Quieres explorar más hacerca de los bloques de Scam? Echa un vistazo a <0>Scam Explorer</0>, creado por un desarrollador de código abierto."
+
+#: src/components/farm/FarmLatestBlockChallenges.tsx:64
+msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by that one smart guy on discord."
+msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -55,9 +59,9 @@ msgstr "Aceptar"
 msgid "Accepted at time:"
 msgstr "Aceptado en el tiempo:"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:114
 #: src/components/plot/PlotsFailed.tsx:19
 #: src/components/plot/PlotsNotFound.tsx:19
-#: src/components/plot/overview/PlotOverviewPlots.tsx:114
 msgid "Action"
 msgstr "Acción"
 
@@ -85,9 +89,9 @@ msgstr "Añadir Parcela a la Cola"
 #~ msgstr "Add Wallet"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:46
-#: src/components/plot/PlotHeader.tsx:63
 #: src/components/plot/add/PlotAdd.tsx:160
 #: src/components/plot/overview/PlotOverviewHero.tsx:54
+#: src/components/plot/PlotHeader.tsx:63
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:232
 #: src/components/plotNFT/PlotNFTCard.tsx:271
 msgid "Add a Plot"
@@ -123,10 +127,10 @@ msgstr "Dirección / Enigma hash"
 #: src/components/core/components/Amount/Amount.tsx:96
 #: src/components/trading/CreateOffer.jsx:196
 #: src/components/trading/TradesTable.tsx:20
-#: src/components/wallet/WalletHistory.tsx:62
 #: src/components/wallet/create/createNewColouredCoin.jsx:119
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:720
 #: src/components/wallet/standard/WalletStandard.tsx:513
+#: src/components/wallet/WalletHistory.tsx:62
 msgid "Amount"
 msgstr "Cantidad"
 
@@ -245,7 +249,7 @@ msgstr "Bloques"
 msgid "Browse"
 msgstr "Navegar"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:73
+#: src/components/farm/FarmLastAttemptedProof.tsx:83
 msgid "But you are currently farming <0/>"
 msgstr "Pero actualmente estás cultivando <0 />"
 
@@ -286,7 +290,7 @@ msgstr "Cancelar y Gastar"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "Precaución, eliminar estas parcelas las eliminará para siempre. Compruebe que los dispositivos de almacenamiento estén conectados correctamente."
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:16
+#: src/components/farm/FarmLastAttemptedProof.tsx:18
 msgid "Challenge"
 msgstr "Desafío"
 
@@ -566,7 +570,7 @@ msgstr "ADVERTENCIA: eliminar llave privada permanentemente"
 #~ msgid "DIDListItems.title"
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:32
+#: src/components/farm/FarmLastAttemptedProof.tsx:42
 #: src/components/trading/TradingOverview.jsx:137
 #: src/components/wallet/WalletHistory.tsx:46
 msgid "Date"
@@ -677,10 +681,10 @@ msgstr "Editar"
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Scam wallet."
 msgstr "Introduzca las 24 palabras mnemotécnicas que has guardado en orden para restaurar su cartera Scam."
 
-#: src/components/farm/FarmerStatus.tsx:21
-#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/farm/card/FarmCardStatus.tsx:35
 #: src/components/farm/card/FarmCardStatus.tsx:49
+#: src/components/farm/FarmerStatus.tsx:21
+#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/plot/PlotStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:21
 #: src/components/plot/queue/PlotQueueIndicator.tsx:22
@@ -769,9 +773,9 @@ msgstr "Llave pública de Agricultor:"
 msgid "Farmers earn block rewards and transaction fees by committing spare space to the network to help secure transactions. This is where your farm will be once you add a plot. <0>Learn more</0>"
 msgstr "Los agricultores obtienen recompensas en bloque y tarifas de transacción al asignar espacio libre a la red para ayudar a asegurar las transacciones. Aquí es donde estará su granja una vez que agregue una parcela. <0> Más información </0>"
 
+#: src/components/farm/card/FarmCardStatus.tsx:62
 #: src/components/farm/Farm.tsx:23
 #: src/components/farm/FarmerStatus.tsx:18
-#: src/components/farm/card/FarmCardStatus.tsx:62
 #: src/components/plot/PlotStatus.tsx:17
 msgid "Farming"
 msgstr "Cultivando"
@@ -788,13 +792,13 @@ msgstr "Estado de Cultivo"
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:154
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:147
 #: src/components/pool/PoolInfo.tsx:17
-#: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:123
 #: src/components/wallet/create/createNewColouredCoin.jsx:132
 #: src/components/wallet/create/createRLAdmin.jsx:244
 #: src/components/wallet/create/createRLAdmin.jsx:272
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:733
 #: src/components/wallet/standard/WalletStandard.tsx:524
+#: src/components/wallet/WalletHistory.tsx:66
 msgid "Fee"
 msgstr "Tarifa"
 
@@ -823,9 +827,9 @@ msgstr "Monto de tarifas"
 msgid "File"
 msgstr "Archivo"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:106
 #: src/components/plot/PlotsFailed.tsx:14
 #: src/components/plot/PlotsNotFound.tsx:14
-#: src/components/plot/overview/PlotOverviewPlots.tsx:106
 msgid "Filename"
 msgstr "Nombre del Archivo"
 
@@ -1027,7 +1031,7 @@ msgstr "Llaves"
 msgid "KiB Up/Down"
 msgstr "KiB Carga/Descarga"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:47
+#: src/components/farm/FarmLastAttemptedProof.tsx:57
 msgid "Last Attempted Proof"
 msgstr "Último Intento de Comprobación"
 
@@ -1211,13 +1215,13 @@ msgstr ""
 msgid "None"
 msgstr "Ninguno"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:68
+#: src/components/farm/FarmLastAttemptedProof.tsx:78
 msgid "None of your plots have passed the plot filter yet."
 msgstr "Ninguna de sus parcelas a pasado un filtro de parcela aún."
 
-#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:23
+#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:19
 msgid "Not Available"
 msgstr "No Disponible"
@@ -1431,6 +1435,10 @@ msgstr "La parcela NFT con p2_singleton_puzzle_hash {plotNFTId} no existe"
 msgid "Plot Public Key"
 msgstr "Llave Pública de Parcela"
 
+#: src/components/farm/FarmLastAttemptedProof.tsx:36
+msgid "Plot Response Time"
+msgstr ""
+
 #: src/components/plot/overview/PlotOverviewPlots.tsx:49
 #~ msgid "Plot Seed"
 #~ msgstr ""
@@ -1459,7 +1467,7 @@ msgstr ""
 msgid "Plots"
 msgstr "Parcelas"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:22
+#: src/components/farm/FarmLastAttemptedProof.tsx:25
 msgid "Plots Passed Filter"
 msgstr "Parcelas que Pasaron el Filtro"
 
@@ -1620,7 +1628,7 @@ msgstr "Llave privada:"
 msgid "Proof of Space Size"
 msgstr "Prueba de Tamaño de Espacio"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:26
+#: src/components/farm/FarmLastAttemptedProof.tsx:29
 msgid "Proofs Found"
 msgstr "Pruebas Encontradas"
 
@@ -1690,8 +1698,8 @@ msgstr "Dirección de recepción"
 msgid "Recover DID wallet"
 msgstr "Recuperar Cartera DID"
 
-#: src/components/plot/PlotHeader.tsx:78
 #: src/components/plot/overview/PlotOverviewHero.tsx:62
+#: src/components/plot/PlotHeader.tsx:78
 msgid "Refresh Plots"
 msgstr "Actualizar Parcelas"
 
@@ -1736,6 +1744,18 @@ msgstr "Es Seguro de Saltar"
 #: src/components/trading/CreateOffer.jsx:142
 msgid "Save"
 msgstr "Guardar"
+
+#: src/electron/main.tsx:419
+msgid "Scam"
+msgstr "Scam"
+
+#: src/electron/main.tsx:358
+msgid "Scam Blockchain Wiki"
+msgstr "Scam Blockchain Wiki"
+
+#: src/components/wallet/standard/WalletStandard.tsx:647
+msgid "Scam Wallet"
+msgstr "Cartera Scam"
 
 #: src/components/fullNode/FullNode.jsx:338
 #~ msgid "Search"
@@ -1917,8 +1937,8 @@ msgstr "Estado"
 #: src/components/pool/PoolOverview.tsx:44
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:55
-#: src/components/wallet/WalletStatusCard.tsx:22
 #: src/components/wallet/Wallets.tsx:118
+#: src/components/wallet/WalletStatusCard.tsx:22
 msgid "Status"
 msgstr "Estado"
 
@@ -1963,8 +1983,8 @@ msgstr "Enviar"
 msgid "Synced"
 msgstr "Sincronizado"
 
-#: src/components/farm/FarmerStatus.tsx:19
 #: src/components/farm/card/FarmCardStatus.tsx:18
+#: src/components/farm/FarmerStatus.tsx:19
 #: src/components/plot/PlotStatus.tsx:18
 #: src/components/wallet/WalletStatus.tsx:38
 msgid "Syncing"
@@ -1997,18 +2017,6 @@ msgstr "Sincronizando <0/>/<1/>"
 #: src/components/farm/card/FarmCardUserFees.tsx:15
 #~ msgid "TSCM User Transaction Fees"
 #~ msgstr ""
-
-#: src/electron/main.tsx:419
-msgid "Scam"
-msgstr "Scam"
-
-#: src/electron/main.tsx:358
-msgid "Scam Blockchain Wiki"
-msgstr "Scam Blockchain Wiki"
-
-#: src/components/wallet/standard/WalletStandard.tsx:647
-msgid "Scam Wallet"
-msgstr "Cartera Scam"
 
 #: src/components/pool/PoolInfo.tsx:37
 msgid "Target Puzzle Hash"
@@ -2160,7 +2168,7 @@ msgstr ""
 #~ msgid "This table shows you the last time your farm attempted to win a block challenge."
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:49
+#: src/components/farm/FarmLastAttemptedProof.tsx:59
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr "Está tabla muestra la última vez que su granja intentó ganar un desafío de bloque. <0>Aprenda más</0>"
 
@@ -2210,13 +2218,13 @@ msgstr "Espacio Total de Red"
 msgid "Total Plot Size:"
 msgstr "Tamaño Total de Parcela:"
 
-#: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:12
-msgid "Total Size of Plots"
-msgstr "Tamaño Total de Parcelas"
-
 #: src/components/farm/card/FarmCardTotalScamFarmed.tsx:15
 #~ msgid "Total Scam Farmed"
 #~ msgstr ""
+
+#: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:12
+msgid "Total Size of Plots"
+msgstr "Tamaño Total de Parcelas"
 
 #: src/components/block/Block.jsx:225
 msgid "Total VDF Iterations"
@@ -2439,7 +2447,7 @@ msgstr "Cuando reciba el paquete de información de configuración de su adminis
 msgid "Window"
 msgstr "Ventana"
 
-#: src/components/farm/card/FarmCardBlockRewards.tsx:36
+#: src/components/farm/card/FarmCardBlockRewards.tsx:37
 msgid "Without fees"
 msgstr "Sin tarifas"
 
@@ -2534,13 +2542,13 @@ msgstr "[Error 13] Permiso denegado. Estás intentando acceder a un archivo/dire
 msgid "[Error 22] File not found. Most likely one of the plot folders in your config.yaml has an issue."
 msgstr "[Error 22] Archivo no encontrado. Lo más probable es que una de las carpetas de parcelas de su config.yaml tenga un problema."
 
-#: src/components/wallet/WalletStatusCard.tsx:41
 #: src/components/wallet/Wallets.tsx:143
+#: src/components/wallet/WalletStatusCard.tsx:41
 msgid "connections:"
 msgstr "conexiones:"
 
-#: src/components/wallet/WalletStatusCard.tsx:33
 #: src/components/wallet/Wallets.tsx:135
+#: src/components/wallet/WalletStatusCard.tsx:33
 msgid "height:"
 msgstr "altura:"
 
@@ -2552,18 +2560,18 @@ msgstr "no sincronizado"
 msgid "p2_singleton_puzzle_hash is not defined"
 msgstr "p2_singleton_puzzle_hash no está definido"
 
-#: src/components/wallet/WalletStatusCard.tsx:27
 #: src/components/wallet/Wallets.tsx:123
+#: src/components/wallet/WalletStatusCard.tsx:27
 msgid "status:"
 msgstr "estado:"
 
-#: src/components/wallet/WalletStatusCard.tsx:29
 #: src/components/wallet/Wallets.tsx:128
+#: src/components/wallet/WalletStatusCard.tsx:29
 msgid "synced"
 msgstr "sincronizado"
 
-#: src/components/wallet/WalletStatusCard.tsx:29
 #: src/components/wallet/Wallets.tsx:127
+#: src/components/wallet/WalletStatusCard.tsx:29
 msgid "syncing"
 msgstr "sincronizando"
 
@@ -2579,11 +2587,11 @@ msgstr "sincronizando"
 msgid "{0} points {1} - {2} hours ago"
 msgstr "{0} puntos {1} - hace {2} horas"
 
-#: src/components/farm/card/FarmCardBlockRewards.tsx:35
+#: src/components/farm/card/FarmCardBlockRewards.tsx:36
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Recompensas de Bloque"
 
-#: src/components/farm/card/FarmCardTotalScamFarmed.tsx:29
+#: src/components/farm/card/FarmCardTotalCovidFarmed.tsx:30
 msgid "{currencyCode} Total Scam Farmed"
 msgstr "{currencyCode} Total de Scam Cultivada"
 

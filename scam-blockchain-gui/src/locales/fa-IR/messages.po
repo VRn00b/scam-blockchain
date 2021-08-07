@@ -23,8 +23,12 @@ msgid "(Optional)"
 msgstr "(Optional)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by an open source developer."
-msgstr "آیا می خواهید که بلوک های چیـا را فراتر از این کاوش کنید؟ <0>Scam Explorer</0> را که توسط یک توسعه دهنده متن باز ساخته شده است را چک کنید."
+#~ msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by an open source developer."
+#~ msgstr "آیا می خواهید که بلوک های چیـا را فراتر از این کاوش کنید؟ <0>Scam Explorer</0> را که توسط یک توسعه دهنده متن باز ساخته شده است را چک کنید."
+
+#: src/components/farm/FarmLatestBlockChallenges.tsx:64
+msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by that one smart guy on discord."
+msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -57,9 +61,9 @@ msgstr "پذیرفتن"
 msgid "Accepted at time:"
 msgstr "پذیرش شده در زمان:"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:114
 #: src/components/plot/PlotsFailed.tsx:19
 #: src/components/plot/PlotsNotFound.tsx:19
-#: src/components/plot/overview/PlotOverviewPlots.tsx:114
 msgid "Action"
 msgstr "عملیات"
 
@@ -87,9 +91,9 @@ msgstr "افزودن پلات به صف"
 #~ msgstr "Add Wallet"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:46
-#: src/components/plot/PlotHeader.tsx:63
 #: src/components/plot/add/PlotAdd.tsx:160
 #: src/components/plot/overview/PlotOverviewHero.tsx:54
+#: src/components/plot/PlotHeader.tsx:63
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:232
 #: src/components/plotNFT/PlotNFTCard.tsx:271
 msgid "Add a Plot"
@@ -125,10 +129,10 @@ msgstr "آدرس/ جورچین هش(در هم ریزی)"
 #: src/components/core/components/Amount/Amount.tsx:96
 #: src/components/trading/CreateOffer.jsx:196
 #: src/components/trading/TradesTable.tsx:20
-#: src/components/wallet/WalletHistory.tsx:62
 #: src/components/wallet/create/createNewColouredCoin.jsx:119
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:720
 #: src/components/wallet/standard/WalletStandard.tsx:513
+#: src/components/wallet/WalletHistory.tsx:62
 msgid "Amount"
 msgstr "مقدار"
 
@@ -249,7 +253,7 @@ msgstr "بلوک ها"
 msgid "Browse"
 msgstr "مرور کردن"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:73
+#: src/components/farm/FarmLastAttemptedProof.tsx:83
 msgid "But you are currently farming <0/>"
 msgstr "اما شما در حال مزرعه داری <0/> هستید"
 
@@ -290,7 +294,7 @@ msgstr "لغو و خرج کردن"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "اخطار، حذف این پلات ها، آنها را برای همیشه حذف میکند. بررسی کنید که وسایل ذخیره سازی به طور مناسب متصل باشد."
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:16
+#: src/components/farm/FarmLastAttemptedProof.tsx:18
 msgid "Challenge"
 msgstr "Challenge"
 
@@ -570,7 +574,7 @@ msgstr "DANGER: permanently delete private key"
 #~ msgid "DIDListItems.title"
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:32
+#: src/components/farm/FarmLastAttemptedProof.tsx:42
 #: src/components/trading/TradingOverview.jsx:137
 #: src/components/wallet/WalletHistory.tsx:46
 msgid "Date"
@@ -683,10 +687,10 @@ msgstr "Edit"
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Scam wallet."
 msgstr "برای بازگردانی کیف پول چیـای خود 24 کلمه یادآور خود را وارد کنید."
 
-#: src/components/farm/FarmerStatus.tsx:21
-#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/farm/card/FarmCardStatus.tsx:35
 #: src/components/farm/card/FarmCardStatus.tsx:49
+#: src/components/farm/FarmerStatus.tsx:21
+#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/plot/PlotStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:21
 #: src/components/plot/queue/PlotQueueIndicator.tsx:22
@@ -775,9 +779,9 @@ msgstr "Farmer public key:"
 msgid "Farmers earn block rewards and transaction fees by committing spare space to the network to help secure transactions. This is where your farm will be once you add a plot. <0>Learn more</0>"
 msgstr "مزرعه داران با در اختیار گذاشتن فضای خالی برای کمک در امن کردن معاملات شبکه، جایزه های بلوکی و کارمزد تراکنش کسب می‌کنند.وقتی پلاتی را اضافه کنید قرار می‌گیرد، مزرعه شما اینجا قرار می‌گیرد. <0>بیشتر بدانید</0>"
 
+#: src/components/farm/card/FarmCardStatus.tsx:62
 #: src/components/farm/Farm.tsx:23
 #: src/components/farm/FarmerStatus.tsx:18
-#: src/components/farm/card/FarmCardStatus.tsx:62
 #: src/components/plot/PlotStatus.tsx:17
 msgid "Farming"
 msgstr "مزرعه داری"
@@ -794,13 +798,13 @@ msgstr "وضعیت مزرعه داری"
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:154
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:147
 #: src/components/pool/PoolInfo.tsx:17
-#: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:123
 #: src/components/wallet/create/createNewColouredCoin.jsx:132
 #: src/components/wallet/create/createRLAdmin.jsx:244
 #: src/components/wallet/create/createRLAdmin.jsx:272
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:733
 #: src/components/wallet/standard/WalletStandard.tsx:524
+#: src/components/wallet/WalletHistory.tsx:66
 msgid "Fee"
 msgstr "Fee"
 
@@ -829,9 +833,9 @@ msgstr "مبلغ کارمزد ها"
 msgid "File"
 msgstr "File"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:106
 #: src/components/plot/PlotsFailed.tsx:14
 #: src/components/plot/PlotsNotFound.tsx:14
-#: src/components/plot/overview/PlotOverviewPlots.tsx:106
 msgid "Filename"
 msgstr "Filename"
 
@@ -1033,7 +1037,7 @@ msgstr "Keys"
 msgid "KiB Up/Down"
 msgstr "KiB آپلود/دانلود"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:47
+#: src/components/farm/FarmLastAttemptedProof.tsx:57
 msgid "Last Attempted Proof"
 msgstr "Last Attempted Proof"
 
@@ -1217,13 +1221,13 @@ msgstr ""
 msgid "None"
 msgstr "None"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:68
+#: src/components/farm/FarmLastAttemptedProof.tsx:78
 msgid "None of your plots have passed the plot filter yet."
 msgstr "هنوز هیچ یک از پلات های شما از فیلتر طرح عبور نکرده اند."
 
-#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:23
+#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:19
 msgid "Not Available"
 msgstr "در دسترس نیست"
@@ -1437,6 +1441,10 @@ msgstr "Plot NFT with p2_singleton_puzzle_hash {plotNFTId} does not exists"
 msgid "Plot Public Key"
 msgstr "Plot Public Key"
 
+#: src/components/farm/FarmLastAttemptedProof.tsx:36
+msgid "Plot Response Time"
+msgstr ""
+
 #: src/components/plot/overview/PlotOverviewPlots.tsx:49
 #~ msgid "Plot Seed"
 #~ msgstr ""
@@ -1465,7 +1473,7 @@ msgstr "PlotNFT is transitioning to (target state). This can take a while. Pleas
 msgid "Plots"
 msgstr "Plots"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:22
+#: src/components/farm/FarmLastAttemptedProof.tsx:25
 msgid "Plots Passed Filter"
 msgstr "پلات ها با موفقیت از فیلتر عبور کردند"
 
@@ -1626,7 +1634,7 @@ msgstr "Private key:"
 msgid "Proof of Space Size"
 msgstr "اثباتِ مقدار فضا"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:26
+#: src/components/farm/FarmLastAttemptedProof.tsx:29
 msgid "Proofs Found"
 msgstr "اثبات های یافت شده"
 
@@ -1696,8 +1704,8 @@ msgstr "آدرس گیرنده"
 msgid "Recover DID wallet"
 msgstr "بازیابی کیف پول DID"
 
-#: src/components/plot/PlotHeader.tsx:78
 #: src/components/plot/overview/PlotOverviewHero.tsx:62
+#: src/components/plot/PlotHeader.tsx:78
 msgid "Refresh Plots"
 msgstr "تازه سازی پلات ها"
 
@@ -1742,6 +1750,18 @@ msgstr "Safe To Skip"
 #: src/components/trading/CreateOffer.jsx:142
 msgid "Save"
 msgstr "Save"
+
+#: src/electron/main.tsx:419
+msgid "Scam"
+msgstr "چیـا"
+
+#: src/electron/main.tsx:358
+msgid "Scam Blockchain Wiki"
+msgstr "ویکی زنجیره بلوکی چیـا"
+
+#: src/components/wallet/standard/WalletStandard.tsx:647
+msgid "Scam Wallet"
+msgstr "کیف پول چیـا"
 
 #: src/components/fullNode/FullNode.jsx:338
 #~ msgid "Search"
@@ -1923,8 +1943,8 @@ msgstr "حالت"
 #: src/components/pool/PoolOverview.tsx:44
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:55
-#: src/components/wallet/WalletStatusCard.tsx:22
 #: src/components/wallet/Wallets.tsx:118
+#: src/components/wallet/WalletStatusCard.tsx:22
 msgid "Status"
 msgstr "Status"
 
@@ -1969,8 +1989,8 @@ msgstr "ثبت و ارسال"
 msgid "Synced"
 msgstr "همگام سازی شده"
 
-#: src/components/farm/FarmerStatus.tsx:19
 #: src/components/farm/card/FarmCardStatus.tsx:18
+#: src/components/farm/FarmerStatus.tsx:19
 #: src/components/plot/PlotStatus.tsx:18
 #: src/components/wallet/WalletStatus.tsx:38
 msgid "Syncing"
@@ -2003,18 +2023,6 @@ msgstr "Syncing <0/>/<1/>"
 #: src/components/farm/card/FarmCardUserFees.tsx:15
 #~ msgid "TSCM User Transaction Fees"
 #~ msgstr ""
-
-#: src/electron/main.tsx:419
-msgid "Scam"
-msgstr "چیـا"
-
-#: src/electron/main.tsx:358
-msgid "Scam Blockchain Wiki"
-msgstr "ویکی زنجیره بلوکی چیـا"
-
-#: src/components/wallet/standard/WalletStandard.tsx:647
-msgid "Scam Wallet"
-msgstr "کیف پول چیـا"
 
 #: src/components/pool/PoolInfo.tsx:37
 msgid "Target Puzzle Hash"
@@ -2166,7 +2174,7 @@ msgstr "This plot NFT is not connected to pool"
 #~ msgid "This table shows you the last time your farm attempted to win a block challenge."
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:49
+#: src/components/farm/FarmLastAttemptedProof.tsx:59
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr ""
 "این جدول آخرین زمانی را به شما نشان میدهد که مزرعه شما تلاشی برای برنده شدن در چالش و پردازش یک بلوک کرده است.\n"
@@ -2218,13 +2226,13 @@ msgstr "Total Network Space"
 msgid "Total Plot Size:"
 msgstr "اندازه کل پلات ها:"
 
-#: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:12
-msgid "Total Size of Plots"
-msgstr "جمع اندازه پلات ها"
-
 #: src/components/farm/card/FarmCardTotalScamFarmed.tsx:15
 #~ msgid "Total Scam Farmed"
 #~ msgstr ""
+
+#: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:12
+msgid "Total Size of Plots"
+msgstr "جمع اندازه پلات ها"
 
 #: src/components/block/Block.jsx:225
 msgid "Total VDF Iterations"
@@ -2449,7 +2457,7 @@ msgstr "هنگامی که بسته اطلاعات راه‌اندازی را ا�
 msgid "Window"
 msgstr "پنجره"
 
-#: src/components/farm/card/FarmCardBlockRewards.tsx:36
+#: src/components/farm/card/FarmCardBlockRewards.tsx:37
 msgid "Without fees"
 msgstr "بدونه کارمزد"
 
@@ -2546,13 +2554,13 @@ msgstr "[خطای 13] مجوز رد شد. شما در حال تلاش برای �
 msgid "[Error 22] File not found. Most likely one of the plot folders in your config.yaml has an issue."
 msgstr "[خطای 22] پرونده پیدا نشد. به احتمال زیاد یکی از پوشه های پلات در config.yaml شما مشکل دارد."
 
-#: src/components/wallet/WalletStatusCard.tsx:41
 #: src/components/wallet/Wallets.tsx:143
+#: src/components/wallet/WalletStatusCard.tsx:41
 msgid "connections:"
 msgstr "اتصال ها:"
 
-#: src/components/wallet/WalletStatusCard.tsx:33
 #: src/components/wallet/Wallets.tsx:135
+#: src/components/wallet/WalletStatusCard.tsx:33
 msgid "height:"
 msgstr "ارتفاع:"
 
@@ -2564,18 +2572,18 @@ msgstr "همگام‌سازی نشده"
 msgid "p2_singleton_puzzle_hash is not defined"
 msgstr "p2_singleton_puzzle_hash is not defined"
 
-#: src/components/wallet/WalletStatusCard.tsx:27
 #: src/components/wallet/Wallets.tsx:123
+#: src/components/wallet/WalletStatusCard.tsx:27
 msgid "status:"
 msgstr "وضعیت:"
 
-#: src/components/wallet/WalletStatusCard.tsx:29
 #: src/components/wallet/Wallets.tsx:128
+#: src/components/wallet/WalletStatusCard.tsx:29
 msgid "synced"
 msgstr "همگام سازی شده"
 
-#: src/components/wallet/WalletStatusCard.tsx:29
 #: src/components/wallet/Wallets.tsx:127
+#: src/components/wallet/WalletStatusCard.tsx:29
 msgid "syncing"
 msgstr "در حال همگام سازی"
 
@@ -2591,11 +2599,11 @@ msgstr "در حال همگام سازی"
 msgid "{0} points {1} - {2} hours ago"
 msgstr "{0} points {1} - {2} hours ago"
 
-#: src/components/farm/card/FarmCardBlockRewards.tsx:35
+#: src/components/farm/card/FarmCardBlockRewards.tsx:36
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} جایزه بلوک"
 
-#: src/components/farm/card/FarmCardTotalScamFarmed.tsx:29
+#: src/components/farm/card/FarmCardTotalCovidFarmed.tsx:30
 msgid "{currencyCode} Total Scam Farmed"
 msgstr "{currencyCode} مجموع چیـا برداشت شده"
 

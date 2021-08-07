@@ -23,8 +23,12 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by an open source developer."
-msgstr "*Хотите посмотреть больше информации о блоках Чиа? Загляните в обозреватель блоков <0>Scam Explorer</0>, созданный на основе открытого исходного кода."
+#~ msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by an open source developer."
+#~ msgstr "*Хотите посмотреть больше информации о блоках Чиа? Загляните в обозреватель блоков <0>Scam Explorer</0>, созданный на основе открытого исходного кода."
+
+#: src/components/farm/FarmLatestBlockChallenges.tsx:64
+msgid "*Want to explore Scam’s blocks further? Check out <0>Scam Explorer</0> built by that one smart guy on discord."
+msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -55,9 +59,9 @@ msgstr "Принять"
 msgid "Accepted at time:"
 msgstr "Принято в:"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:114
 #: src/components/plot/PlotsFailed.tsx:19
 #: src/components/plot/PlotsNotFound.tsx:19
-#: src/components/plot/overview/PlotOverviewPlots.tsx:114
 msgid "Action"
 msgstr "Действие"
 
@@ -85,9 +89,9 @@ msgstr "Добавить участок в очередь"
 #~ msgstr "Add Wallet"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:46
-#: src/components/plot/PlotHeader.tsx:63
 #: src/components/plot/add/PlotAdd.tsx:160
 #: src/components/plot/overview/PlotOverviewHero.tsx:54
+#: src/components/plot/PlotHeader.tsx:63
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:232
 #: src/components/plotNFT/PlotNFTCard.tsx:271
 msgid "Add a Plot"
@@ -123,10 +127,10 @@ msgstr "Адрес / Хэш-головоломка"
 #: src/components/core/components/Amount/Amount.tsx:96
 #: src/components/trading/CreateOffer.jsx:196
 #: src/components/trading/TradesTable.tsx:20
-#: src/components/wallet/WalletHistory.tsx:62
 #: src/components/wallet/create/createNewColouredCoin.jsx:119
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:720
 #: src/components/wallet/standard/WalletStandard.tsx:513
+#: src/components/wallet/WalletHistory.tsx:62
 msgid "Amount"
 msgstr "Количество"
 
@@ -245,7 +249,7 @@ msgstr "Блоки"
 msgid "Browse"
 msgstr "Обзор"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:73
+#: src/components/farm/FarmLastAttemptedProof.tsx:83
 msgid "But you are currently farming <0/>"
 msgstr "Но в настоящий момент выполняется фарминг на <0/>"
 
@@ -286,7 +290,7 @@ msgstr "Отменить и отправить"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "Внимание! Удаление этих участков приведет к безвозвратному удалению файлов навсегда. Убедитесь, что устройства хранения правильно подключены."
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:16
+#: src/components/farm/FarmLastAttemptedProof.tsx:18
 msgid "Challenge"
 msgstr "Испытание"
 
@@ -566,7 +570,7 @@ msgstr "ОПАСНО: удалить закрытый ключ навсегда"
 #~ msgid "DIDListItems.title"
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:32
+#: src/components/farm/FarmLastAttemptedProof.tsx:42
 #: src/components/trading/TradingOverview.jsx:137
 #: src/components/wallet/WalletHistory.tsx:46
 msgid "Date"
@@ -677,10 +681,10 @@ msgstr "Правка"
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Scam wallet."
 msgstr "Введите мнемонику из 24 слов, которую вы сохранили, чтобы восстановить свой кошелек Scam."
 
-#: src/components/farm/FarmerStatus.tsx:21
-#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/farm/card/FarmCardStatus.tsx:35
 #: src/components/farm/card/FarmCardStatus.tsx:49
+#: src/components/farm/FarmerStatus.tsx:21
+#: src/components/farm/FarmerStatus.tsx:22
 #: src/components/plot/PlotStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:21
 #: src/components/plot/queue/PlotQueueIndicator.tsx:22
@@ -769,9 +773,9 @@ msgstr ""
 msgid "Farmers earn block rewards and transaction fees by committing spare space to the network to help secure transactions. This is where your farm will be once you add a plot. <0>Learn more</0>"
 msgstr "Farmers earn block rewards and transaction fees by committing spare space to the network to help secure transactions. This is where your farm will be once you add a plot. <0>Learn more</0>"
 
+#: src/components/farm/card/FarmCardStatus.tsx:62
 #: src/components/farm/Farm.tsx:23
 #: src/components/farm/FarmerStatus.tsx:18
-#: src/components/farm/card/FarmCardStatus.tsx:62
 #: src/components/plot/PlotStatus.tsx:17
 msgid "Farming"
 msgstr "Фарминг"
@@ -788,13 +792,13 @@ msgstr "Статус фарминга"
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:154
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:147
 #: src/components/pool/PoolInfo.tsx:17
-#: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:123
 #: src/components/wallet/create/createNewColouredCoin.jsx:132
 #: src/components/wallet/create/createRLAdmin.jsx:244
 #: src/components/wallet/create/createRLAdmin.jsx:272
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:733
 #: src/components/wallet/standard/WalletStandard.tsx:524
+#: src/components/wallet/WalletHistory.tsx:66
 msgid "Fee"
 msgstr "Комиссия"
 
@@ -823,9 +827,9 @@ msgstr "Объем коммисий"
 msgid "File"
 msgstr "Файл"
 
+#: src/components/plot/overview/PlotOverviewPlots.tsx:106
 #: src/components/plot/PlotsFailed.tsx:14
 #: src/components/plot/PlotsNotFound.tsx:14
-#: src/components/plot/overview/PlotOverviewPlots.tsx:106
 msgid "Filename"
 msgstr "Имя файла"
 
@@ -1027,7 +1031,7 @@ msgstr "Ключи"
 msgid "KiB Up/Down"
 msgstr "КиБ исх.\\вх."
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:47
+#: src/components/farm/FarmLastAttemptedProof.tsx:57
 msgid "Last Attempted Proof"
 msgstr "Последняя попытка доказательства"
 
@@ -1211,13 +1215,13 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:68
+#: src/components/farm/FarmLastAttemptedProof.tsx:78
 msgid "None of your plots have passed the plot filter yet."
 msgstr "Ни один из ваших участков пока не прошел через фильтр."
 
-#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:20
 #: src/components/farm/card/FarmCardNotAvailable.tsx:23
+#: src/components/farm/FarmerStatus.tsx:20
 #: src/components/plot/PlotStatus.tsx:19
 msgid "Not Available"
 msgstr "Не определено"
@@ -1431,6 +1435,10 @@ msgstr ""
 msgid "Plot Public Key"
 msgstr "Публичный ключ участка"
 
+#: src/components/farm/FarmLastAttemptedProof.tsx:36
+msgid "Plot Response Time"
+msgstr ""
+
 #: src/components/plot/overview/PlotOverviewPlots.tsx:49
 #~ msgid "Plot Seed"
 #~ msgstr ""
@@ -1459,7 +1467,7 @@ msgstr ""
 msgid "Plots"
 msgstr "Участки"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:22
+#: src/components/farm/FarmLastAttemptedProof.tsx:25
 msgid "Plots Passed Filter"
 msgstr "Участки, прошедшие фильтр"
 
@@ -1620,7 +1628,7 @@ msgstr "Закрытый ключ:"
 msgid "Proof of Space Size"
 msgstr "Размер доказательства пространства (Proof of Space)"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:26
+#: src/components/farm/FarmLastAttemptedProof.tsx:29
 msgid "Proofs Found"
 msgstr "Доказательств найдено"
 
@@ -1690,8 +1698,8 @@ msgstr "Адрес для получения платежа"
 msgid "Recover DID wallet"
 msgstr "Восстанавление Кошелека Децентрализованного Идентификатора"
 
-#: src/components/plot/PlotHeader.tsx:78
 #: src/components/plot/overview/PlotOverviewHero.tsx:62
+#: src/components/plot/PlotHeader.tsx:78
 msgid "Refresh Plots"
 msgstr "Обновить участки"
 
@@ -1736,267 +1744,6 @@ msgstr "Можно пропустить"
 #: src/components/trading/CreateOffer.jsx:142
 msgid "Save"
 msgstr "Сохранить"
-
-#: src/components/fullNode/FullNode.jsx:338
-#~ msgid "Search"
-#~ msgstr ""
-
-#: src/components/fullNode/FullNodeBlockSearch.tsx:41
-msgid "Search block by header hash"
-msgstr "Поиск блока по хешу заголовка"
-
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:93
-msgid "Second temporary folder location"
-msgstr "Расположение второй временной папки"
-
-#: src/components/selectKey/SelectKey.tsx:145
-msgid "See private key"
-msgstr "Посмотреть закрытый ключ"
-
-#: src/middleware/middleware_api.jsx:293
-msgid "Seed:"
-msgstr "Семя:"
-
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:87
-msgid "Select 2nd Temporary Directory"
-msgstr "Выберите 2-й временный каталог"
-
-#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:23
-msgid "Select Final Directory"
-msgstr "Выберите окончательный каталог"
-
-#: src/components/selectKey/SelectKey.tsx:104
-msgid "Select Key"
-msgstr "Выбор ключа"
-
-#: src/components/trading/ViewOffer.jsx:37
-msgid "Select Offer"
-msgstr "Выберите предложение"
-
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:39
-msgid "Select Temporary Directory"
-msgstr "Выберите временный каталог"
-
-#: src/components/wallet/create/WalletCreate.jsx:108
-msgid "Select Wallet Type"
-msgstr "Выберите Тип Кошелька"
-
-#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:25
-msgid "Select the final destination for the folder where you would like the plot to be stored. We recommend you use a large slow hard drive (like external HDD)."
-msgstr "Выберите путь для конечной папки, в которой вы хотите хранить участок. Мы рекомендуем вам использовать большой медленный жесткий диск (например, внешний жесткий диск HDD)."
-
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:41
-#~ msgid "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast SSD."
-#~ msgstr "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast SSD."
-
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:41
-msgid "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast drive."
-msgstr "Выберите временное место назначения для папки, в которой вы хотите сохранить участок. Мы рекомендуем использовать быстрый диск."
-
-#: src/components/plot/add/PlotAddNFT.tsx:81
-msgid "Select your Plot NFT"
-msgstr ""
-
-#: src/components/plot/add/PlotAddNFT.tsx:72
-msgid "Select your Plot NFT from the dropdown or create a new one."
-msgstr ""
-
-#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:61
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:77
-#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:108
-msgid "Selected"
-msgstr "Выбран"
-
-#: src/components/plotNFT/PlotNFTExternalState.tsx:23
-#: src/components/plotNFT/PlotNFTState.tsx:57
-msgid "Self Pooling"
-msgstr ""
-
-#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:105
-msgid "Self pool. When you win a block you will earn SCM rewards."
-msgstr ""
-
-#: src/components/trading/CreateOffer.jsx:164
-#: src/components/trading/TradesTable.tsx:47
-#: src/components/trading/TradingOverview.jsx:288
-msgid "Sell"
-msgstr "Продажа"
-
-#: src/components/wallet/coloured/WalletColoured.tsx:620
-#: src/components/wallet/rateLimited/WalletRateLimited.jsx:748
-#: src/components/wallet/standard/WalletStandard.tsx:542
-msgid "Send"
-msgstr "Отправить"
-
-#: src/components/wallet/rateLimited/WalletRateLimited.jsx:460
-msgid "Send this info packet to your Rate Limited Wallet user who must use it to complete setup of their wallet:"
-msgstr "Отправьте этот информационный пакет пользователям вашего кошелька с ограниченной скоростью вывода. Эта информация потребуется пользователям для завершения настройки своего кошелька:"
-
-#: src/components/wallet/rateLimited/WalletRateLimited.jsx:279
-msgid "Send your pubkey to your Rate Limited Wallet admin:"
-msgstr "Отправьте этот публичный ключ администратору вашего кошелька с ограниченной скоростью вывода средств:"
-
-#: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:74
-msgid "Show Advanced Options"
-msgstr "Показать дополнительные опции"
-
-#: src/electron-starter.js:79
-#~ msgid "Show app"
-#~ msgstr "Show app"
-
-#: src/components/trading/CreateOffer.jsx:153
-#: src/components/trading/TradesTable.tsx:16
-msgid "Side"
-msgstr "Направление"
-
-#: src/components/selectKey/SelectKey.tsx:109
-msgid "Sign In"
-msgstr "Войти в систему"
-
-#: src/components/backup/BackupRestore.tsx:122
-#~ msgid "Skip"
-#~ msgstr ""
-
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:129
-#~ msgid "Skips adding [final dir] to harvester for farming"
-#~ msgstr "Skips adding [final dir] to harvester for farming"
-
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:195
-msgid "Skips adding a final directory to harvester for farming"
-msgstr "Пропускает добавление окончательной директории в комбайн для фермерства"
-
-#: src/components/pool/PoolHero.tsx:26
-msgid "Smooth out your SCM farming rewards by joining a pool."
-msgstr ""
-
-#: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:60
-msgid "Something went wrong"
-msgstr ""
-
-#: src/electron/main.tsx:470
-msgid "Speech"
-msgstr "Речь"
-
-#: src/components/wallet/create/createRLAdmin.jsx:230
-msgid "Spendable Amount"
-msgstr "Расходуемое количество"
-
-#: src/components/wallet/create/createRLAdmin.jsx:202
-msgid "Spendable Amount Per Interval"
-msgstr "Расходуемое количество монет за интервал"
-
-#: src/components/wallet/card/WalletCardSpendableBalance.tsx:24
-#: src/components/wallet/coloured/WalletColoured.tsx:384
-#: src/components/wallet/rateLimited/WalletRateLimited.jsx:548
-msgid "Spendable Balance"
-msgstr "Расходуемый баланс"
-
-#: src/components/wallet/rateLimited/WalletRateLimited.jsx:396
-#: src/components/wallet/rateLimited/WalletRateLimited.jsx:443
-msgid "Spending Interval (number of blocks): {interval}"
-msgstr "Интервал расходования (количество блоков): {interval}"
-
-#: src/components/wallet/create/createRLAdmin.jsx:197
-msgid "Spending Interval Length (number of blocks)"
-msgstr "Длина интервала расходования (количество блоков)"
-
-#: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
-#: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (scam per interval): {0}"
-msgstr "Лимит расходования (scam за интервал): {0}"
-
-#: src/components/fullNode/FullNode.jsx:100
-msgid "State"
-msgstr "Состояние"
-
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:59
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:67
-#: src/components/plot/overview/PlotOverviewPlots.tsx:110
-#: src/components/plotNFT/PlotExternalNFTCard.tsx:115
-#: src/components/plotNFT/PlotNFTCard.tsx:144
-#: src/components/pool/PoolOverview.tsx:44
-#: src/components/trading/TradingOverview.jsx:128
-#: src/components/wallet/WalletHistory.tsx:55
-#: src/components/wallet/WalletStatusCard.tsx:22
-#: src/components/wallet/Wallets.tsx:118
-msgid "Status"
-msgstr "Статус"
-
-#: src/components/trading/TradingOverview.jsx:179
-msgid "Status:"
-msgstr "Статус:"
-
-#: src/components/wallet/Wallets.tsx:119
-#~ msgid "StatusCard.connections"
-#~ msgstr ""
-
-#: src/components/wallet/Wallets.tsx:113
-#~ msgid "StatusCard.height"
-#~ msgstr ""
-
-#: src/components/wallet/Wallets.tsx:98
-#~ msgid "StatusCard.status"
-#~ msgstr ""
-
-#: src/components/wallet/Wallets.tsx:93
-#~ msgid "StatusCard.title"
-#~ msgstr ""
-
-#: src/components/plot/add/PlotAddNumberOfPlots.tsx:103
-#~ msgid "Stripe Size"
-#~ msgstr ""
-
-#: src/components/block/Block.jsx:199
-#~ msgid "Sub Block Height"
-#~ msgstr "Sub Block Height"
-
-#: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Scam blockchain"
-#~ msgstr "Sub Block at height {0} in the Scam blockchain"
-
-#: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
-msgid "Submit"
-msgstr "Подтвердить"
-
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:43
-#: src/components/wallet/WalletStatus.tsx:33
-msgid "Synced"
-msgstr "Синхронизован"
-
-#: src/components/farm/FarmerStatus.tsx:19
-#: src/components/farm/card/FarmCardStatus.tsx:18
-#: src/components/plot/PlotStatus.tsx:18
-#: src/components/wallet/WalletStatus.tsx:38
-msgid "Syncing"
-msgstr "Синхронизация"
-
-#: src/components/fullNode/card/FullNodeCardStatus.tsx:21
-msgid "Syncing <0/>/<1/>"
-msgstr "Синхронизация <0/>/<1/>"
-
-#: src/components/fullNode/FullNode.jsx:107
-#~ msgid "Syncing {progress}/{tip}"
-#~ msgstr "Syncing {progress}/{tip}"
-
-#: src/components/farm/card/FarmCardBlockRewards.tsx:15
-#~ msgid "TSCM Block Rewards"
-#~ msgstr ""
-
-#: src/components/farm/card/FarmCardCoinbaseRewards.tsx:12
-#~ msgid "TSCM Farming Rewards"
-#~ msgstr ""
-
-#: src/components/farm/card/FarmCardFeesReward.tsx:12
-#~ msgid "TSCM Fees Collected"
-#~ msgstr ""
-
-#: src/components/farm/card/FarmCardUserFees.tsx:12
-#~ msgid "TSCM User Fees"
-#~ msgstr "TSCM User Fees"
-
-#: src/components/farm/card/FarmCardUserFees.tsx:15
-#~ msgid "TSCM User Transaction Fees"
-#~ msgstr ""
 
 #: src/electron/main.tsx:419
 msgid "Scam"
@@ -2182,6 +1929,267 @@ msgstr ""
 msgid "Scam Wallet"
 msgstr "Кошелек Scam"
 
+#: src/components/fullNode/FullNode.jsx:338
+#~ msgid "Search"
+#~ msgstr ""
+
+#: src/components/fullNode/FullNodeBlockSearch.tsx:41
+msgid "Search block by header hash"
+msgstr "Поиск блока по хешу заголовка"
+
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:93
+msgid "Second temporary folder location"
+msgstr "Расположение второй временной папки"
+
+#: src/components/selectKey/SelectKey.tsx:145
+msgid "See private key"
+msgstr "Посмотреть закрытый ключ"
+
+#: src/middleware/middleware_api.jsx:293
+msgid "Seed:"
+msgstr "Семя:"
+
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:87
+msgid "Select 2nd Temporary Directory"
+msgstr "Выберите 2-й временный каталог"
+
+#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:23
+msgid "Select Final Directory"
+msgstr "Выберите окончательный каталог"
+
+#: src/components/selectKey/SelectKey.tsx:104
+msgid "Select Key"
+msgstr "Выбор ключа"
+
+#: src/components/trading/ViewOffer.jsx:37
+msgid "Select Offer"
+msgstr "Выберите предложение"
+
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:39
+msgid "Select Temporary Directory"
+msgstr "Выберите временный каталог"
+
+#: src/components/wallet/create/WalletCreate.jsx:108
+msgid "Select Wallet Type"
+msgstr "Выберите Тип Кошелька"
+
+#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:25
+msgid "Select the final destination for the folder where you would like the plot to be stored. We recommend you use a large slow hard drive (like external HDD)."
+msgstr "Выберите путь для конечной папки, в которой вы хотите хранить участок. Мы рекомендуем вам использовать большой медленный жесткий диск (например, внешний жесткий диск HDD)."
+
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:41
+#~ msgid "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast SSD."
+#~ msgstr "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast SSD."
+
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:41
+msgid "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast drive."
+msgstr "Выберите временное место назначения для папки, в которой вы хотите сохранить участок. Мы рекомендуем использовать быстрый диск."
+
+#: src/components/plot/add/PlotAddNFT.tsx:81
+msgid "Select your Plot NFT"
+msgstr ""
+
+#: src/components/plot/add/PlotAddNFT.tsx:72
+msgid "Select your Plot NFT from the dropdown or create a new one."
+msgstr ""
+
+#: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:61
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:77
+#: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:108
+msgid "Selected"
+msgstr "Выбран"
+
+#: src/components/plotNFT/PlotNFTExternalState.tsx:23
+#: src/components/plotNFT/PlotNFTState.tsx:57
+msgid "Self Pooling"
+msgstr ""
+
+#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:105
+msgid "Self pool. When you win a block you will earn SCM rewards."
+msgstr ""
+
+#: src/components/trading/CreateOffer.jsx:164
+#: src/components/trading/TradesTable.tsx:47
+#: src/components/trading/TradingOverview.jsx:288
+msgid "Sell"
+msgstr "Продажа"
+
+#: src/components/wallet/coloured/WalletColoured.tsx:620
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:748
+#: src/components/wallet/standard/WalletStandard.tsx:542
+msgid "Send"
+msgstr "Отправить"
+
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:460
+msgid "Send this info packet to your Rate Limited Wallet user who must use it to complete setup of their wallet:"
+msgstr "Отправьте этот информационный пакет пользователям вашего кошелька с ограниченной скоростью вывода. Эта информация потребуется пользователям для завершения настройки своего кошелька:"
+
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:279
+msgid "Send your pubkey to your Rate Limited Wallet admin:"
+msgstr "Отправьте этот публичный ключ администратору вашего кошелька с ограниченной скоростью вывода средств:"
+
+#: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:74
+msgid "Show Advanced Options"
+msgstr "Показать дополнительные опции"
+
+#: src/electron-starter.js:79
+#~ msgid "Show app"
+#~ msgstr "Show app"
+
+#: src/components/trading/CreateOffer.jsx:153
+#: src/components/trading/TradesTable.tsx:16
+msgid "Side"
+msgstr "Направление"
+
+#: src/components/selectKey/SelectKey.tsx:109
+msgid "Sign In"
+msgstr "Войти в систему"
+
+#: src/components/backup/BackupRestore.tsx:122
+#~ msgid "Skip"
+#~ msgstr ""
+
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:129
+#~ msgid "Skips adding [final dir] to harvester for farming"
+#~ msgstr "Skips adding [final dir] to harvester for farming"
+
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:195
+msgid "Skips adding a final directory to harvester for farming"
+msgstr "Пропускает добавление окончательной директории в комбайн для фермерства"
+
+#: src/components/pool/PoolHero.tsx:26
+msgid "Smooth out your SCM farming rewards by joining a pool."
+msgstr ""
+
+#: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:60
+msgid "Something went wrong"
+msgstr ""
+
+#: src/electron/main.tsx:470
+msgid "Speech"
+msgstr "Речь"
+
+#: src/components/wallet/create/createRLAdmin.jsx:230
+msgid "Spendable Amount"
+msgstr "Расходуемое количество"
+
+#: src/components/wallet/create/createRLAdmin.jsx:202
+msgid "Spendable Amount Per Interval"
+msgstr "Расходуемое количество монет за интервал"
+
+#: src/components/wallet/card/WalletCardSpendableBalance.tsx:24
+#: src/components/wallet/coloured/WalletColoured.tsx:384
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:548
+msgid "Spendable Balance"
+msgstr "Расходуемый баланс"
+
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:396
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:443
+msgid "Spending Interval (number of blocks): {interval}"
+msgstr "Интервал расходования (количество блоков): {interval}"
+
+#: src/components/wallet/create/createRLAdmin.jsx:197
+msgid "Spending Interval Length (number of blocks)"
+msgstr "Длина интервала расходования (количество блоков)"
+
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
+msgid "Spending Limit (scam per interval): {0}"
+msgstr "Лимит расходования (scam за интервал): {0}"
+
+#: src/components/fullNode/FullNode.jsx:100
+msgid "State"
+msgstr "Состояние"
+
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:59
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:67
+#: src/components/plot/overview/PlotOverviewPlots.tsx:110
+#: src/components/plotNFT/PlotExternalNFTCard.tsx:115
+#: src/components/plotNFT/PlotNFTCard.tsx:144
+#: src/components/pool/PoolOverview.tsx:44
+#: src/components/trading/TradingOverview.jsx:128
+#: src/components/wallet/WalletHistory.tsx:55
+#: src/components/wallet/Wallets.tsx:118
+#: src/components/wallet/WalletStatusCard.tsx:22
+msgid "Status"
+msgstr "Статус"
+
+#: src/components/trading/TradingOverview.jsx:179
+msgid "Status:"
+msgstr "Статус:"
+
+#: src/components/wallet/Wallets.tsx:119
+#~ msgid "StatusCard.connections"
+#~ msgstr ""
+
+#: src/components/wallet/Wallets.tsx:113
+#~ msgid "StatusCard.height"
+#~ msgstr ""
+
+#: src/components/wallet/Wallets.tsx:98
+#~ msgid "StatusCard.status"
+#~ msgstr ""
+
+#: src/components/wallet/Wallets.tsx:93
+#~ msgid "StatusCard.title"
+#~ msgstr ""
+
+#: src/components/plot/add/PlotAddNumberOfPlots.tsx:103
+#~ msgid "Stripe Size"
+#~ msgstr ""
+
+#: src/components/block/Block.jsx:199
+#~ msgid "Sub Block Height"
+#~ msgstr "Sub Block Height"
+
+#: src/components/block/Block.jsx:338
+#~ msgid "Sub Block at height {0} in the Scam blockchain"
+#~ msgstr "Sub Block at height {0} in the Scam blockchain"
+
+#: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
+msgid "Submit"
+msgstr "Подтвердить"
+
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:43
+#: src/components/wallet/WalletStatus.tsx:33
+msgid "Synced"
+msgstr "Синхронизован"
+
+#: src/components/farm/card/FarmCardStatus.tsx:18
+#: src/components/farm/FarmerStatus.tsx:19
+#: src/components/plot/PlotStatus.tsx:18
+#: src/components/wallet/WalletStatus.tsx:38
+msgid "Syncing"
+msgstr "Синхронизация"
+
+#: src/components/fullNode/card/FullNodeCardStatus.tsx:21
+msgid "Syncing <0/>/<1/>"
+msgstr "Синхронизация <0/>/<1/>"
+
+#: src/components/fullNode/FullNode.jsx:107
+#~ msgid "Syncing {progress}/{tip}"
+#~ msgstr "Syncing {progress}/{tip}"
+
+#: src/components/farm/card/FarmCardBlockRewards.tsx:15
+#~ msgid "TSCM Block Rewards"
+#~ msgstr ""
+
+#: src/components/farm/card/FarmCardCoinbaseRewards.tsx:12
+#~ msgid "TSCM Farming Rewards"
+#~ msgstr ""
+
+#: src/components/farm/card/FarmCardFeesReward.tsx:12
+#~ msgid "TSCM Fees Collected"
+#~ msgstr ""
+
+#: src/components/farm/card/FarmCardUserFees.tsx:12
+#~ msgid "TSCM User Fees"
+#~ msgstr "TSCM User Fees"
+
+#: src/components/farm/card/FarmCardUserFees.tsx:15
+#~ msgid "TSCM User Transaction Fees"
+#~ msgstr ""
+
 #: src/components/pool/PoolInfo.tsx:37
 msgid "Target Puzzle Hash"
 msgstr ""
@@ -2332,7 +2340,7 @@ msgstr ""
 #~ msgid "This table shows you the last time your farm attempted to win a block challenge."
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:49
+#: src/components/farm/FarmLastAttemptedProof.tsx:59
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr "Эта таблица показывает вам, когда ваша ферма в последний раз пыталась выиграть испытание при фарминге блока. <0>Подробнее</0>"
 
@@ -2382,13 +2390,13 @@ msgstr "Суммарное пространство сети"
 msgid "Total Plot Size:"
 msgstr "Общий объем участков:"
 
-#: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:12
-msgid "Total Size of Plots"
-msgstr "Общий объем участков"
-
 #: src/components/farm/card/FarmCardTotalScamFarmed.tsx:15
 #~ msgid "Total Scam Farmed"
 #~ msgstr ""
+
+#: src/components/farm/card/FarmCardTotalSizeOfPlots.tsx:12
+msgid "Total Size of Plots"
+msgstr "Общий объем участков"
 
 #: src/components/block/Block.jsx:225
 msgid "Total VDF Iterations"
@@ -2611,7 +2619,7 @@ msgstr "Когда вы получите пакет информации о на
 msgid "Window"
 msgstr "Окно"
 
-#: src/components/farm/card/FarmCardBlockRewards.tsx:36
+#: src/components/farm/card/FarmCardBlockRewards.tsx:37
 msgid "Without fees"
 msgstr "Без комиссии"
 
@@ -2706,13 +2714,13 @@ msgstr "[Ошибка 13] Доступ запрещен. Вы пытаетесь
 msgid "[Error 22] File not found. Most likely one of the plot folders in your config.yaml has an issue."
 msgstr "[Ошибка 22] Файл не найден. Скорее всего, один из каталогов с участками в вашем config.yaml имеет проблему."
 
-#: src/components/wallet/WalletStatusCard.tsx:41
 #: src/components/wallet/Wallets.tsx:143
+#: src/components/wallet/WalletStatusCard.tsx:41
 msgid "connections:"
 msgstr "подключения:"
 
-#: src/components/wallet/WalletStatusCard.tsx:33
 #: src/components/wallet/Wallets.tsx:135
+#: src/components/wallet/WalletStatusCard.tsx:33
 msgid "height:"
 msgstr "высота:"
 
@@ -2724,18 +2732,18 @@ msgstr "не синхр."
 msgid "p2_singleton_puzzle_hash is not defined"
 msgstr ""
 
-#: src/components/wallet/WalletStatusCard.tsx:27
 #: src/components/wallet/Wallets.tsx:123
+#: src/components/wallet/WalletStatusCard.tsx:27
 msgid "status:"
 msgstr "статус:"
 
-#: src/components/wallet/WalletStatusCard.tsx:29
 #: src/components/wallet/Wallets.tsx:128
+#: src/components/wallet/WalletStatusCard.tsx:29
 msgid "synced"
 msgstr "синхр."
 
-#: src/components/wallet/WalletStatusCard.tsx:29
 #: src/components/wallet/Wallets.tsx:127
+#: src/components/wallet/WalletStatusCard.tsx:29
 msgid "syncing"
 msgstr "синх-ция"
 
@@ -2751,11 +2759,11 @@ msgstr "синх-ция"
 msgid "{0} points {1} - {2} hours ago"
 msgstr ""
 
-#: src/components/farm/card/FarmCardBlockRewards.tsx:35
+#: src/components/farm/card/FarmCardBlockRewards.tsx:36
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Награда за блок"
 
-#: src/components/farm/card/FarmCardTotalScamFarmed.tsx:29
+#: src/components/farm/card/FarmCardTotalCovidFarmed.tsx:30
 msgid "{currencyCode} Total Scam Farmed"
 msgstr "{currencyCode} Всего Чиа выращено"
 
