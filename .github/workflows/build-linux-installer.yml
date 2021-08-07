@@ -87,7 +87,7 @@ jobs:
         cd ./scam-blockchain-gui
         git status
         cd ../build_scripts
-        sh build_linux.sh amd64
+        sh build_linux_rpm.sh amd64
 
     - name: Upload Linux artifacts
       uses: actions/upload-artifact@v2
