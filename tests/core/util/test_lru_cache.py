@@ -1,6 +1,6 @@
 import unittest
 
-from covid.util.lru_cache import LRUCache
+from scam.util.lru_cache import LRUCache
 
 
 class TestLRUCache(unittest.TestCase):

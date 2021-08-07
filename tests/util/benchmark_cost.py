@@ -4,14 +4,14 @@ from secrets import token_bytes
 from blspy import AugSchemeMPL, PrivateKey
 from clvm_tools import binutils
 
-from covid.consensus.default_constants import DEFAULT_CONSTANTS
-from covid.types.blockchain_format.program import Program, INFINITE_COST
-from covid.types.condition_opcodes import ConditionOpcode
-from covid.types.condition_with_args import ConditionWithArgs
-from covid.util.ints import uint32
+from scam.consensus.default_constants import DEFAULT_CONSTANTS
+from scam.types.blockchain_format.program import Program, INFINITE_COST
+from scam.types.condition_opcodes import ConditionOpcode
+from scam.types.condition_with_args import ConditionWithArgs
+from scam.util.ints import uint32
 from tests.wallet_tools import WalletTool
-from covid.wallet.derive_keys import master_sk_to_wallet_sk
-from covid.wallet.puzzles.p2_delegated_puzzle import puzzle_for_pk
+from scam.wallet.derive_keys import master_sk_to_wallet_sk
+from scam.wallet.puzzles.p2_delegated_puzzle import puzzle_for_pk
 
 
 def float_to_str(f):

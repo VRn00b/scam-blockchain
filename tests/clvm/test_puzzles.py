@@ -3,13 +3,13 @@ from unittest import TestCase
 
 from blspy import AugSchemeMPL, BasicSchemeMPL, G1Element, G2Element
 
-from covid.types.blockchain_format.program import Program
-from covid.types.blockchain_format.sized_bytes import bytes32
-from covid.types.coin_solution import CoinSolution
-from covid.types.spend_bundle import SpendBundle
-from covid.util.condition_tools import ConditionOpcode
-from covid.util.hash import std_hash
-from covid.wallet.puzzles import (
+from scam.types.blockchain_format.program import Program
+from scam.types.blockchain_format.sized_bytes import bytes32
+from scam.types.coin_solution import CoinSolution
+from scam.types.spend_bundle import SpendBundle
+from scam.util.condition_tools import ConditionOpcode
+from scam.util.hash import std_hash
+from scam.wallet.puzzles import (
     p2_conditions,
     p2_delegated_conditions,
     p2_delegated_puzzle,

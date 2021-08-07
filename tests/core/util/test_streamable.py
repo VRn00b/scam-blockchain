@@ -6,14 +6,14 @@ import io
 from clvm_tools import binutils
 from pytest import raises
 
-from covid.protocols.wallet_protocol import RespondRemovals
-from covid.types.blockchain_format.coin import Coin
-from covid.types.blockchain_format.program import Program
-from covid.types.blockchain_format.sized_bytes import bytes32
-from covid.types.full_block import FullBlock
-from covid.types.weight_proof import SubEpochChallengeSegment
-from covid.util.ints import uint8, uint32
-from covid.util.streamable import (
+from scam.protocols.wallet_protocol import RespondRemovals
+from scam.types.blockchain_format.coin import Coin
+from scam.types.blockchain_format.program import Program
+from scam.types.blockchain_format.sized_bytes import bytes32
+from scam.types.full_block import FullBlock
+from scam.types.weight_proof import SubEpochChallengeSegment
+from scam.util.ints import uint8, uint32
+from scam.util.streamable import (
     Streamable,
     streamable,
     parse_bool,

@@ -4,11 +4,11 @@ from secrets import token_bytes
 import aiosqlite
 import pytest
 
-from covid.types.blockchain_format.coin import Coin
-from covid.util.db_wrapper import DBWrapper
-from covid.util.ints import uint64
+from scam.types.blockchain_format.coin import Coin
+from scam.util.db_wrapper import DBWrapper
+from scam.util.ints import uint64
 
-from covid.wallet.wallet_interested_store import WalletInterestedStore
+from scam.wallet.wallet_interested_store import WalletInterestedStore
 
 
 @pytest.fixture(scope="module")

@@ -2,25 +2,25 @@
 import asyncio
 import time
 import pytest
-from covid.simulator.simulator_protocol import FarmNewBlockProtocol
-from covid.types.peer_info import PeerInfo
-from covid.util.ints import uint16, uint32, uint64
+from scam.simulator.simulator_protocol import FarmNewBlockProtocol
+from scam.types.peer_info import PeerInfo
+from scam.util.ints import uint16, uint32, uint64
 from tests.setup_nodes import setup_simulators_and_wallets
-from covid.wallet.did_wallet.did_wallet import DIDWallet
-from covid.wallet.did_wallet import did_wallet_puzzles
+from scam.wallet.did_wallet.did_wallet import DIDWallet
+from scam.wallet.did_wallet import did_wallet_puzzles
 from clvm_tools import binutils
-from covid.types.blockchain_format.program import Program
-from covid.wallet.derivation_record import DerivationRecord
-from covid.types.coin_solution import CoinSolution
+from scam.types.blockchain_format.program import Program
+from scam.wallet.derivation_record import DerivationRecord
+from scam.types.coin_solution import CoinSolution
 from blspy import AugSchemeMPL
-from covid.types.spend_bundle import SpendBundle
-from covid.wallet.transaction_record import TransactionRecord
-from covid.wallet.derive_keys import master_sk_to_wallet_sk
-from covid.consensus.block_rewards import calculate_pool_reward, calculate_base_farmer_reward
+from scam.types.spend_bundle import SpendBundle
+from scam.wallet.transaction_record import TransactionRecord
+from scam.wallet.derive_keys import master_sk_to_wallet_sk
+from scam.consensus.block_rewards import calculate_pool_reward, calculate_base_farmer_reward
 from tests.time_out_assert import time_out_assert
 from secrets import token_bytes
-from covid.wallet.util.transaction_type import TransactionType
-from covid.consensus.default_constants import DEFAULT_CONSTANTS
+from scam.wallet.util.transaction_type import TransactionType
+from scam.consensus.default_constants import DEFAULT_CONSTANTS
 
 
 @pytest.fixture(scope="module")

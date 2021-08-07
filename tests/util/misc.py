@@ -1,6 +1,6 @@
 import pytest
-from covid.util.misc import format_bytes
-from covid.util.misc import format_minutes
+from scam.util.misc import format_bytes
+from scam.util.misc import format_minutes
 
 
 class TestMisc:

@@ -6,13 +6,13 @@ from typing import List
 import aiosqlite
 import pytest
 
-from covid.consensus.blockchain import Blockchain
-from covid.consensus.constants import ConsensusConstants
-from covid.full_node.block_store import BlockStore
-from covid.full_node.coin_store import CoinStore
-from covid.types.full_block import FullBlock
-from covid.util.db_wrapper import DBWrapper
-from covid.util.path import mkdir
+from scam.consensus.blockchain import Blockchain
+from scam.consensus.constants import ConsensusConstants
+from scam.full_node.block_store import BlockStore
+from scam.full_node.coin_store import CoinStore
+from scam.types.full_block import FullBlock
+from scam.util.db_wrapper import DBWrapper
+from scam.util.path import mkdir
 from tests.setup_nodes import bt, test_constants
 
 
@@ -96,8 +96,8 @@ def persistent_blocks(
 ):
     # try loading from disc, if not create new blocks.db file
     # TODO hash fixtures.py and blocktool.py, add to path, delete if the files changed
-    block_path_dir = Path("~/.covid/blocks").expanduser()
-    file_path = Path(f"~/.covid/blocks/{db_name}").expanduser()
+    block_path_dir = Path("~/.scam/blocks").expanduser()
+    file_path = Path(f"~/.scam/blocks/{db_name}").expanduser()
     if not path.exists(block_path_dir):
         mkdir(block_path_dir.parent)
         mkdir(block_path_dir)

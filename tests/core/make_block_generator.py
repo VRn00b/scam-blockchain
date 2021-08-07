@@ -2,15 +2,15 @@ from typing import Dict
 
 import blspy
 
-from covid.full_node.bundle_tools import simple_solution_generator
-from covid.types.blockchain_format.coin import Coin
-from covid.types.blockchain_format.program import Program
-from covid.types.coin_solution import CoinSolution
-from covid.types.condition_opcodes import ConditionOpcode
-from covid.types.generator_types import BlockGenerator
-from covid.types.spend_bundle import SpendBundle
-from covid.util.ints import uint64
-from covid.wallet.puzzles.p2_delegated_puzzle_or_hidden_puzzle import puzzle_for_pk, solution_for_conditions
+from scam.full_node.bundle_tools import simple_solution_generator
+from scam.types.blockchain_format.coin import Coin
+from scam.types.blockchain_format.program import Program
+from scam.types.coin_solution import CoinSolution
+from scam.types.condition_opcodes import ConditionOpcode
+from scam.types.generator_types import BlockGenerator
+from scam.types.spend_bundle import SpendBundle
+from scam.util.ints import uint64
+from scam.wallet.puzzles.p2_delegated_puzzle_or_hidden_puzzle import puzzle_for_pk, solution_for_conditions
 
 GROUP_ORDER = 0x73EDA753299D7D483339D80809A1D80553BDA402FFFE5BFEFFFFFFFF00000001
 

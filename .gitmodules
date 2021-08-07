@@ -1,6 +1,6 @@
-[submodule "covid-blockchain-gui"]
-	path = covid-blockchain-gui
-	url = https://github.com/pinksheetscrypto/covid-blockchain-gui.git
+[submodule "scam-blockchain-gui"]
+	path = scam-blockchain-gui
+	url = https://github.com/vrn00b/scam-blockchain-gui.git
 	branch = pools
 [submodule "mozilla-ca"]
 	path = mozilla-ca

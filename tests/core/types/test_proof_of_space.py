@@ -1,7 +1,7 @@
 from secrets import token_bytes
 
-from covid.consensus.default_constants import DEFAULT_CONSTANTS
-from covid.types.blockchain_format.proof_of_space import ProofOfSpace  # pylint: disable=E0401
+from scam.consensus.default_constants import DEFAULT_CONSTANTS
+from scam.types.blockchain_format.proof_of_space import ProofOfSpace  # pylint: disable=E0401
 
 
 class TestProofOfSpace:

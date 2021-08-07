@@ -2,11 +2,11 @@ from typing import Tuple
 
 import aiosqlite
 
-from covid.consensus.blockchain import Blockchain
-from covid.consensus.constants import ConsensusConstants
-from covid.full_node.block_store import BlockStore
-from covid.full_node.coin_store import CoinStore
-from covid.util.db_wrapper import DBWrapper
+from scam.consensus.blockchain import Blockchain
+from scam.consensus.constants import ConsensusConstants
+from scam.full_node.block_store import BlockStore
+from scam.full_node.coin_store import CoinStore
+from scam.util.db_wrapper import DBWrapper
 
 
 async def create_ram_blockchain(consensus_constants: ConsensusConstants) -> Tuple[aiosqlite.Connection, Blockchain]:

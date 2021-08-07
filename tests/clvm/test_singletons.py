@@ -5,16 +5,16 @@ from unittest import TestCase
 
 from blspy import AugSchemeMPL, G1Element, G2Element, PrivateKey
 
-from covid.types.blockchain_format.program import Program
-from covid.types.blockchain_format.sized_bytes import bytes32
-from covid.types.blockchain_format.coin import Coin
-from covid.types.coin_solution import CoinSolution
-from covid.types.spend_bundle import SpendBundle
-from covid.util.condition_tools import ConditionOpcode
-from covid.util.ints import uint64
-from covid.consensus.default_constants import DEFAULT_CONSTANTS
-from covid.wallet.lineage_proof import LineageProof
-from covid.wallet.puzzles import (
+from scam.types.blockchain_format.program import Program
+from scam.types.blockchain_format.sized_bytes import bytes32
+from scam.types.blockchain_format.coin import Coin
+from scam.types.coin_solution import CoinSolution
+from scam.types.spend_bundle import SpendBundle
+from scam.util.condition_tools import ConditionOpcode
+from scam.util.ints import uint64
+from scam.consensus.default_constants import DEFAULT_CONSTANTS
+from scam.wallet.lineage_proof import LineageProof
+from scam.wallet.puzzles import (
     p2_conditions,
     p2_delegated_puzzle_or_hidden_puzzle,
     singleton_top_layer,
@@ -29,10 +29,10 @@ from .coin_store import CoinStore, CoinTimestamp, BadSpendBundleError
 
 """
 This test suite aims to test:
-    - covid.wallet.puzzles.singleton_top_layer.py
-    - covid.wallet.puzzles.singleton_top_layer.clvm
-    - covid.wallet.puzzles.p2_singleton.clvm
-    - covid.wallet.puzzles.p2_singleton_or_delayed_puzhash.clvm
+    - scam.wallet.puzzles.singleton_top_layer.py
+    - scam.wallet.puzzles.singleton_top_layer.clvm
+    - scam.wallet.puzzles.p2_singleton.clvm
+    - scam.wallet.puzzles.p2_singleton_or_delayed_puzhash.clvm
 """
 
 T1 = CoinTimestamp(1, 10000000)

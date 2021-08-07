@@ -1,23 +1,23 @@
 import asyncio
-from covid.util.config import load_config, save_config
+from scam.util.config import load_config, save_config
 import logging
 from pathlib import Path
 
 import pytest
 
-from covid.consensus.block_rewards import calculate_base_farmer_reward, calculate_pool_reward
-from covid.rpc.full_node_rpc_api import FullNodeRpcApi
-from covid.rpc.full_node_rpc_client import FullNodeRpcClient
-from covid.rpc.rpc_server import start_rpc_server
-from covid.rpc.wallet_rpc_api import WalletRpcApi
-from covid.rpc.wallet_rpc_client import WalletRpcClient
-from covid.simulator.simulator_protocol import FarmNewBlockProtocol
-from covid.types.peer_info import PeerInfo
-from covid.util.bech32m import encode_puzzle_hash
-from covid.consensus.coinbase import create_puzzlehash_for_pk
-from covid.wallet.derive_keys import master_sk_to_wallet_sk
-from covid.util.ints import uint16, uint32
-from covid.wallet.transaction_record import TransactionRecord
+from scam.consensus.block_rewards import calculate_base_farmer_reward, calculate_pool_reward
+from scam.rpc.full_node_rpc_api import FullNodeRpcApi
+from scam.rpc.full_node_rpc_client import FullNodeRpcClient
+from scam.rpc.rpc_server import start_rpc_server
+from scam.rpc.wallet_rpc_api import WalletRpcApi
+from scam.rpc.wallet_rpc_client import WalletRpcClient
+from scam.simulator.simulator_protocol import FarmNewBlockProtocol
+from scam.types.peer_info import PeerInfo
+from scam.util.bech32m import encode_puzzle_hash
+from scam.consensus.coinbase import create_puzzlehash_for_pk
+from scam.wallet.derive_keys import master_sk_to_wallet_sk
+from scam.util.ints import uint16, uint32
+from scam.wallet.transaction_record import TransactionRecord
 from tests.setup_nodes import bt, setup_simulators_and_wallets, self_hostname
 from tests.time_out_assert import time_out_assert
 
@@ -98,7 +98,7 @@ class TestWalletRpc:
         client = await WalletRpcClient.create(self_hostname, test_rpc_port, bt.root_path, config)
         client_node = await FullNodeRpcClient.create(self_hostname, test_rpc_port_node, bt.root_path, config)
         try:
-            addr = encode_puzzle_hash(await wallet_node_2.wallet_state_manager.main_wallet.get_new_puzzlehash(), "cov")
+            addr = encode_puzzle_hash(await wallet_node_2.wallet_state_manager.main_wallet.get_new_puzzlehash(), "scm")
             tx_amount = 15600000
             try:
                 await client.send_transaction("1", 100000000000000001, addr)
@@ -150,7 +150,7 @@ class TestWalletRpc:
             ] == initial_funds_eventually - tx_amount
 
             for i in range(0, 5):
-                await client.farm_block(encode_puzzle_hash(ph_2, "cov"))
+                await client.farm_block(encode_puzzle_hash(ph_2, "scm"))
                 await asyncio.sleep(0.5)
 
             await time_out_assert(5, eventual_balance, initial_funds_eventually - tx_amount - signed_tx_amount)
@@ -177,7 +177,7 @@ class TestWalletRpc:
             push_res = await client_node.push_tx(tx_res.spend_bundle)
             assert push_res["success"]
             for i in range(0, 5):
-                await client.farm_block(encode_puzzle_hash(ph_2, "cov"))
+                await client.farm_block(encode_puzzle_hash(ph_2, "scm"))
                 await asyncio.sleep(0.5)
 
             new_balance = initial_funds_eventually - tx_amount - signed_tx_amount - 444 - 999 - 100
@@ -199,7 +199,7 @@ class TestWalletRpc:
 
             await asyncio.sleep(3)
             for i in range(0, 5):
-                await client.farm_block(encode_puzzle_hash(ph_2, "cov"))
+                await client.farm_block(encode_puzzle_hash(ph_2, "scm"))
                 await asyncio.sleep(0.5)
 
             new_balance = new_balance - 555 - 666 - 200
@@ -250,11 +250,11 @@ class TestWalletRpc:
             sk = wallet_node.get_key_for_fingerprint(pks[0])
             test_ph = create_puzzlehash_for_pk(master_sk_to_wallet_sk(sk, uint32(0)).get_g1())
             test_config = load_config(wallet_node.root_path, "config.yaml")
-            test_config["farmer"]["cov_target_address"] = encode_puzzle_hash(test_ph, "tcov")
+            test_config["farmer"]["scm_target_address"] = encode_puzzle_hash(test_ph, "tscm")
             # set pool to second private key
             sk = wallet_node.get_key_for_fingerprint(pks[1])
             test_ph = create_puzzlehash_for_pk(master_sk_to_wallet_sk(sk, uint32(0)).get_g1())
-            test_config["pool"]["cov_target_address"] = encode_puzzle_hash(test_ph, "tcov")
+            test_config["pool"]["scm_target_address"] = encode_puzzle_hash(test_ph, "tscm")
             save_config(wallet_node.root_path, "config.yaml", test_config)
 
             # Check first key

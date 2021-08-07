@@ -14,72 +14,72 @@ from typing import Callable, Dict, List, Optional, Tuple, Any
 from blspy import AugSchemeMPL, G1Element, G2Element, PrivateKey
 from chiabip158 import PyBIP158
 
-from covid.cmds.init_funcs import create_all_ssl, create_default_covid_config
-from covid.full_node.bundle_tools import (
+from scam.cmds.init_funcs import create_all_ssl, create_default_scam_config
+from scam.full_node.bundle_tools import (
     best_solution_generator_from_template,
     detect_potential_template_generator,
     simple_solution_generator,
 )
-from covid.util.errors import Err
-from covid.full_node.generator import setup_generator_args
-from covid.full_node.mempool_check_conditions import GENERATOR_MOD
-from covid.plotting.create_plots import create_plots
-from covid.consensus.block_creation import unfinished_block_to_full_block
-from covid.consensus.block_record import BlockRecord
-from covid.consensus.block_rewards import calculate_base_farmer_reward, calculate_pool_reward
-from covid.consensus.blockchain_interface import BlockchainInterface
-from covid.consensus.coinbase import create_puzzlehash_for_pk, create_farmer_coin, create_pool_coin
-from covid.consensus.constants import ConsensusConstants
-from covid.consensus.default_constants import DEFAULT_CONSTANTS
-from covid.consensus.deficit import calculate_deficit
-from covid.consensus.full_block_to_block_record import block_to_block_record
-from covid.consensus.make_sub_epoch_summary import next_sub_epoch_summary
-from covid.consensus.cost_calculator import NPCResult, calculate_cost_of_program
-from covid.consensus.pot_iterations import (
+from scam.util.errors import Err
+from scam.full_node.generator import setup_generator_args
+from scam.full_node.mempool_check_conditions import GENERATOR_MOD
+from scam.plotting.create_plots import create_plots
+from scam.consensus.block_creation import unfinished_block_to_full_block
+from scam.consensus.block_record import BlockRecord
+from scam.consensus.block_rewards import calculate_base_farmer_reward, calculate_pool_reward
+from scam.consensus.blockchain_interface import BlockchainInterface
+from scam.consensus.coinbase import create_puzzlehash_for_pk, create_farmer_coin, create_pool_coin
+from scam.consensus.constants import ConsensusConstants
+from scam.consensus.default_constants import DEFAULT_CONSTANTS
+from scam.consensus.deficit import calculate_deficit
+from scam.consensus.full_block_to_block_record import block_to_block_record
+from scam.consensus.make_sub_epoch_summary import next_sub_epoch_summary
+from scam.consensus.cost_calculator import NPCResult, calculate_cost_of_program
+from scam.consensus.pot_iterations import (
     calculate_ip_iters,
     calculate_iterations_quality,
     calculate_sp_interval_iters,
     calculate_sp_iters,
     is_overflow_block,
 )
-from covid.consensus.vdf_info_computation import get_signage_point_vdf_info
-from covid.full_node.signage_point import SignagePoint
-from covid.plotting.plot_tools import PlotInfo, load_plots, parse_plot_info
-from covid.types.blockchain_format.classgroup import ClassgroupElement
-from covid.types.blockchain_format.coin import Coin, hash_coin_list
-from covid.types.blockchain_format.foliage import Foliage, FoliageBlockData, FoliageTransactionBlock, TransactionsInfo
-from covid.types.blockchain_format.pool_target import PoolTarget
-from covid.types.blockchain_format.proof_of_space import ProofOfSpace
-from covid.types.blockchain_format.reward_chain_block import RewardChainBlockUnfinished
-from covid.types.blockchain_format.sized_bytes import bytes32
-from covid.types.blockchain_format.slots import (
+from scam.consensus.vdf_info_computation import get_signage_point_vdf_info
+from scam.full_node.signage_point import SignagePoint
+from scam.plotting.plot_tools import PlotInfo, load_plots, parse_plot_info
+from scam.types.blockchain_format.classgroup import ClassgroupElement
+from scam.types.blockchain_format.coin import Coin, hash_coin_list
+from scam.types.blockchain_format.foliage import Foliage, FoliageBlockData, FoliageTransactionBlock, TransactionsInfo
+from scam.types.blockchain_format.pool_target import PoolTarget
+from scam.types.blockchain_format.proof_of_space import ProofOfSpace
+from scam.types.blockchain_format.reward_chain_block import RewardChainBlockUnfinished
+from scam.types.blockchain_format.sized_bytes import bytes32
+from scam.types.blockchain_format.slots import (
     ChallengeChainSubSlot,
     InfusedChallengeChainSubSlot,
     RewardChainSubSlot,
     SubSlotProofs,
 )
-from covid.types.blockchain_format.sub_epoch_summary import SubEpochSummary
-from covid.types.blockchain_format.vdf import VDFInfo, VDFProof
-from covid.types.condition_with_args import ConditionWithArgs
-from covid.types.end_of_slot_bundle import EndOfSubSlotBundle
-from covid.types.full_block import FullBlock
-from covid.types.generator_types import BlockGenerator, CompressorArg
-from covid.types.spend_bundle import SpendBundle
-from covid.types.unfinished_block import UnfinishedBlock
-from covid.types.name_puzzle_condition import NPC
-from covid.util.bech32m import encode_puzzle_hash
-from covid.util.block_cache import BlockCache
-from covid.util.condition_tools import ConditionOpcode, conditions_by_opcode
-from covid.util.config import load_config, save_config
-from covid.util.hash import std_hash
-from covid.util.ints import uint8, uint16, uint32, uint64, uint128
-from covid.util.keychain import Keychain, bytes_to_mnemonic
-from covid.util.merkle_set import MerkleSet
-from covid.util.prev_transaction_block import get_prev_transaction_block
-from covid.util.path import mkdir
-from covid.util.vdf_prover import get_vdf_info_and_proof
+from scam.types.blockchain_format.sub_epoch_summary import SubEpochSummary
+from scam.types.blockchain_format.vdf import VDFInfo, VDFProof
+from scam.types.condition_with_args import ConditionWithArgs
+from scam.types.end_of_slot_bundle import EndOfSubSlotBundle
+from scam.types.full_block import FullBlock
+from scam.types.generator_types import BlockGenerator, CompressorArg
+from scam.types.spend_bundle import SpendBundle
+from scam.types.unfinished_block import UnfinishedBlock
+from scam.types.name_puzzle_condition import NPC
+from scam.util.bech32m import encode_puzzle_hash
+from scam.util.block_cache import BlockCache
+from scam.util.condition_tools import ConditionOpcode, conditions_by_opcode
+from scam.util.config import load_config, save_config
+from scam.util.hash import std_hash
+from scam.util.ints import uint8, uint16, uint32, uint64, uint128
+from scam.util.keychain import Keychain, bytes_to_mnemonic
+from scam.util.merkle_set import MerkleSet
+from scam.util.prev_transaction_block import get_prev_transaction_block
+from scam.util.path import mkdir
+from scam.util.vdf_prover import get_vdf_info_and_proof
 from tests.wallet_tools import WalletTool
-from covid.wallet.derive_keys import (
+from scam.wallet.derive_keys import (
     master_sk_to_farmer_sk,
     master_sk_to_local_sk,
     master_sk_to_pool_sk,
@@ -131,7 +131,7 @@ class BlockTools:
             root_path = Path(self._tempdir.name)
 
         self.root_path = root_path
-        create_default_covid_config(root_path)
+        create_default_scam_config(root_path)
         self.keychain = Keychain("testing-1.8.0", True)
         self.keychain.delete_all_keys()
         self.farmer_master_sk_entropy = std_hash(b"block_tools farmer key")
@@ -155,7 +155,7 @@ class BlockTools:
 
         self.farmer_pubkeys: List[G1Element] = [master_sk_to_farmer_sk(sk).get_g1() for sk in self.all_sks]
         if len(self.pool_pubkeys) == 0 or len(self.farmer_pubkeys) == 0:
-            raise RuntimeError("Keys not generated. Run `covid generate keys`")
+            raise RuntimeError("Keys not generated. Run `scam generate keys`")
 
         self.load_plots()
         self.local_sk_cache: Dict[bytes32, Tuple[PrivateKey, Any]] = {}
@@ -223,7 +223,7 @@ class BlockTools:
             )
             # Create more plots, but to a pool address instead of public key
             args.pool_public_key = None
-            args.pool_contract_address = encode_puzzle_hash(self.pool_ph, "cov")
+            args.pool_contract_address = encode_puzzle_hash(self.pool_ph, "scm")
             args.num = num_pool_address_plots
             create_plots(
                 args,
@@ -1219,7 +1219,7 @@ def get_challenges(
 
 
 def get_plot_dir() -> Path:
-    cache_path = Path(os.path.expanduser(os.getenv("COVID_ROOT", "~/.covid/"))) / "test-plots"
+    cache_path = Path(os.path.expanduser(os.getenv("SCAM_ROOT", "~/.scam/"))) / "test-plots"
     mkdir(cache_path)
     return cache_path
 

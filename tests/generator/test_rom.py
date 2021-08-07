@@ -3,23 +3,23 @@ from unittest import TestCase
 from clvm_tools import binutils
 from clvm_tools.clvmc import compile_clvm_text
 
-from covid.full_node.generator import run_generator
-from covid.full_node.mempool_check_conditions import get_name_puzzle_conditions
-from covid.types.blockchain_format.program import Program, SerializedProgram
-from covid.types.blockchain_format.sized_bytes import bytes32
-from covid.types.condition_with_args import ConditionWithArgs
-from covid.types.name_puzzle_condition import NPC
-from covid.types.generator_types import BlockGenerator, GeneratorArg
-from covid.util.clvm import int_to_bytes
-from covid.util.condition_tools import ConditionOpcode
-from covid.util.ints import uint32
-from covid.wallet.puzzles.load_clvm import load_clvm
+from scam.full_node.generator import run_generator
+from scam.full_node.mempool_check_conditions import get_name_puzzle_conditions
+from scam.types.blockchain_format.program import Program, SerializedProgram
+from scam.types.blockchain_format.sized_bytes import bytes32
+from scam.types.condition_with_args import ConditionWithArgs
+from scam.types.name_puzzle_condition import NPC
+from scam.types.generator_types import BlockGenerator, GeneratorArg
+from scam.util.clvm import int_to_bytes
+from scam.util.condition_tools import ConditionOpcode
+from scam.util.ints import uint32
+from scam.wallet.puzzles.load_clvm import load_clvm
 
 MAX_COST = int(1e15)
 COST_PER_BYTE = int(12000)
 
 
-DESERIALIZE_MOD = load_clvm("chialisp_deserialisation.clvm", package_or_requirement="covid.wallet.puzzles")
+DESERIALIZE_MOD = load_clvm("chialisp_deserialisation.clvm", package_or_requirement="scam.wallet.puzzles")
 
 
 GENERATOR_CODE = """

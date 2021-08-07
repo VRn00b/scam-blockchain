@@ -3,18 +3,18 @@ from typing import List
 
 import pytest
 
-from covid.consensus.block_rewards import calculate_base_farmer_reward, calculate_pool_reward
-from covid.full_node.mempool_manager import MempoolManager
-from covid.simulator.simulator_protocol import FarmNewBlockProtocol
-from covid.types.blockchain_format.coin import Coin
-from covid.types.blockchain_format.sized_bytes import bytes32
-from covid.types.peer_info import PeerInfo
-from covid.util.ints import uint16, uint32, uint64
-from covid.wallet.cc_wallet.cc_utils import cc_puzzle_hash_for_inner_puzzle_hash
-from covid.wallet.cc_wallet.cc_wallet import CCWallet
-from covid.wallet.puzzles.cc_loader import CC_MOD
-from covid.wallet.transaction_record import TransactionRecord
-from covid.wallet.wallet_coin_record import WalletCoinRecord
+from scam.consensus.block_rewards import calculate_base_farmer_reward, calculate_pool_reward
+from scam.full_node.mempool_manager import MempoolManager
+from scam.simulator.simulator_protocol import FarmNewBlockProtocol
+from scam.types.blockchain_format.coin import Coin
+from scam.types.blockchain_format.sized_bytes import bytes32
+from scam.types.peer_info import PeerInfo
+from scam.util.ints import uint16, uint32, uint64
+from scam.wallet.cc_wallet.cc_utils import cc_puzzle_hash_for_inner_puzzle_hash
+from scam.wallet.cc_wallet.cc_wallet import CCWallet
+from scam.wallet.puzzles.cc_loader import CC_MOD
+from scam.wallet.transaction_record import TransactionRecord
+from scam.wallet.wallet_coin_record import WalletCoinRecord
 from tests.setup_nodes import setup_simulators_and_wallets
 from tests.time_out_assert import time_out_assert
 

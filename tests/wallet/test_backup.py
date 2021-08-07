@@ -4,12 +4,12 @@
 #
 # import pytest
 #
-# from covid.consensus.block_rewards import calculate_pool_reward, calculate_base_farmer_reward
-# from covid.simulator.simulator_protocol import FarmNewBlockProtocol
-# from covid.types.peer_info import PeerInfo
-# from covid.util.ints import uint16, uint32, uint64
+# from scam.consensus.block_rewards import calculate_pool_reward, calculate_base_farmer_reward
+# from scam.simulator.simulator_protocol import FarmNewBlockProtocol
+# from scam.types.peer_info import PeerInfo
+# from scam.util.ints import uint16, uint32, uint64
 # from tests.setup_nodes import setup_simulators_and_wallets
-# from covid.wallet.cc_wallet.cc_wallet import CCWallet
+# from scam.wallet.cc_wallet.cc_wallet import CCWallet
 # from tests.time_out_assert import time_out_assert
 #
 #

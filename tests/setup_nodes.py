@@ -4,24 +4,24 @@ import signal
 from secrets import token_bytes
 from typing import Dict, List, Optional
 
-from covid.consensus.constants import ConsensusConstants
-from covid.daemon.server import WebSocketServer, create_server_for_daemon, daemon_launch_lock_path, singleton
-from covid.full_node.full_node_api import FullNodeAPI
-from covid.server.start_farmer import service_kwargs_for_farmer
-from covid.server.start_full_node import service_kwargs_for_full_node
-from covid.server.start_harvester import service_kwargs_for_harvester
-from covid.server.start_introducer import service_kwargs_for_introducer
-from covid.server.start_service import Service
-from covid.server.start_timelord import service_kwargs_for_timelord
-from covid.server.start_wallet import service_kwargs_for_wallet
-from covid.simulator.start_simulator import service_kwargs_for_full_node_simulator
-from covid.timelord.timelord_launcher import kill_processes, spawn_process
-from covid.types.peer_info import PeerInfo
-from covid.util.bech32m import encode_puzzle_hash
+from scam.consensus.constants import ConsensusConstants
+from scam.daemon.server import WebSocketServer, create_server_for_daemon, daemon_launch_lock_path, singleton
+from scam.full_node.full_node_api import FullNodeAPI
+from scam.server.start_farmer import service_kwargs_for_farmer
+from scam.server.start_full_node import service_kwargs_for_full_node
+from scam.server.start_harvester import service_kwargs_for_harvester
+from scam.server.start_introducer import service_kwargs_for_introducer
+from scam.server.start_service import Service
+from scam.server.start_timelord import service_kwargs_for_timelord
+from scam.server.start_wallet import service_kwargs_for_wallet
+from scam.simulator.start_simulator import service_kwargs_for_full_node_simulator
+from scam.timelord.timelord_launcher import kill_processes, spawn_process
+from scam.types.peer_info import PeerInfo
+from scam.util.bech32m import encode_puzzle_hash
 from tests.block_tools import BlockTools, test_constants
-from covid.util.hash import std_hash
-from covid.util.ints import uint16, uint32
-from covid.util.keychain import Keychain, bytes_to_mnemonic
+from scam.util.hash import std_hash
+from scam.util.ints import uint16, uint32
+from scam.util.keychain import Keychain, bytes_to_mnemonic
 from tests.time_out_assert import time_out_assert_custom_interval
 
 bt = BlockTools(constants=test_constants)
@@ -207,10 +207,10 @@ async def setup_farmer(
     config = bt.config["farmer"]
     config_pool = bt.config["pool"]
 
-    config["cov_target_address"] = encode_puzzle_hash(b_tools.farmer_ph, "cov")
+    config["scm_target_address"] = encode_puzzle_hash(b_tools.farmer_ph, "scm")
     config["pool_public_keys"] = [bytes(pk).hex() for pk in b_tools.pool_pubkeys]
     config["port"] = port
-    config_pool["cov_target_address"] = encode_puzzle_hash(b_tools.pool_ph, "cov")
+    config_pool["scm_target_address"] = encode_puzzle_hash(b_tools.pool_ph, "scm")
 
     if full_node_port:
         config["full_node_peer"]["host"] = self_hostname

@@ -6,13 +6,13 @@ from typing import List
 
 import pytest
 
-from covid.full_node.weight_proof import _validate_sub_epoch_summaries
-from covid.protocols import full_node_protocol
-from covid.types.blockchain_format.sub_epoch_summary import SubEpochSummary
-from covid.types.full_block import FullBlock
-from covid.types.peer_info import PeerInfo
-from covid.util.hash import std_hash
-from covid.util.ints import uint16
+from scam.full_node.weight_proof import _validate_sub_epoch_summaries
+from scam.protocols import full_node_protocol
+from scam.types.blockchain_format.sub_epoch_summary import SubEpochSummary
+from scam.types.full_block import FullBlock
+from scam.types.peer_info import PeerInfo
+from scam.util.hash import std_hash
+from scam.util.ints import uint16
 from tests.core.fixtures import default_400_blocks, default_1000_blocks, default_10000_blocks, empty_blockchain
 from tests.core.node_height import node_height_exactly, node_height_between
 from tests.setup_nodes import bt, self_hostname, setup_n_nodes, setup_two_nodes, test_constants

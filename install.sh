@@ -18,9 +18,9 @@ fi
 if [ "$(uname -m)" = "armv7l" ]; then
   echo ""
 	echo "WARNING:"
-	echo "The Covid Blockchain requires a 64 bit OS and this is 32 bit armv7l"
+	echo "The Scam Blockchain requires a 64 bit OS and this is 32 bit armv7l"
 	echo "For more information, see"
-	echo "https://github.com/pinksheetscrypto/covid-blockchain/wiki/Raspberry-Pi"
+	echo "https://github.com/vrn00b/scam-blockchain/wiki/Raspberry-Pi"
 	echo "Exiting."
 	exit 1
 fi
@@ -120,13 +120,13 @@ python -m pip install --extra-index-url https://pypi.chia.net/simple/ miniupnpc=
 python -m pip install -e . --extra-index-url https://pypi.chia.net/simple/
 
 echo ""
-echo "Covid blockchain install.sh complete."
+echo "Scam blockchain install.sh complete."
 echo "For assistance join us on Discord in the #testnet chat channel:"
 echo "https://discord.gg/TgJyxsEFFc"
 echo ""
-echo "Try the Quick Start Guide to running covid-blockchain:"
-echo "https://github.com/pinksheetscrypto/covid-blockchain/wiki/Quick-Start-Guide"
+echo "Try the Quick Start Guide to running scam-blockchain:"
+echo "https://github.com/vrn00b/scam-blockchain/wiki/Quick-Start-Guide"
 echo ""
 echo "To install the GUI type 'sh install-gui.sh' after '. ./activate'."
 echo ""
-echo "Type '. ./activate' and then 'covid init' to begin."
+echo "Type '. ./activate' and then 'scam init' to begin."

@@ -5,15 +5,15 @@ from typing import List
 import pytest
 from blspy import PrivateKey
 
-from covid.pools.pool_wallet import PoolWallet
-from covid.pools.pool_wallet_info import PoolState, FARMING_TO_POOL
-from covid.simulator.simulator_protocol import FarmNewBlockProtocol
-from covid.types.coin_solution import CoinSolution
-from covid.types.full_block import FullBlock
-from covid.types.peer_info import PeerInfo
-from covid.util.ints import uint16, uint32
-from covid.wallet.derive_keys import master_sk_to_singleton_owner_sk
-from covid.wallet.wallet_state_manager import WalletStateManager
+from scam.pools.pool_wallet import PoolWallet
+from scam.pools.pool_wallet_info import PoolState, FARMING_TO_POOL
+from scam.simulator.simulator_protocol import FarmNewBlockProtocol
+from scam.types.coin_solution import CoinSolution
+from scam.types.full_block import FullBlock
+from scam.types.peer_info import PeerInfo
+from scam.util.ints import uint16, uint32
+from scam.wallet.derive_keys import master_sk_to_singleton_owner_sk
+from scam.wallet.wallet_state_manager import WalletStateManager
 from tests.setup_nodes import self_hostname, setup_simulators_and_wallets
 
 

@@ -6,22 +6,22 @@ from typing import Dict, List, Optional, Tuple
 import aiosqlite
 import pytest
 
-from covid.consensus.block_header_validation import validate_finished_header_block
-from covid.consensus.block_record import BlockRecord
-from covid.consensus.blockchain import Blockchain
-from covid.consensus.default_constants import DEFAULT_CONSTANTS
-from covid.consensus.difficulty_adjustment import get_next_sub_slot_iters_and_difficulty
-from covid.consensus.full_block_to_block_record import block_to_block_record
-from covid.full_node.block_store import BlockStore
-from covid.full_node.coin_store import CoinStore
-from covid.server.start_full_node import SERVICE_NAME
-from covid.types.blockchain_format.sized_bytes import bytes32
-from covid.types.blockchain_format.sub_epoch_summary import SubEpochSummary
-from covid.util.block_cache import BlockCache
+from scam.consensus.block_header_validation import validate_finished_header_block
+from scam.consensus.block_record import BlockRecord
+from scam.consensus.blockchain import Blockchain
+from scam.consensus.default_constants import DEFAULT_CONSTANTS
+from scam.consensus.difficulty_adjustment import get_next_sub_slot_iters_and_difficulty
+from scam.consensus.full_block_to_block_record import block_to_block_record
+from scam.full_node.block_store import BlockStore
+from scam.full_node.coin_store import CoinStore
+from scam.server.start_full_node import SERVICE_NAME
+from scam.types.blockchain_format.sized_bytes import bytes32
+from scam.types.blockchain_format.sub_epoch_summary import SubEpochSummary
+from scam.util.block_cache import BlockCache
 from tests.block_tools import test_constants
-from covid.util.config import load_config
-from covid.util.default_root import DEFAULT_ROOT_PATH
-from covid.util.generator_tools import get_block_header
+from scam.util.config import load_config
+from scam.util.default_root import DEFAULT_ROOT_PATH
+from scam.util.generator_tools import get_block_header
 from tests.setup_nodes import bt
 
 try:
@@ -30,16 +30,16 @@ except ImportError:
     pass
 
 
-from covid.consensus.pot_iterations import calculate_iterations_quality
-from covid.full_node.weight_proof import (  # type: ignore
+from scam.consensus.pot_iterations import calculate_iterations_quality
+from scam.full_node.weight_proof import (  # type: ignore
     WeightProofHandler,
     _map_sub_epoch_summaries,
     _validate_sub_epoch_segments,
     _validate_summaries_weight,
 )
-from covid.types.full_block import FullBlock
-from covid.types.header_block import HeaderBlock
-from covid.util.ints import uint32, uint64
+from scam.types.full_block import FullBlock
+from scam.types.header_block import HeaderBlock
+from scam.util.ints import uint32, uint64
 from tests.core.fixtures import (
     default_400_blocks,
     default_1000_blocks,

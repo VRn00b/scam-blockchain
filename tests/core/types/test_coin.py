@@ -1,7 +1,7 @@
-from covid.types.blockchain_format.coin import Coin
-from covid.types.blockchain_format.sized_bytes import bytes32
-from covid.util.ints import uint64
-from covid.util.hash import std_hash
+from scam.types.blockchain_format.coin import Coin
+from scam.types.blockchain_format.sized_bytes import bytes32
+from scam.util.ints import uint64
+from scam.util.hash import std_hash
 import io
 
 

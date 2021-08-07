@@ -84,7 +84,7 @@ jobs:
         . ./activate
         sudo apt-get -y install rpm
         ldd --version
-        cd ./covid-blockchain-gui
+        cd ./scam-blockchain-gui
         git status
         cd ../build_scripts
         sh build_linux.sh amd64

@@ -14,18 +14,18 @@ from blspy import G2Element
 
 from clvm_tools.binutils import assemble
 
-from covid.consensus.blockchain import ReceiveBlockResult
-from covid.consensus.constants import ConsensusConstants
-from covid.types.announcement import Announcement
-from covid.types.blockchain_format.program import Program
-from covid.types.coin_record import CoinRecord
-from covid.types.coin_solution import CoinSolution
-from covid.types.condition_opcodes import ConditionOpcode
-from covid.types.full_block import FullBlock
-from covid.types.spend_bundle import SpendBundle
+from scam.consensus.blockchain import ReceiveBlockResult
+from scam.consensus.constants import ConsensusConstants
+from scam.types.announcement import Announcement
+from scam.types.blockchain_format.program import Program
+from scam.types.coin_record import CoinRecord
+from scam.types.coin_solution import CoinSolution
+from scam.types.condition_opcodes import ConditionOpcode
+from scam.types.full_block import FullBlock
+from scam.types.spend_bundle import SpendBundle
 from tests.block_tools import BlockTools, test_constants
-from covid.util.errors import Err
-from covid.util.ints import uint32
+from scam.util.errors import Err
+from scam.util.ints import uint32
 
 from .ram_db import create_ram_blockchain
 

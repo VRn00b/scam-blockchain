@@ -8,14 +8,14 @@ import aiosqlite
 import pytest
 from clvm_tools import binutils
 
-from covid.types.blockchain_format.coin import Coin
-from covid.types.blockchain_format.program import Program, SerializedProgram
-from covid.types.blockchain_format.sized_bytes import bytes32
-from covid.types.coin_solution import CoinSolution
-from covid.util.db_wrapper import DBWrapper
-from covid.util.ints import uint64
+from scam.types.blockchain_format.coin import Coin
+from scam.types.blockchain_format.program import Program, SerializedProgram
+from scam.types.blockchain_format.sized_bytes import bytes32
+from scam.types.coin_solution import CoinSolution
+from scam.util.db_wrapper import DBWrapper
+from scam.util.ints import uint64
 
-from covid.wallet.wallet_pool_store import WalletPoolStore
+from scam.wallet.wallet_pool_store import WalletPoolStore
 
 log = logging.getLogger(__name__)
 

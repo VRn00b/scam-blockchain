@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from covid.types.blockchain_format.program import Program, SerializedProgram, INFINITE_COST
-from covid.wallet.puzzles.load_clvm import load_clvm
+from scam.types.blockchain_format.program import Program, SerializedProgram, INFINITE_COST
+from scam.wallet.puzzles.load_clvm import load_clvm
 
 SHA256TREE_MOD = load_clvm("sha256tree_module.clvm")
 

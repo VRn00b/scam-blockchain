@@ -1,15 +1,15 @@
 from pytest import raises
 
-from covid.consensus.default_constants import DEFAULT_CONSTANTS
-from covid.consensus.pos_quality import _expected_plot_size
-from covid.consensus.pot_iterations import (
+from scam.consensus.default_constants import DEFAULT_CONSTANTS
+from scam.consensus.pos_quality import _expected_plot_size
+from scam.consensus.pot_iterations import (
     calculate_ip_iters,
     calculate_iterations_quality,
     calculate_sp_iters,
     is_overflow_block,
 )
-from covid.util.hash import std_hash
-from covid.util.ints import uint8, uint64
+from scam.util.hash import std_hash
+from scam.util.ints import uint8, uint64
 
 test_constants = DEFAULT_CONSTANTS.replace(**{"NUM_SPS_SUB_SLOT": 32, "SUB_SLOT_TIME_TARGET": 300})
 

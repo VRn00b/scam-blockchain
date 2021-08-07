@@ -1,11 +1,11 @@
 from typing import List, Tuple
 
-from covid.full_node.mempool_check_conditions import get_name_puzzle_conditions
-from covid.types.blockchain_format.coin import Coin
-from covid.types.blockchain_format.sized_bytes import bytes32
-from covid.types.full_block import FullBlock
-from covid.types.generator_types import BlockGenerator
-from covid.util.generator_tools import additions_for_npc
+from scam.full_node.mempool_check_conditions import get_name_puzzle_conditions
+from scam.types.blockchain_format.coin import Coin
+from scam.types.blockchain_format.sized_bytes import bytes32
+from scam.types.full_block import FullBlock
+from scam.types.generator_types import BlockGenerator
+from scam.util.generator_tools import additions_for_npc
 
 
 def run_and_get_removals_and_additions(

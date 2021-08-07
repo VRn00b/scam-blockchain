@@ -2,8 +2,8 @@ import unittest
 from dataclasses import dataclass
 from typing import Dict, List, Optional, Tuple
 
-from covid.util.ints import uint8
-from covid.util.type_checking import is_type_List, is_type_SpecificOptional, strictdataclass
+from scam.util.ints import uint8
+from scam.util.type_checking import is_type_List, is_type_SpecificOptional, strictdataclass
 
 
 class TestIsTypeList(unittest.TestCase):

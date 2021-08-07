@@ -9,14 +9,14 @@ from typing import Dict
 import pytest
 import cProfile
 
-from covid.consensus.block_record import BlockRecord
-from covid.full_node.full_node_api import FullNodeAPI
-from covid.protocols import full_node_protocol as fnp
-from covid.types.condition_opcodes import ConditionOpcode
-from covid.types.condition_with_args import ConditionWithArgs
-from covid.types.unfinished_block import UnfinishedBlock
-from covid.util.clvm import int_to_bytes
-from covid.util.ints import uint64
+from scam.consensus.block_record import BlockRecord
+from scam.full_node.full_node_api import FullNodeAPI
+from scam.protocols import full_node_protocol as fnp
+from scam.types.condition_opcodes import ConditionOpcode
+from scam.types.condition_with_args import ConditionWithArgs
+from scam.types.unfinished_block import UnfinishedBlock
+from scam.util.clvm import int_to_bytes
+from scam.util.ints import uint64
 from tests.wallet_tools import WalletTool
 from tests.core.fixtures import empty_blockchain  # noqa: F401
 

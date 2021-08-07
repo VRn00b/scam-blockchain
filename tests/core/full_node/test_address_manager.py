@@ -6,9 +6,9 @@ from pathlib import Path
 import aiosqlite
 import pytest
 
-from covid.server.address_manager import AddressManager, ExtendedPeerInfo
-from covid.server.address_manager_store import AddressManagerStore
-from covid.types.peer_info import PeerInfo, TimestampedPeerInfo
+from scam.server.address_manager import AddressManager, ExtendedPeerInfo
+from scam.server.address_manager_store import AddressManagerStore
+from scam.types.peer_info import PeerInfo, TimestampedPeerInfo
 
 
 @pytest.fixture(scope="module")

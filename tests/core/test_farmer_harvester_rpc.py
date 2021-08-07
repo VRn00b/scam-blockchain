@@ -6,22 +6,22 @@ import pytest
 from blspy import AugSchemeMPL
 from chiapos import DiskPlotter
 
-from covid.consensus.coinbase import create_puzzlehash_for_pk
-from covid.plotting.plot_tools import stream_plot_info_ph, stream_plot_info_pk
-from covid.protocols import farmer_protocol
-from covid.rpc.farmer_rpc_api import FarmerRpcApi
-from covid.rpc.farmer_rpc_client import FarmerRpcClient
-from covid.rpc.harvester_rpc_api import HarvesterRpcApi
-from covid.rpc.harvester_rpc_client import HarvesterRpcClient
-from covid.rpc.rpc_server import start_rpc_server
-from covid.types.blockchain_format.sized_bytes import bytes32
-from covid.util.bech32m import decode_puzzle_hash, encode_puzzle_hash
+from scam.consensus.coinbase import create_puzzlehash_for_pk
+from scam.plotting.plot_tools import stream_plot_info_ph, stream_plot_info_pk
+from scam.protocols import farmer_protocol
+from scam.rpc.farmer_rpc_api import FarmerRpcApi
+from scam.rpc.farmer_rpc_client import FarmerRpcClient
+from scam.rpc.harvester_rpc_api import HarvesterRpcApi
+from scam.rpc.harvester_rpc_client import HarvesterRpcClient
+from scam.rpc.rpc_server import start_rpc_server
+from scam.types.blockchain_format.sized_bytes import bytes32
+from scam.util.bech32m import decode_puzzle_hash, encode_puzzle_hash
 from tests.block_tools import get_plot_dir
-from covid.util.byte_types import hexstr_to_bytes
-from covid.util.config import load_config, save_config
-from covid.util.hash import std_hash
-from covid.util.ints import uint8, uint16, uint32, uint64
-from covid.wallet.derive_keys import master_sk_to_wallet_sk, master_sk_to_pooling_authentication_sk
+from scam.util.byte_types import hexstr_to_bytes
+from scam.util.config import load_config, save_config
+from scam.util.hash import std_hash
+from scam.util.ints import uint8, uint16, uint32, uint64
+from scam.wallet.derive_keys import master_sk_to_wallet_sk, master_sk_to_pooling_authentication_sk
 from tests.setup_nodes import bt, self_hostname, setup_farmer_harvester, test_constants
 from tests.time_out_assert import time_out_assert
 
@@ -202,7 +202,7 @@ class TestRpc:
                 master_sk_to_wallet_sk(bt.pool_master_sk, uint32(472)).get_g1()
             )
 
-            await client.set_reward_targets(encode_puzzle_hash(new_ph, "cov"), encode_puzzle_hash(new_ph_2, "cov"))
+            await client.set_reward_targets(encode_puzzle_hash(new_ph, "scm"), encode_puzzle_hash(new_ph_2, "scm"))
             targets_3 = await client.get_reward_targets(True)
             assert decode_puzzle_hash(targets_3["farmer_target"]) == new_ph
             assert decode_puzzle_hash(targets_3["pool_target"]) == new_ph_2
@@ -211,7 +211,7 @@ class TestRpc:
             new_ph_3: bytes32 = create_puzzlehash_for_pk(
                 master_sk_to_wallet_sk(bt.pool_master_sk, uint32(1888)).get_g1()
             )
-            await client.set_reward_targets(None, encode_puzzle_hash(new_ph_3, "cov"))
+            await client.set_reward_targets(None, encode_puzzle_hash(new_ph_3, "scm"))
             targets_4 = await client.get_reward_targets(True)
             assert decode_puzzle_hash(targets_4["farmer_target"]) == new_ph
             assert decode_puzzle_hash(targets_4["pool_target"]) == new_ph_3
@@ -219,10 +219,10 @@ class TestRpc:
 
             root_path = farmer_api.farmer._root_path
             config = load_config(root_path, "config.yaml")
-            assert config["farmer"]["cov_target_address"] == encode_puzzle_hash(new_ph, "cov")
-            assert config["pool"]["cov_target_address"] == encode_puzzle_hash(new_ph_3, "cov")
+            assert config["farmer"]["scm_target_address"] == encode_puzzle_hash(new_ph, "scm")
+            assert config["pool"]["scm_target_address"] == encode_puzzle_hash(new_ph_3, "scm")
 
-            new_ph_3_encoded = encode_puzzle_hash(new_ph_3, "cov")
+            new_ph_3_encoded = encode_puzzle_hash(new_ph_3, "scm")
             added_char = new_ph_3_encoded + "a"
             with pytest.raises(ValueError):
                 await client.set_reward_targets(None, added_char)

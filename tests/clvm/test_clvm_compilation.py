@@ -3,48 +3,48 @@ from unittest import TestCase
 
 from clvm_tools.clvmc import compile_clvm
 
-from covid.types.blockchain_format.program import Program, SerializedProgram
+from scam.types.blockchain_format.program import Program, SerializedProgram
 
 wallet_program_files = set(
     [
-        "covid/wallet/puzzles/calculate_synthetic_public_key.clvm",
-        "covid/wallet/puzzles/cc.clvm",
-        "covid/wallet/puzzles/chialisp_deserialisation.clvm",
-        "covid/wallet/puzzles/rom_bootstrap_generator.clvm",
-        "covid/wallet/puzzles/generator_for_single_coin.clvm",
-        "covid/wallet/puzzles/genesis-by-coin-id-with-0.clvm",
-        "covid/wallet/puzzles/genesis-by-puzzle-hash-with-0.clvm",
-        "covid/wallet/puzzles/lock.inner.puzzle.clvm",
-        "covid/wallet/puzzles/p2_conditions.clvm",
-        "covid/wallet/puzzles/p2_delegated_conditions.clvm",
-        "covid/wallet/puzzles/p2_delegated_puzzle.clvm",
-        "covid/wallet/puzzles/p2_delegated_puzzle_or_hidden_puzzle.clvm",
-        "covid/wallet/puzzles/p2_m_of_n_delegate_direct.clvm",
-        "covid/wallet/puzzles/p2_puzzle_hash.clvm",
-        "covid/wallet/puzzles/rl_aggregation.clvm",
-        "covid/wallet/puzzles/rl.clvm",
-        "covid/wallet/puzzles/sha256tree_module.clvm",
-        "covid/wallet/puzzles/singleton_top_layer.clvm",
-        "covid/wallet/puzzles/did_innerpuz.clvm",
-        "covid/wallet/puzzles/decompress_puzzle.clvm",
-        "covid/wallet/puzzles/decompress_coin_solution_entry_with_prefix.clvm",
-        "covid/wallet/puzzles/decompress_coin_solution_entry.clvm",
-        "covid/wallet/puzzles/block_program_zero.clvm",
-        "covid/wallet/puzzles/test_generator_deserialize.clvm",
-        "covid/wallet/puzzles/test_multiple_generator_input_arguments.clvm",
-        "covid/wallet/puzzles/p2_singleton.clvm",
-        "covid/wallet/puzzles/pool_waitingroom_innerpuz.clvm",
-        "covid/wallet/puzzles/pool_member_innerpuz.clvm",
-        "covid/wallet/puzzles/singleton_launcher.clvm",
-        "covid/wallet/puzzles/p2_singleton_or_delayed_puzhash.clvm",
+        "scam/wallet/puzzles/calculate_synthetic_public_key.clvm",
+        "scam/wallet/puzzles/cc.clvm",
+        "scam/wallet/puzzles/chialisp_deserialisation.clvm",
+        "scam/wallet/puzzles/rom_bootstrap_generator.clvm",
+        "scam/wallet/puzzles/generator_for_single_coin.clvm",
+        "scam/wallet/puzzles/genesis-by-coin-id-with-0.clvm",
+        "scam/wallet/puzzles/genesis-by-puzzle-hash-with-0.clvm",
+        "scam/wallet/puzzles/lock.inner.puzzle.clvm",
+        "scam/wallet/puzzles/p2_conditions.clvm",
+        "scam/wallet/puzzles/p2_delegated_conditions.clvm",
+        "scam/wallet/puzzles/p2_delegated_puzzle.clvm",
+        "scam/wallet/puzzles/p2_delegated_puzzle_or_hidden_puzzle.clvm",
+        "scam/wallet/puzzles/p2_m_of_n_delegate_direct.clvm",
+        "scam/wallet/puzzles/p2_puzzle_hash.clvm",
+        "scam/wallet/puzzles/rl_aggregation.clvm",
+        "scam/wallet/puzzles/rl.clvm",
+        "scam/wallet/puzzles/sha256tree_module.clvm",
+        "scam/wallet/puzzles/singleton_top_layer.clvm",
+        "scam/wallet/puzzles/did_innerpuz.clvm",
+        "scam/wallet/puzzles/decompress_puzzle.clvm",
+        "scam/wallet/puzzles/decompress_coin_solution_entry_with_prefix.clvm",
+        "scam/wallet/puzzles/decompress_coin_solution_entry.clvm",
+        "scam/wallet/puzzles/block_program_zero.clvm",
+        "scam/wallet/puzzles/test_generator_deserialize.clvm",
+        "scam/wallet/puzzles/test_multiple_generator_input_arguments.clvm",
+        "scam/wallet/puzzles/p2_singleton.clvm",
+        "scam/wallet/puzzles/pool_waitingroom_innerpuz.clvm",
+        "scam/wallet/puzzles/pool_member_innerpuz.clvm",
+        "scam/wallet/puzzles/singleton_launcher.clvm",
+        "scam/wallet/puzzles/p2_singleton_or_delayed_puzhash.clvm",
     ]
 )
 
 clvm_include_files = set(
-    ["covid/wallet/puzzles/create-lock-puzzlehash.clvm", "covid/wallet/puzzles/condition_codes.clvm"]
+    ["scam/wallet/puzzles/create-lock-puzzlehash.clvm", "scam/wallet/puzzles/condition_codes.clvm"]
 )
 
-CLVM_PROGRAM_ROOT = "covid/wallet/puzzles"
+CLVM_PROGRAM_ROOT = "scam/wallet/puzzles"
 
 
 def list_files(dir, glob):
@@ -71,7 +71,7 @@ class TestClvmCompilation(TestCase):
 
     def test_all_programs_listed(self):
         """
-        Checks to see if a new .clvm file was added to covid/wallet/puzzles, but not added to `wallet_program_files`
+        Checks to see if a new .clvm file was added to scam/wallet/puzzles, but not added to `wallet_program_files`
         """
         existing_files = list_files(CLVM_PROGRAM_ROOT, "*.clvm")
         existing_file_paths = set([Path(x).relative_to(CLVM_PROGRAM_ROOT) for x in existing_files])

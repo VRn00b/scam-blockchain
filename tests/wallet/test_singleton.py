@@ -1,10 +1,10 @@
 from clvm_tools import binutils
 
-from covid.types.blockchain_format.program import Program, INFINITE_COST
-from covid.types.announcement import Announcement
-from covid.types.blockchain_format.sized_bytes import bytes32
-from covid.util.condition_tools import parse_sexp_to_conditions
-from covid.wallet.puzzles.load_clvm import load_clvm
+from scam.types.blockchain_format.program import Program, INFINITE_COST
+from scam.types.announcement import Announcement
+from scam.types.blockchain_format.sized_bytes import bytes32
+from scam.util.condition_tools import parse_sexp_to_conditions
+from scam.wallet.puzzles.load_clvm import load_clvm
 
 SINGLETON_MOD = load_clvm("singleton_top_layer.clvm")
 LAUNCHER_PUZZLE = load_clvm("singleton_launcher.clvm")

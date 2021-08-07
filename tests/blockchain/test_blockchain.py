@@ -10,30 +10,30 @@ import pytest
 from blspy import AugSchemeMPL, G2Element
 from clvm.casts import int_to_bytes
 
-from covid.consensus.block_rewards import calculate_base_farmer_reward
-from covid.consensus.blockchain import ReceiveBlockResult
-from covid.consensus.coinbase import create_farmer_coin
-from covid.consensus.pot_iterations import is_overflow_block
-from covid.full_node.bundle_tools import detect_potential_template_generator
-from covid.types.blockchain_format.classgroup import ClassgroupElement
-from covid.types.blockchain_format.coin import Coin
-from covid.types.blockchain_format.foliage import TransactionsInfo
-from covid.types.blockchain_format.program import SerializedProgram
-from covid.types.blockchain_format.sized_bytes import bytes32
-from covid.types.blockchain_format.slots import InfusedChallengeChainSubSlot
-from covid.types.blockchain_format.vdf import VDFInfo, VDFProof
-from covid.types.condition_opcodes import ConditionOpcode
-from covid.types.condition_with_args import ConditionWithArgs
-from covid.types.end_of_slot_bundle import EndOfSubSlotBundle
-from covid.types.full_block import FullBlock
-from covid.types.spend_bundle import SpendBundle
-from covid.types.unfinished_block import UnfinishedBlock
+from scam.consensus.block_rewards import calculate_base_farmer_reward
+from scam.consensus.blockchain import ReceiveBlockResult
+from scam.consensus.coinbase import create_farmer_coin
+from scam.consensus.pot_iterations import is_overflow_block
+from scam.full_node.bundle_tools import detect_potential_template_generator
+from scam.types.blockchain_format.classgroup import ClassgroupElement
+from scam.types.blockchain_format.coin import Coin
+from scam.types.blockchain_format.foliage import TransactionsInfo
+from scam.types.blockchain_format.program import SerializedProgram
+from scam.types.blockchain_format.sized_bytes import bytes32
+from scam.types.blockchain_format.slots import InfusedChallengeChainSubSlot
+from scam.types.blockchain_format.vdf import VDFInfo, VDFProof
+from scam.types.condition_opcodes import ConditionOpcode
+from scam.types.condition_with_args import ConditionWithArgs
+from scam.types.end_of_slot_bundle import EndOfSubSlotBundle
+from scam.types.full_block import FullBlock
+from scam.types.spend_bundle import SpendBundle
+from scam.types.unfinished_block import UnfinishedBlock
 from tests.block_tools import BlockTools, get_vdf_info_and_proof
-from covid.util.errors import Err
-from covid.util.hash import std_hash
-from covid.util.ints import uint8, uint64, uint32
-from covid.util.merkle_set import MerkleSet
-from covid.util.recursive_replace import recursive_replace
+from scam.util.errors import Err
+from scam.util.hash import std_hash
+from scam.util.ints import uint8, uint64, uint32
+from scam.util.merkle_set import MerkleSet
+from scam.util.recursive_replace import recursive_replace
 from tests.wallet_tools import WalletTool
 from tests.core.fixtures import default_400_blocks  # noqa: F401; noqa: F401
 from tests.core.fixtures import default_1000_blocks  # noqa: F401

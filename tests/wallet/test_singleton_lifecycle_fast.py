@@ -4,15 +4,15 @@ from typing import Any, Callable, Dict, List, Optional, Tuple
 from blspy import G1Element, G2Element
 from clvm_tools import binutils
 
-from covid.types.blockchain_format.program import Program, SerializedProgram
-from covid.types.announcement import Announcement
-from covid.types.blockchain_format.coin import Coin
-from covid.types.blockchain_format.sized_bytes import bytes32
-from covid.types.coin_solution import CoinSolution as CoinSpend
-from covid.types.spend_bundle import SpendBundle
-from covid.util.condition_tools import ConditionOpcode
-from covid.util.ints import uint64
-from covid.wallet.puzzles.load_clvm import load_clvm
+from scam.types.blockchain_format.program import Program, SerializedProgram
+from scam.types.announcement import Announcement
+from scam.types.blockchain_format.coin import Coin
+from scam.types.blockchain_format.sized_bytes import bytes32
+from scam.types.coin_solution import CoinSolution as CoinSpend
+from scam.types.spend_bundle import SpendBundle
+from scam.util.condition_tools import ConditionOpcode
+from scam.util.ints import uint64
+from scam.wallet.puzzles.load_clvm import load_clvm
 
 from tests.clvm.coin_store import BadSpendBundleError, CoinStore, CoinTimestamp
 

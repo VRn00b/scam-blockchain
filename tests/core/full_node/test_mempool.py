@@ -7,33 +7,33 @@ import pytest
 from clvm import SExp
 from clvm.EvalError import EvalError
 
-import covid.server.ws_connection as ws
+import scam.server.ws_connection as ws
 
-from covid.full_node.mempool import Mempool
-from covid.full_node.full_node_api import FullNodeAPI
-from covid.protocols import full_node_protocol
-from covid.simulator.simulator_protocol import FarmNewBlockProtocol
-from covid.types.announcement import Announcement
-from covid.types.blockchain_format.coin import Coin
-from covid.types.coin_solution import CoinSolution
-from covid.types.condition_opcodes import ConditionOpcode
-from covid.types.condition_with_args import ConditionWithArgs
-from covid.types.spend_bundle import SpendBundle
-from covid.util.clvm import int_to_bytes
-from covid.util.condition_tools import conditions_for_solution
-from covid.util.errors import Err, ValidationError
-from covid.util.ints import uint64
-from covid.util.hash import std_hash
-from covid.types.mempool_inclusion_status import MempoolInclusionStatus
-from covid.util.api_decorators import api_request, peer_required, bytes_required
-from covid.full_node.mempool_check_conditions import parse_condition_args
+from scam.full_node.mempool import Mempool
+from scam.full_node.full_node_api import FullNodeAPI
+from scam.protocols import full_node_protocol
+from scam.simulator.simulator_protocol import FarmNewBlockProtocol
+from scam.types.announcement import Announcement
+from scam.types.blockchain_format.coin import Coin
+from scam.types.coin_solution import CoinSolution
+from scam.types.condition_opcodes import ConditionOpcode
+from scam.types.condition_with_args import ConditionWithArgs
+from scam.types.spend_bundle import SpendBundle
+from scam.util.clvm import int_to_bytes
+from scam.util.condition_tools import conditions_for_solution
+from scam.util.errors import Err, ValidationError
+from scam.util.ints import uint64
+from scam.util.hash import std_hash
+from scam.types.mempool_inclusion_status import MempoolInclusionStatus
+from scam.util.api_decorators import api_request, peer_required, bytes_required
+from scam.full_node.mempool_check_conditions import parse_condition_args
 
 from tests.connection_utils import connect_and_get_peer
 from tests.core.node_height import node_height_at_least
 from tests.setup_nodes import bt, setup_simulators_and_wallets
 from tests.time_out_assert import time_out_assert
-from covid.types.blockchain_format.program import Program, INFINITE_COST
-from covid.consensus.condition_costs import ConditionCost
+from scam.types.blockchain_format.program import Program, INFINITE_COST
+from scam.consensus.condition_costs import ConditionCost
 
 BURN_PUZZLE_HASH = b"0" * 32
 BURN_PUZZLE_HASH_2 = b"1" * 32
@@ -111,7 +111,7 @@ class TestMempool:
 async def respond_transaction(
     node: FullNodeAPI,
     tx: full_node_protocol.RespondTransaction,
-    peer: ws.WSCovidConnection,
+    peer: ws.WSScamConnection,
     tx_bytes: bytes = b"",
     test: bool = False,
 ) -> Tuple[MempoolInclusionStatus, Optional[Err]]:

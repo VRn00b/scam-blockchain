@@ -3,18 +3,18 @@ import time
 
 import pytest
 
-from covid.consensus.block_rewards import calculate_base_farmer_reward, calculate_pool_reward
-from covid.consensus.blockchain import ReceiveBlockResult
-from covid.protocols import full_node_protocol, wallet_protocol
-from covid.protocols.protocol_message_types import ProtocolMessageTypes
-from covid.server.outbound_message import Message
-from covid.simulator.full_node_simulator import FullNodeSimulator
-from covid.simulator.simulator_protocol import FarmNewBlockProtocol
-from covid.types.mempool_inclusion_status import MempoolInclusionStatus
-from covid.types.peer_info import PeerInfo
-from covid.util.errors import Err
-from covid.util.ints import uint16, uint32
-from covid.wallet.transaction_record import TransactionRecord
+from scam.consensus.block_rewards import calculate_base_farmer_reward, calculate_pool_reward
+from scam.consensus.blockchain import ReceiveBlockResult
+from scam.protocols import full_node_protocol, wallet_protocol
+from scam.protocols.protocol_message_types import ProtocolMessageTypes
+from scam.server.outbound_message import Message
+from scam.simulator.full_node_simulator import FullNodeSimulator
+from scam.simulator.simulator_protocol import FarmNewBlockProtocol
+from scam.types.mempool_inclusion_status import MempoolInclusionStatus
+from scam.types.peer_info import PeerInfo
+from scam.util.errors import Err
+from scam.util.ints import uint16, uint32
+from scam.wallet.transaction_record import TransactionRecord
 from tests.core.full_node.test_full_node import add_dummy_connection
 from tests.setup_nodes import bt, self_hostname, setup_simulators_and_wallets
 from tests.time_out_assert import time_out_assert

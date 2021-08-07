@@ -2,9 +2,9 @@ import asyncio
 
 import pytest
 
-from covid.protocols.protocol_message_types import ProtocolMessageTypes
-from covid.server.outbound_message import make_msg
-from covid.server.rate_limits import RateLimiter, NON_TX_FREQ
+from scam.protocols.protocol_message_types import ProtocolMessageTypes
+from scam.server.outbound_message import make_msg
+from scam.server.rate_limits import RateLimiter, NON_TX_FREQ
 from tests.setup_nodes import test_constants
 
 

@@ -1,10 +1,10 @@
 from typing import Dict
 from unittest import TestCase
 
-from covid.types.blockchain_format.program import Program, SerializedProgram
-from covid.types.generator_types import GeneratorBlockCacheInterface
-from covid.full_node.generator import create_block_generator, create_generator_args
-from covid.util.ints import uint32
+from scam.types.blockchain_format.program import Program, SerializedProgram
+from scam.types.generator_types import GeneratorBlockCacheInterface
+from scam.full_node.generator import create_block_generator, create_generator_args
+from scam.util.ints import uint32
 
 gen0 = SerializedProgram.from_bytes(
     bytes.fromhex(

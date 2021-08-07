@@ -2,21 +2,21 @@ from typing import Dict, List, Optional, Tuple
 
 from blspy import AugSchemeMPL, G2Element, PrivateKey
 
-from covid.consensus.constants import ConsensusConstants
-from covid.util.hash import std_hash
-from covid.types.announcement import Announcement
-from covid.types.blockchain_format.coin import Coin
-from covid.types.blockchain_format.program import Program
-from covid.types.blockchain_format.sized_bytes import bytes32
-from covid.types.coin_solution import CoinSolution
-from covid.types.condition_opcodes import ConditionOpcode
-from covid.types.condition_with_args import ConditionWithArgs
-from covid.types.spend_bundle import SpendBundle
-from covid.util.clvm import int_from_bytes, int_to_bytes
-from covid.util.condition_tools import conditions_by_opcode, conditions_for_solution, pkm_pairs_for_conditions_dict
-from covid.util.ints import uint32, uint64
-from covid.wallet.derive_keys import master_sk_to_wallet_sk
-from covid.wallet.puzzles.p2_delegated_puzzle_or_hidden_puzzle import (
+from scam.consensus.constants import ConsensusConstants
+from scam.util.hash import std_hash
+from scam.types.announcement import Announcement
+from scam.types.blockchain_format.coin import Coin
+from scam.types.blockchain_format.program import Program
+from scam.types.blockchain_format.sized_bytes import bytes32
+from scam.types.coin_solution import CoinSolution
+from scam.types.condition_opcodes import ConditionOpcode
+from scam.types.condition_with_args import ConditionWithArgs
+from scam.types.spend_bundle import SpendBundle
+from scam.util.clvm import int_from_bytes, int_to_bytes
+from scam.util.condition_tools import conditions_by_opcode, conditions_for_solution, pkm_pairs_for_conditions_dict
+from scam.util.ints import uint32, uint64
+from scam.wallet.derive_keys import master_sk_to_wallet_sk
+from scam.wallet.puzzles.p2_delegated_puzzle_or_hidden_puzzle import (
     DEFAULT_HIDDEN_PUZZLE_HASH,
     calculate_synthetic_secret_key,
     puzzle_for_pk,

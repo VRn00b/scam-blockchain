@@ -1,16 +1,16 @@
 import asyncio
 import pytest
 import time
-from covid.consensus.block_rewards import calculate_base_farmer_reward, calculate_pool_reward
-from covid.protocols.full_node_protocol import RespondBlock
-from covid.server.server import CovidServer
-from covid.simulator.simulator_protocol import FarmNewBlockProtocol, ReorgProtocol
-from covid.types.peer_info import PeerInfo
-from covid.util.ints import uint16, uint32, uint64
-from covid.wallet.util.transaction_type import TransactionType
-from covid.wallet.transaction_record import TransactionRecord
-from covid.wallet.wallet_node import WalletNode
-from covid.wallet.wallet_state_manager import WalletStateManager
+from scam.consensus.block_rewards import calculate_base_farmer_reward, calculate_pool_reward
+from scam.protocols.full_node_protocol import RespondBlock
+from scam.server.server import ScamServer
+from scam.simulator.simulator_protocol import FarmNewBlockProtocol, ReorgProtocol
+from scam.types.peer_info import PeerInfo
+from scam.util.ints import uint16, uint32, uint64
+from scam.wallet.util.transaction_type import TransactionType
+from scam.wallet.transaction_record import TransactionRecord
+from scam.wallet.wallet_node import WalletNode
+from scam.wallet.wallet_state_manager import WalletStateManager
 from tests.setup_nodes import self_hostname, setup_simulators_and_wallets
 from tests.time_out_assert import time_out_assert, time_out_assert_not_none
 from tests.wallet.cc_wallet.test_cc_wallet import tx_in_pool
@@ -48,7 +48,7 @@ class TestWalletSimulator:
         num_blocks = 10
         full_nodes, wallets = wallet_node
         full_node_api = full_nodes[0]
-        server_1: CovidServer = full_node_api.full_node.server
+        server_1: ScamServer = full_node_api.full_node.server
         wallet_node, server_2 = wallets[0]
 
         wallet = wallet_node.wallet_state_manager.main_wallet
@@ -318,7 +318,7 @@ class TestWalletSimulator:
     #     introducer, introducer_server = await node_iters[2].__anext__()
     #
     #     async def has_full_node():
-    #         outbound: List[WSCovidConnection] = wallet.server.get_outgoing_connections()
+    #         outbound: List[WSScamConnection] = wallet.server.get_outgoing_connections()
     #         for connection in outbound:
     #             if connection.connection_type is NodeType.FULL_NODE:
     #                 return True

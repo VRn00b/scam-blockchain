@@ -6,11 +6,11 @@ import aiosqlite
 import pytest
 from blspy import AugSchemeMPL
 
-from covid.util.db_wrapper import DBWrapper
-from covid.util.ints import uint32
-from covid.wallet.derivation_record import DerivationRecord
-from covid.wallet.util.wallet_types import WalletType
-from covid.wallet.wallet_puzzle_store import WalletPuzzleStore
+from scam.util.db_wrapper import DBWrapper
+from scam.util.ints import uint32
+from scam.wallet.derivation_record import DerivationRecord
+from scam.wallet.util.wallet_types import WalletType
+from scam.wallet.wallet_puzzle_store import WalletPuzzleStore
 
 
 @pytest.fixture(scope="module")
