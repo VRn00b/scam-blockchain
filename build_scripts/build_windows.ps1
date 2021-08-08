@@ -76,7 +76,7 @@ Copy-Item "dist\daemon" -Destination "..\scam-blockchain-gui\" -Recurse
 Set-Location -Path "..\scam-blockchain-gui" -PassThru
 
 git status
-
+cls
 Write-Output "   ---"
 Write-Output "Prepare Electron packager"
 Write-Output "   ---"
