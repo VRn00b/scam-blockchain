@@ -126,7 +126,7 @@ harvester:
 
   # If True, starts an RPC server at the following port
   start_rpc_server: True
-  rpc_port: 9760
+  rpc_port: 9660
   num_threads: 30
   plot_loading_frequency_seconds: 120
 
@@ -257,7 +257,7 @@ full_node:
 
   # If True, starts an RPC server at the following port
   start_rpc_server: True
-  rpc_port: 9755
+  rpc_port: 9655
 
   # Use UPnP to attempt to allow other full nodes to reach your node behind a gateway
   enable_upnp: True
@@ -330,7 +330,7 @@ ui:
   port: 9772
 
   # Which port to use to communicate with the full node
-  rpc_port: 9755
+  rpc_port: 9655
 
   # This SSH key is for the ui SSH server
   ssh_filename: config/ssh_host_key
