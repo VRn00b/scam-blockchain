@@ -363,7 +363,7 @@ introducer:
 
 wallet:
   port: 9771
-  rpc_port: 9761
+  rpc_port: 9661
 
   enable_profiler: False
 
