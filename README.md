@@ -1,6 +1,6 @@
 # scam-blockchain
 
-Full node mainnet will start 08.08.2021
+Full node mainnet started 08.08.2021
 
 **full node:** scamnetwork.net:9777
 
