@@ -152,7 +152,7 @@ if (!handleSquirrelEvent()) {
       }
 
       const startUrl =
-        process.env.NODE_ENV === 'development'
+        process.env.NODE_ENV === 'production'
           ? 'http://localhost:3000'
           : url.format({
               pathname: path.join(__dirname, '/../renderer/index.html'),
