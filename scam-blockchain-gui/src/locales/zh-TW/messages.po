@@ -2591,7 +2591,7 @@ msgstr "{0} 積分 {1} - {2} 小時前"
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} 區塊獎勵"
 
-#: src/components/farm/card/FarmCardTotalCovidFarmed.tsx:30
+#: src/components/farm/card/FarmCardTotalScamFarmed.tsx:30
 msgid "{currencyCode} Total Scam Farmed"
 msgstr "{currencyCode} 已收耕 Scam"
 

@@ -2591,7 +2591,7 @@ msgstr "{0} bodov pred {1} - {2} hodinami"
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Odmena Za Blok"
 
-#: src/components/farm/card/FarmCardTotalCovidFarmed.tsx:30
+#: src/components/farm/card/FarmCardTotalScamFarmed.tsx:30
 msgid "{currencyCode} Total Scam Farmed"
 msgstr "{currencyCode} Celkové množstvo vyfarmárčenej Chii"
 

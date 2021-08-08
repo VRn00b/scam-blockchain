@@ -2593,7 +2593,7 @@ msgstr ""
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Blok Ganjaran"
 
-#: src/components/farm/card/FarmCardTotalCovidFarmed.tsx:30
+#: src/components/farm/card/FarmCardTotalScamFarmed.tsx:30
 msgid "{currencyCode} Total Scam Farmed"
 msgstr "{currencyCode} Total Scam yang di-Farm"
 

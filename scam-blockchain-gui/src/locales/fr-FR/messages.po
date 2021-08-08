@@ -2591,7 +2591,7 @@ msgstr "{0} points {1} - il y a {2} heures"
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} récompenses de blocs"
 
-#: src/components/farm/card/FarmCardTotalCovidFarmed.tsx:30
+#: src/components/farm/card/FarmCardTotalScamFarmed.tsx:30
 msgid "{currencyCode} Total Scam Farmed"
 msgstr "{currencyCode} Total de Scam récoltés"
 
