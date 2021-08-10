@@ -92,7 +92,7 @@ jobs:
       uses: actions/upload-artifact@v2.2.2
       with:
         name: Windows-Exe
-        path: ${{ github.workspace }}\scam-blockchain-gui\scam-win32-x64\
+        path: ${{ github.workspace }}\scam-blockchain-gui\Scam-win32-x64\
 
     - name: Upload Installer to artifacts
       uses: actions/upload-artifact@v2.2.2
