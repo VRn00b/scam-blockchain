@@ -249,7 +249,7 @@ msgstr "Blocos"
 msgid "Browse"
 msgstr "Navegar"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:83
+#: src/components/farm/FarmLastAttemptedProof.tsx:79
 msgid "But you are currently farming <0/>"
 msgstr "Mas atualmente você está cultivando <0/>"
 
@@ -290,7 +290,7 @@ msgstr "Cancelar e Gastar"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "Cuidado, apagar estes plots irá exclui-los para sempre. Verifique se os dispositivos de armazenamento estão conectados corretamente."
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:18
+#: src/components/farm/FarmLastAttemptedProof.tsx:16
 msgid "Challenge"
 msgstr "Desafio"
 
@@ -570,7 +570,7 @@ msgstr "PERIGO: excluir permanentemente a chave privada"
 #~ msgid "DIDListItems.title"
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:42
+#: src/components/farm/FarmLastAttemptedProof.tsx:38
 #: src/components/trading/TradingOverview.jsx:137
 #: src/components/wallet/WalletHistory.tsx:46
 msgid "Date"
@@ -1031,7 +1031,7 @@ msgstr "Chaves"
 msgid "KiB Up/Down"
 msgstr "KiB Enviados/Recebidos"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:57
+#: src/components/farm/FarmLastAttemptedProof.tsx:53
 msgid "Last Attempted Proof"
 msgstr "Última tentativa de verificação"
 
@@ -1215,7 +1215,7 @@ msgstr ""
 msgid "None"
 msgstr "Nenhum"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:78
+#: src/components/farm/FarmLastAttemptedProof.tsx:74
 msgid "None of your plots have passed the plot filter yet."
 msgstr "Nenhum de seus plots passou pelo filtro de plots."
 
@@ -1435,7 +1435,7 @@ msgstr "Plot NFT com p2_singleton_puzzle_ash {plotNFTId} não existe"
 msgid "Plot Public Key"
 msgstr "Chave pública do Plot"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:36
+#: src/components/farm/FarmLastAttemptedProof.tsx:32
 msgid "Plot Response Time"
 msgstr ""
 
@@ -1467,7 +1467,7 @@ msgstr "PlotNFT está transicionando para (estado de destino). Isto pode levar u
 msgid "Plots"
 msgstr "Plots"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:25
+#: src/components/farm/FarmLastAttemptedProof.tsx:22
 msgid "Plots Passed Filter"
 msgstr "Plots Aprovados no FIltro"
 
@@ -1628,7 +1628,7 @@ msgstr "Chave privada:"
 msgid "Proof of Space Size"
 msgstr "Prova de Tamanho do Espaço"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:29
+#: src/components/farm/FarmLastAttemptedProof.tsx:26
 msgid "Proofs Found"
 msgstr "Provas encontradas"
 
@@ -2168,7 +2168,7 @@ msgstr "Este plot de NFT não está conectado à pool"
 #~ msgid "This table shows you the last time your farm attempted to win a block challenge."
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:59
+#: src/components/farm/FarmLastAttemptedProof.tsx:55
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr "Esta tabela mostra a última vez que sua fazenda tentou vencer um desafio de bloco. <0>Saiba mais</0>"
 

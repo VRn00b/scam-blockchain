@@ -249,7 +249,7 @@ msgstr "Блокове"
 msgid "Browse"
 msgstr "Преглед"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:83
+#: src/components/farm/FarmLastAttemptedProof.tsx:79
 msgid "But you are currently farming <0/>"
 msgstr "Но вие в момента фармите <0/>"
 
@@ -290,7 +290,7 @@ msgstr "Откажи и похарчи"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "Внимание, изтриването на тези полета ще ги премахне завинаги. Проверете дали устройствата за хранилище са свързани правилно."
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:18
+#: src/components/farm/FarmLastAttemptedProof.tsx:16
 msgid "Challenge"
 msgstr "Предизвикателство"
 
@@ -570,7 +570,7 @@ msgstr "ОПАСНОСТ: Необратимо изтриване на личе�
 #~ msgid "DIDListItems.title"
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:42
+#: src/components/farm/FarmLastAttemptedProof.tsx:38
 #: src/components/trading/TradingOverview.jsx:137
 #: src/components/wallet/WalletHistory.tsx:46
 msgid "Date"
@@ -1031,7 +1031,7 @@ msgstr "Ключове"
 msgid "KiB Up/Down"
 msgstr "KiB Up/Down"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:57
+#: src/components/farm/FarmLastAttemptedProof.tsx:53
 msgid "Last Attempted Proof"
 msgstr "Доказателство при последен опит"
 
@@ -1215,7 +1215,7 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:78
+#: src/components/farm/FarmLastAttemptedProof.tsx:74
 msgid "None of your plots have passed the plot filter yet."
 msgstr "Никой от вашите плотове не е преминал филтъра все още."
 
@@ -1437,7 +1437,7 @@ msgstr ""
 msgid "Plot Public Key"
 msgstr "Публичен ключ на полето"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:36
+#: src/components/farm/FarmLastAttemptedProof.tsx:32
 msgid "Plot Response Time"
 msgstr ""
 
@@ -1469,7 +1469,7 @@ msgstr ""
 msgid "Plots"
 msgstr "Полета"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:25
+#: src/components/farm/FarmLastAttemptedProof.tsx:22
 msgid "Plots Passed Filter"
 msgstr "Филтър за преминали плотове"
 
@@ -1630,7 +1630,7 @@ msgstr "Частен ключ:"
 msgid "Proof of Space Size"
 msgstr "Доказателство за размера на пространството"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:29
+#: src/components/farm/FarmLastAttemptedProof.tsx:26
 msgid "Proofs Found"
 msgstr "Намерени доказателства"
 
@@ -2170,7 +2170,7 @@ msgstr ""
 #~ msgid "This table shows you the last time your farm attempted to win a block challenge."
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:59
+#: src/components/farm/FarmLastAttemptedProof.tsx:55
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr ""
 

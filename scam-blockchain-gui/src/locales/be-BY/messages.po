@@ -249,7 +249,7 @@ msgstr "Блокі"
 msgid "Browse"
 msgstr "Агляд"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:83
+#: src/components/farm/FarmLastAttemptedProof.tsx:79
 msgid "But you are currently farming <0/>"
 msgstr "Але зараз ідзе фермерства на <0/>"
 
@@ -290,7 +290,7 @@ msgstr "Скасаваць і патраціць"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "Увага! Выдаленне гэтых дзялянак выдаліць іх назаўсёды. Праверце, што вашы дыскі падключаны належным чынам."
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:18
+#: src/components/farm/FarmLastAttemptedProof.tsx:16
 msgid "Challenge"
 msgstr "Выпрабаванне"
 
@@ -570,7 +570,7 @@ msgstr "НЕБЯСПЕЧНА: выдаліць закрыты ключ наза�
 #~ msgid "DIDListItems.title"
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:42
+#: src/components/farm/FarmLastAttemptedProof.tsx:38
 #: src/components/trading/TradingOverview.jsx:137
 #: src/components/wallet/WalletHistory.tsx:46
 msgid "Date"
@@ -1031,7 +1031,7 @@ msgstr "Ключы"
 msgid "KiB Up/Down"
 msgstr "Увах./вых. КіБ"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:57
+#: src/components/farm/FarmLastAttemptedProof.tsx:53
 msgid "Last Attempted Proof"
 msgstr "Апошняя спроба пацвярджэння"
 
@@ -1215,7 +1215,7 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:78
+#: src/components/farm/FarmLastAttemptedProof.tsx:74
 msgid "None of your plots have passed the plot filter yet."
 msgstr "Ніводная з вашых дзялянак яшчэ не прайшла праз фільтр."
 
@@ -1435,7 +1435,7 @@ msgstr ""
 msgid "Plot Public Key"
 msgstr "Адкрыты ключ дзялянкі"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:36
+#: src/components/farm/FarmLastAttemptedProof.tsx:32
 msgid "Plot Response Time"
 msgstr ""
 
@@ -1467,7 +1467,7 @@ msgstr ""
 msgid "Plots"
 msgstr "Дзялянкі"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:25
+#: src/components/farm/FarmLastAttemptedProof.tsx:22
 msgid "Plots Passed Filter"
 msgstr "Дзялянкі, якія прайшлі фільтр"
 
@@ -1628,7 +1628,7 @@ msgstr "Закрыты ключ:"
 msgid "Proof of Space Size"
 msgstr "Памер пацвярджэнне месцам (Proof of Space)"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:29
+#: src/components/farm/FarmLastAttemptedProof.tsx:26
 msgid "Proofs Found"
 msgstr "Пацвярджэнняў знойдзена"
 
@@ -2168,7 +2168,7 @@ msgstr ""
 #~ msgid "This table shows you the last time your farm attempted to win a block challenge."
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:59
+#: src/components/farm/FarmLastAttemptedProof.tsx:55
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr "У гэтай табліцы паказваецца, калі ваша ферма апошнім разам спрабавала выйграць выпрабаванне блока. <0>Даведацца больш</0>"
 

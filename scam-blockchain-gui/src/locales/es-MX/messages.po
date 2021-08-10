@@ -249,7 +249,7 @@ msgstr "Bloques"
 msgid "Browse"
 msgstr "Navegar"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:83
+#: src/components/farm/FarmLastAttemptedProof.tsx:79
 msgid "But you are currently farming <0/>"
 msgstr "Pero actualmente estás cultivando <0 />"
 
@@ -290,7 +290,7 @@ msgstr "Cancelar y Gastar"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "Precaución, eliminar estas parcelas las eliminará para siempre. Compruebe que los dispositivos de almacenamiento estén conectados correctamente."
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:18
+#: src/components/farm/FarmLastAttemptedProof.tsx:16
 msgid "Challenge"
 msgstr "Desafío"
 
@@ -570,7 +570,7 @@ msgstr "ADVERTENCIA: eliminar llave privada permanentemente"
 #~ msgid "DIDListItems.title"
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:42
+#: src/components/farm/FarmLastAttemptedProof.tsx:38
 #: src/components/trading/TradingOverview.jsx:137
 #: src/components/wallet/WalletHistory.tsx:46
 msgid "Date"
@@ -1031,7 +1031,7 @@ msgstr "Llaves"
 msgid "KiB Up/Down"
 msgstr "KiB Carga/Descarga"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:57
+#: src/components/farm/FarmLastAttemptedProof.tsx:53
 msgid "Last Attempted Proof"
 msgstr "Último Intento de Comprobación"
 
@@ -1215,7 +1215,7 @@ msgstr ""
 msgid "None"
 msgstr "Ninguno"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:78
+#: src/components/farm/FarmLastAttemptedProof.tsx:74
 msgid "None of your plots have passed the plot filter yet."
 msgstr "Ninguna de sus parcelas a pasado un filtro de parcela aún."
 
@@ -1435,7 +1435,7 @@ msgstr "La parcela NFT con p2_singleton_puzzle_hash {plotNFTId} no existe"
 msgid "Plot Public Key"
 msgstr "Llave Pública de Parcela"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:36
+#: src/components/farm/FarmLastAttemptedProof.tsx:32
 msgid "Plot Response Time"
 msgstr ""
 
@@ -1467,7 +1467,7 @@ msgstr ""
 msgid "Plots"
 msgstr "Parcelas"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:25
+#: src/components/farm/FarmLastAttemptedProof.tsx:22
 msgid "Plots Passed Filter"
 msgstr "Parcelas que Pasaron el Filtro"
 
@@ -1628,7 +1628,7 @@ msgstr "Llave privada:"
 msgid "Proof of Space Size"
 msgstr "Prueba de Tamaño de Espacio"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:29
+#: src/components/farm/FarmLastAttemptedProof.tsx:26
 msgid "Proofs Found"
 msgstr "Pruebas Encontradas"
 
@@ -2168,7 +2168,7 @@ msgstr ""
 #~ msgid "This table shows you the last time your farm attempted to win a block challenge."
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:59
+#: src/components/farm/FarmLastAttemptedProof.tsx:55
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr "Está tabla muestra la última vez que su granja intentó ganar un desafío de bloque. <0>Aprenda más</0>"
 

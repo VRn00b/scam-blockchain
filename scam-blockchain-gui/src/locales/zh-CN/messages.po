@@ -249,7 +249,7 @@ msgstr "区块"
 msgid "Browse"
 msgstr "浏览"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:83
+#: src/components/farm/FarmLastAttemptedProof.tsx:79
 msgid "But you are currently farming <0/>"
 msgstr "但你目前正在耕种<0/>"
 
@@ -290,7 +290,7 @@ msgstr "取消并支付"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "注意，删除这些农田的操作是永久的。请检查存储设备连接正常。"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:18
+#: src/components/farm/FarmLastAttemptedProof.tsx:16
 msgid "Challenge"
 msgstr "挑战"
 
@@ -570,7 +570,7 @@ msgstr "注意：永久性删除私钥"
 #~ msgid "DIDListItems.title"
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:42
+#: src/components/farm/FarmLastAttemptedProof.tsx:38
 #: src/components/trading/TradingOverview.jsx:137
 #: src/components/wallet/WalletHistory.tsx:46
 msgid "Date"
@@ -1031,7 +1031,7 @@ msgstr "密钥"
 msgid "KiB Up/Down"
 msgstr "KiB 上传/下载"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:57
+#: src/components/farm/FarmLastAttemptedProof.tsx:53
 msgid "Last Attempted Proof"
 msgstr "最近尝试过的证明"
 
@@ -1215,7 +1215,7 @@ msgstr ""
 msgid "None"
 msgstr "无"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:78
+#: src/components/farm/FarmLastAttemptedProof.tsx:74
 msgid "None of your plots have passed the plot filter yet."
 msgstr "你的农田还没有通过过滤器检查."
 
@@ -1435,7 +1435,7 @@ msgstr "p2_singleton_puzzle_hash为 {plotNFTId} 的农田NTF不存在。"
 msgid "Plot Public Key"
 msgstr "农田公钥"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:36
+#: src/components/farm/FarmLastAttemptedProof.tsx:32
 msgid "Plot Response Time"
 msgstr ""
 
@@ -1467,7 +1467,7 @@ msgstr "农田NFT正在过渡到（目标状态）。这可能需要一段时间
 msgid "Plots"
 msgstr "农田"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:25
+#: src/components/farm/FarmLastAttemptedProof.tsx:22
 msgid "Plots Passed Filter"
 msgstr "通过初筛的农田"
 
@@ -1628,7 +1628,7 @@ msgstr "私钥:"
 msgid "Proof of Space Size"
 msgstr "空间证明的大小"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:29
+#: src/components/farm/FarmLastAttemptedProof.tsx:26
 msgid "Proofs Found"
 msgstr "已找到证明"
 
@@ -2168,7 +2168,7 @@ msgstr "此农田NFT尚未连接到农业合作社。"
 #~ msgid "This table shows you the last time your farm attempted to win a block challenge."
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:59
+#: src/components/farm/FarmLastAttemptedProof.tsx:55
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr "这个表格里面显示的是你的农场尝试过的区块挑战. <0>了解更多</0>"
 

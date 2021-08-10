@@ -249,7 +249,7 @@ msgstr "Blocuri"
 msgid "Browse"
 msgstr "Selectează"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:83
+#: src/components/farm/FarmLastAttemptedProof.tsx:79
 msgid "But you are currently farming <0/>"
 msgstr "Însă tu cultivi acum <0/>"
 
@@ -290,7 +290,7 @@ msgstr "Anulează și cheltuie"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "Atenție, îndepărtarea acestor parcele le va șterge definitiv. Verifică dacă dispozitivele de stocare sunt conectate corespunzator."
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:18
+#: src/components/farm/FarmLastAttemptedProof.tsx:16
 msgid "Challenge"
 msgstr "Provocare"
 
@@ -570,7 +570,7 @@ msgstr "PERICOL: Șterge permanent cheia privată"
 #~ msgid "DIDListItems.title"
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:42
+#: src/components/farm/FarmLastAttemptedProof.tsx:38
 #: src/components/trading/TradingOverview.jsx:137
 #: src/components/wallet/WalletHistory.tsx:46
 msgid "Date"
@@ -1031,7 +1031,7 @@ msgstr "Chei"
 msgid "KiB Up/Down"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:57
+#: src/components/farm/FarmLastAttemptedProof.tsx:53
 msgid "Last Attempted Proof"
 msgstr "Tentativă Verificare Recentă"
 
@@ -1215,7 +1215,7 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:78
+#: src/components/farm/FarmLastAttemptedProof.tsx:74
 msgid "None of your plots have passed the plot filter yet."
 msgstr "Niciuna din parcelele tale nu a trecut încă filtrul."
 
@@ -1435,7 +1435,7 @@ msgstr ""
 msgid "Plot Public Key"
 msgstr "Cheie Publică Parcelă"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:36
+#: src/components/farm/FarmLastAttemptedProof.tsx:32
 msgid "Plot Response Time"
 msgstr ""
 
@@ -1467,7 +1467,7 @@ msgstr ""
 msgid "Plots"
 msgstr "Parcele"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:25
+#: src/components/farm/FarmLastAttemptedProof.tsx:22
 msgid "Plots Passed Filter"
 msgstr "Parcele Filtrate"
 
@@ -1628,7 +1628,7 @@ msgstr "Cheia privată:"
 msgid "Proof of Space Size"
 msgstr "Mărimea 'Proof of Space'"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:29
+#: src/components/farm/FarmLastAttemptedProof.tsx:26
 msgid "Proofs Found"
 msgstr "Dovezi găsite"
 
@@ -2168,7 +2168,7 @@ msgstr ""
 #~ msgid "This table shows you the last time your farm attempted to win a block challenge."
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:59
+#: src/components/farm/FarmLastAttemptedProof.tsx:55
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr "Acest tabel vă arată ultima dată când ferma dvs. a încercat să câștige o provocare de bloc."
 

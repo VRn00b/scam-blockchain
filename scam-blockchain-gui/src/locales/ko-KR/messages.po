@@ -249,7 +249,7 @@ msgstr "블록"
 msgid "Browse"
 msgstr "찾아보기"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:83
+#: src/components/farm/FarmLastAttemptedProof.tsx:79
 msgid "But you are currently farming <0/>"
 msgstr "하지만 당신은 현재 <0/>을 파밍하고 있습니다."
 
@@ -290,7 +290,7 @@ msgstr "취소하고 전송"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "경고! 플롯을 삭제하면 되돌릴 수 없습니다. 저장장치가 제대로 연결되었는지 확인하십시오."
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:18
+#: src/components/farm/FarmLastAttemptedProof.tsx:16
 msgid "Challenge"
 msgstr "도전"
 
@@ -570,7 +570,7 @@ msgstr "경고: 영구적으로 개인 키를 삭제합니다."
 #~ msgid "DIDListItems.title"
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:42
+#: src/components/farm/FarmLastAttemptedProof.tsx:38
 #: src/components/trading/TradingOverview.jsx:137
 #: src/components/wallet/WalletHistory.tsx:46
 msgid "Date"
@@ -1031,7 +1031,7 @@ msgstr "키"
 msgid "KiB Up/Down"
 msgstr "KiB 업로드/다운로드"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:57
+#: src/components/farm/FarmLastAttemptedProof.tsx:53
 msgid "Last Attempted Proof"
 msgstr "마지막으로 시도한 증명"
 
@@ -1215,7 +1215,7 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:78
+#: src/components/farm/FarmLastAttemptedProof.tsx:74
 msgid "None of your plots have passed the plot filter yet."
 msgstr "아직 플롯 필터를 통과 한 플롯이 없습니다."
 
@@ -1435,7 +1435,7 @@ msgstr ""
 msgid "Plot Public Key"
 msgstr "구성 공개 키"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:36
+#: src/components/farm/FarmLastAttemptedProof.tsx:32
 msgid "Plot Response Time"
 msgstr ""
 
@@ -1467,7 +1467,7 @@ msgstr ""
 msgid "Plots"
 msgstr "플롯"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:25
+#: src/components/farm/FarmLastAttemptedProof.tsx:22
 msgid "Plots Passed Filter"
 msgstr "필터 통과된 구성들"
 
@@ -1628,7 +1628,7 @@ msgstr "개인 키:"
 msgid "Proof of Space Size"
 msgstr "공간 크기 증명"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:29
+#: src/components/farm/FarmLastAttemptedProof.tsx:26
 msgid "Proofs Found"
 msgstr "보상 발견됨"
 
@@ -2168,7 +2168,7 @@ msgstr ""
 #~ msgid "This table shows you the last time your farm attempted to win a block challenge."
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:59
+#: src/components/farm/FarmLastAttemptedProof.tsx:55
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr "이 표는 농장에서 마지막으로 블록 챌린지에서 승리를 시도한 시간을 보여줍니다. <0> 자세히 알아보기 </ 0>"
 

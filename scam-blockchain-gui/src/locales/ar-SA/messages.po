@@ -249,7 +249,7 @@ msgstr "المربعات"
 msgid "Browse"
 msgstr "تصفح"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:83
+#: src/components/farm/FarmLastAttemptedProof.tsx:79
 msgid "But you are currently farming <0/>"
 msgstr "لكنك حاليا تقوم بالزراعة <0/>"
 
@@ -290,7 +290,7 @@ msgstr "إلغاء وإنفاق"
 msgid "Caution, deleting these plots will delete them forever. Check that the storage devices are properly connected."
 msgstr "تحذير، حذف هذه القطع سيؤدي إلى حذفها إلى الأبد. تأكد من أن أجهزة التخزين متصلة بشكل صحيح."
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:18
+#: src/components/farm/FarmLastAttemptedProof.tsx:16
 msgid "Challenge"
 msgstr "التحدي"
 
@@ -570,7 +570,7 @@ msgstr "تحذير: حذف المفتاح الخاص بشكل دائم"
 #~ msgid "DIDListItems.title"
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:42
+#: src/components/farm/FarmLastAttemptedProof.tsx:38
 #: src/components/trading/TradingOverview.jsx:137
 #: src/components/wallet/WalletHistory.tsx:46
 msgid "Date"
@@ -1031,7 +1031,7 @@ msgstr "مفاتيح"
 msgid "KiB Up/Down"
 msgstr "ميجابت تنزيل\\رفع"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:57
+#: src/components/farm/FarmLastAttemptedProof.tsx:53
 msgid "Last Attempted Proof"
 msgstr "آخر محاولة للإثبات"
 
@@ -1215,7 +1215,7 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:78
+#: src/components/farm/FarmLastAttemptedProof.tsx:74
 msgid "None of your plots have passed the plot filter yet."
 msgstr "لم تمر أي من قطعة خاصة بك بمرشح القطع حتى الآن."
 
@@ -1435,7 +1435,7 @@ msgstr ""
 msgid "Plot Public Key"
 msgstr "مفتاح الكتابة العمومي"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:36
+#: src/components/farm/FarmLastAttemptedProof.tsx:32
 msgid "Plot Response Time"
 msgstr ""
 
@@ -1467,7 +1467,7 @@ msgstr ""
 msgid "Plots"
 msgstr "قطعة"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:25
+#: src/components/farm/FarmLastAttemptedProof.tsx:22
 msgid "Plots Passed Filter"
 msgstr "اجتاز تصفية المؤامرات"
 
@@ -1628,7 +1628,7 @@ msgstr "المفتاح الخاص:"
 msgid "Proof of Space Size"
 msgstr "إثبات مساحة القرص الصلب"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:29
+#: src/components/farm/FarmLastAttemptedProof.tsx:26
 msgid "Proofs Found"
 msgstr "ثم العثور على إثبات المساحة"
 
@@ -2168,7 +2168,7 @@ msgstr ""
 #~ msgid "This table shows you the last time your farm attempted to win a block challenge."
 #~ msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:59
+#: src/components/farm/FarmLastAttemptedProof.tsx:55
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr "هذا الجدول يظهر لك آخر مرة حاولت فيها مزرعتك الفوز بتحدي الكتلة. <0>اعرف المزيد</0>"
 

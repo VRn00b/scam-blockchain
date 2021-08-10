@@ -15,7 +15,7 @@ function getInstallerConfig () {
 
   return Promise.resolve({
     appDirectory: path.join(rootPath, 'Scam-win32-x64'),
-    authors: 'Scam Network',
+    authors: 'Scam-Network',
     version: process.env.SCAM_INSTALLER_VERSION,
     noMsi: true,
     iconUrl: 'https://raw.githubusercontent.com/vrn00b/scam-blockchain/master/electron-react/src/assets/img/scam.ico',
