@@ -4,7 +4,7 @@ Full node mainnet started 08.08.2021
 
 **full node:** scamnetwork.net:9777
 
-**discord:** https://discord.gg/KPQdafdp
+**discord:** https://discord.gg/eabqvUawJ5
 
 **telegram:** https://t.me/scamblockchain
 
